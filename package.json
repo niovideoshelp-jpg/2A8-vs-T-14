@@ -1,0 +1,59 @@
+{
+  "name": "2a8-vs-t14-intro",
+  "version": "1.0.0",
+  "description": "Intro motion — Leopard 2A8 vs T-14 Armata (Remotion + GSAP + Lottie)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niovideoshelp-jpg/2A8-vs-T-14"
+  },
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@remotion/captions": "4.0.536",
+    "@remotion/cli": "4.0.536",
+    "@remotion/fonts": "4.0.536",
+    "@remotion/google-fonts": "4.0.536",
+    "@remotion/gsap": "4.0.536",
+    "@remotion/install-whisper-cpp": "4.0.536",
+    "@remotion/light-leaks": "4.0.536",
+    "@remotion/lottie": "4.0.536",
+    "@remotion/media": "4.0.536",
+    "@remotion/noise": "4.0.536",
+    "@remotion/paths": "4.0.536",
+    "@remotion/transitions": "4.0.536",
+    "d3-geo": "3.1.1",
+    "gsap": "3.15.0",
+    "lottie-web": "5.13.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.536",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.536",
+    "@types/d3-geo": "3.1.1",
+    "@types/react": "19.2.7",
+    "@types/topojson-client": "3.1.5",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Intro out/intro_raw.mp4 --codec=h264 --crf=16 --jpeg-quality=92 --audio-bitrate=320k",
+    "master": "node scripts/master.mjs out/intro_raw.mp4 out/Intro_2A8_vs_T14.mp4",
+    "build": "npm run render && npm run master",
+    "stills": "node scripts/stills.mjs out/stills",
+    "lottie": "node scripts/make-lottie.mjs",
+    "transcribe": "node scripts/transcribe.mjs",
+    "lint": "eslint src && tsc"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}

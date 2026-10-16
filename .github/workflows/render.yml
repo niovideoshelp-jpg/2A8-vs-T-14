@@ -1,0 +1,58 @@
+name: Renderizar vídeo
+
+# Renderiza o vídeo na nuvem (GitHub Actions) e publica o MP4 como artefato.
+# Manual: aba Actions → "Renderizar vídeo" → Run workflow.
+# Automático: a cada push na main que altere código, assets ou este workflow.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "public/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/render.yml"
+
+concurrency:
+  group: render-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Dependências do sistema (ffmpeg + bibliotecas do Chrome)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libxrandr2 \
+            libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0 \
+            libpango-1.0-0 libcairo2 libcups2 libasound2t64
+
+      - run: npm ci
+
+      - name: Chrome Headless do Remotion
+        run: npx remotion browser ensure
+
+      - name: Verificar tipos e lint
+        run: npm run lint
+
+      - name: Renderizar (1080p · H.264)
+        run: npx remotion render Intro out/intro_raw.mp4 --codec=h264 --crf=16 --jpeg-quality=92 --audio-bitrate=320k --concurrency=100%
+
+      - name: Masterizar loudness (-14 LUFS)
+        run: npm run master
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Intro_2A8_vs_T14-${{ github.run_number }}
+          path: out/Intro_2A8_vs_T14.mp4
+          retention-days: 30
