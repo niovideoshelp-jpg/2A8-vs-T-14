@@ -1,0 +1,5343 @@
+[
+  {
+    "text": "On",
+    "startMs": 120,
+    "endMs": 160,
+    "timestampMs": 260,
+    "confidence": 0.967741
+  },
+  {
+    "text": " mobility",
+    "startMs": 160,
+    "endMs": 810,
+    "timestampMs": 720,
+    "confidence": 0.932753
+  },
+  {
+    "text": ",",
+    "startMs": 810,
+    "endMs": 970,
+    "timestampMs": 1340,
+    "confidence": 0.945247
+  },
+  {
+    "text": " catalog",
+    "startMs": 970,
+    "endMs": 1540,
+    "timestampMs": 1540,
+    "confidence": 0.858474
+  },
+  {
+    "text": " numbers",
+    "startMs": 1540,
+    "endMs": 2110,
+    "timestampMs": 1960,
+    "confidence": 0.992953
+  },
+  {
+    "text": " help",
+    "startMs": 2110,
+    "endMs": 2430,
+    "timestampMs": 2420,
+    "confidence": 0.994681
+  },
+  {
+    "text": ",",
+    "startMs": 2430,
+    "endMs": 2800,
+    "timestampMs": 2760,
+    "confidence": 0.697612
+  },
+  {
+    "text": " but",
+    "startMs": 2800,
+    "endMs": 2910,
+    "timestampMs": 2940,
+    "confidence": 0.982437
+  },
+  {
+    "text": " they",
+    "startMs": 2910,
+    "endMs": 3270,
+    "timestampMs": 3220,
+    "confidence": 0.930025
+  },
+  {
+    "text": " need",
+    "startMs": 3270,
+    "endMs": 3630,
+    "timestampMs": 3400,
+    "confidence": 0.994222
+  },
+  {
+    "text": " context",
+    "startMs": 3630,
+    "endMs": 4560,
+    "timestampMs": 3980,
+    "confidence": 0.997261
+  },
+  {
+    "text": ".",
+    "startMs": 4560,
+    "endMs": 4560,
+    "timestampMs": 4600,
+    "confidence": 0.962941
+  },
+  {
+    "text": " KN",
+    "startMs": 4560,
+    "endMs": 4720,
+    "timestampMs": 4920,
+    "confidence": 0.879561
+  },
+  {
+    "text": "DS",
+    "startMs": 4720,
+    "endMs": 4870,
+    "timestampMs": 5200,
+    "confidence": 0.978679
+  },
+  {
+    "text": " presents",
+    "startMs": 4870,
+    "endMs": 5500,
+    "timestampMs": 5700,
+    "confidence": 0.993138
+  },
+  {
+    "text": " the",
+    "startMs": 5500,
+    "endMs": 5740,
+    "timestampMs": 5960,
+    "confidence": 0.985612
+  },
+  {
+    "text": " Le",
+    "startMs": 5740,
+    "endMs": 5900,
+    "timestampMs": 6100,
+    "confidence": 0.878905
+  },
+  {
+    "text": "opard",
+    "startMs": 5900,
+    "endMs": 6290,
+    "timestampMs": 6240,
+    "confidence": 0.978612
+  },
+  {
+    "text": " 2",
+    "startMs": 6290,
+    "endMs": 6530,
+    "timestampMs": 6560,
+    "confidence": 0.983397
+  },
+  {
+    "text": "A",
+    "startMs": 6530,
+    "endMs": 6600,
+    "timestampMs": 6780,
+    "confidence": 0.859003
+  },
+  {
+    "text": "8",
+    "startMs": 6600,
+    "endMs": 6840,
+    "timestampMs": 7120,
+    "confidence": 0.980064
+  },
+  {
+    "text": " with",
+    "startMs": 6840,
+    "endMs": 7150,
+    "timestampMs": 7320,
+    "confidence": 0.953905
+  },
+  {
+    "text": " a",
+    "startMs": 7150,
+    "endMs": 7230,
+    "timestampMs": 7420,
+    "confidence": 0.967914
+  },
+  {
+    "text": " 1",
+    "startMs": 7230,
+    "endMs": 7470,
+    "timestampMs": 7680,
+    "confidence": 0.587499
+  },
+  {
+    "text": ",",
+    "startMs": 7470,
+    "endMs": 7620,
+    "timestampMs": 7860,
+    "confidence": 0.994799
+  },
+  {
+    "text": "500",
+    "startMs": 7620,
+    "endMs": 8330,
+    "timestampMs": 8720,
+    "confidence": 0.997605
+  },
+  {
+    "text": "-",
+    "startMs": 8330,
+    "endMs": 8400,
+    "timestampMs": 8840,
+    "confidence": 0.28215
+  },
+  {
+    "text": "horse",
+    "startMs": 8400,
+    "endMs": 8790,
+    "timestampMs": 8920,
+    "confidence": 0.934926
+  },
+  {
+    "text": "power",
+    "startMs": 8790,
+    "endMs": 9280,
+    "timestampMs": 9260,
+    "confidence": 0.997739
+  },
+  {
+    "text": " engine",
+    "startMs": 9280,
+    "endMs": 9840,
+    "timestampMs": 9600,
+    "confidence": 0.967246
+  },
+  {
+    "text": " and",
+    "startMs": 9840,
+    "endMs": 10080,
+    "timestampMs": 10060,
+    "confidence": 0.997999
+  },
+  {
+    "text": " reference",
+    "startMs": 10080,
+    "endMs": 10840,
+    "timestampMs": 10380,
+    "confidence": 0.944062
+  },
+  {
+    "text": " speeds",
+    "startMs": 10840,
+    "endMs": 11300,
+    "timestampMs": 10780,
+    "confidence": 0.995118
+  },
+  {
+    "text": " of",
+    "startMs": 11300,
+    "endMs": 11470,
+    "timestampMs": 11020,
+    "confidence": 0.991219
+  },
+  {
+    "text": " 60",
+    "startMs": 11470,
+    "endMs": 12010,
+    "timestampMs": 11380,
+    "confidence": 0.994025
+  },
+  {
+    "text": " km",
+    "startMs": 12010,
+    "endMs": 12110,
+    "timestampMs": 11660,
+    "confidence": 0.614719
+  },
+  {
+    "text": "/",
+    "startMs": 12110,
+    "endMs": 12190,
+    "timestampMs": 12080,
+    "confidence": 0.945682
+  },
+  {
+    "text": "h",
+    "startMs": 12190,
+    "endMs": 12270,
+    "timestampMs": 12260,
+    "confidence": 0.971816
+  },
+  {
+    "text": " forward",
+    "startMs": 12270,
+    "endMs": 13060,
+    "timestampMs": 12720,
+    "confidence": 0.788158
+  },
+  {
+    "text": " and",
+    "startMs": 13060,
+    "endMs": 13080,
+    "timestampMs": 13140,
+    "confidence": 0.946023
+  },
+  {
+    "text": " 28",
+    "startMs": 13080,
+    "endMs": 13480,
+    "timestampMs": 13580,
+    "confidence": 0.984329
+  },
+  {
+    "text": " km",
+    "startMs": 13480,
+    "endMs": 13610,
+    "timestampMs": 13740,
+    "confidence": 0.77101
+  },
+  {
+    "text": "/",
+    "startMs": 13610,
+    "endMs": 13670,
+    "timestampMs": 13740,
+    "confidence": 0.977396
+  },
+  {
+    "text": "h",
+    "startMs": 13670,
+    "endMs": 13770,
+    "timestampMs": 13740,
+    "confidence": 0.99163
+  },
+  {
+    "text": " in",
+    "startMs": 13770,
+    "endMs": 13900,
+    "timestampMs": 13880,
+    "confidence": 0.969673
+  },
+  {
+    "text": " reverse",
+    "startMs": 13900,
+    "endMs": 14390,
+    "timestampMs": 14180,
+    "confidence": 0.99559
+  },
+  {
+    "text": ",",
+    "startMs": 14390,
+    "endMs": 14500,
+    "timestampMs": 14460,
+    "confidence": 0.772171
+  },
+  {
+    "text": " depending",
+    "startMs": 14500,
+    "endMs": 14960,
+    "timestampMs": 14680,
+    "confidence": 0.859821
+  },
+  {
+    "text": " on",
+    "startMs": 14960,
+    "endMs": 15060,
+    "timestampMs": 14920,
+    "confidence": 0.994196
+  },
+  {
+    "text": " the",
+    "startMs": 15060,
+    "endMs": 15210,
+    "timestampMs": 15000,
+    "confidence": 0.98141
+  },
+  {
+    "text": " transmission",
+    "startMs": 15210,
+    "endMs": 15610,
+    "timestampMs": 15460,
+    "confidence": 0.995784
+  },
+  {
+    "text": ".",
+    "startMs": 15610,
+    "endMs": 16000,
+    "timestampMs": 16120,
+    "confidence": 0.994666
+  },
+  {
+    "text": " Before",
+    "startMs": 16000,
+    "endMs": 16370,
+    "timestampMs": 16320,
+    "confidence": 0.998327
+  },
+  {
+    "text": " applying",
+    "startMs": 16370,
+    "endMs": 16860,
+    "timestampMs": 16740,
+    "confidence": 0.998357
+  },
+  {
+    "text": " those",
+    "startMs": 16860,
+    "endMs": 17160,
+    "timestampMs": 16920,
+    "confidence": 0.912628
+  },
+  {
+    "text": " figures",
+    "startMs": 17160,
+    "endMs": 17600,
+    "timestampMs": 17240,
+    "confidence": 0.994958
+  },
+  {
+    "text": " to",
+    "startMs": 17600,
+    "endMs": 17720,
+    "timestampMs": 17500,
+    "confidence": 0.994662
+  },
+  {
+    "text": " any",
+    "startMs": 17720,
+    "endMs": 17900,
+    "timestampMs": 17760,
+    "confidence": 0.988248
+  },
+  {
+    "text": " given",
+    "startMs": 17900,
+    "endMs": 18210,
+    "timestampMs": 18000,
+    "confidence": 0.953863
+  },
+  {
+    "text": " 2",
+    "startMs": 18210,
+    "endMs": 18390,
+    "timestampMs": 18260,
+    "confidence": 0.993826
+  },
+  {
+    "text": "A",
+    "startMs": 18390,
+    "endMs": 18450,
+    "timestampMs": 18400,
+    "confidence": 0.976882
+  },
+  {
+    "text": "8",
+    "startMs": 18450,
+    "endMs": 18650,
+    "timestampMs": 18660,
+    "confidence": 0.997904
+  },
+  {
+    "text": ",",
+    "startMs": 18650,
+    "endMs": 18920,
+    "timestampMs": 18780,
+    "confidence": 0.980857
+  },
+  {
+    "text": " we",
+    "startMs": 18920,
+    "endMs": 19000,
+    "timestampMs": 19080,
+    "confidence": 0.714177
+  },
+  {
+    "text": " need",
+    "startMs": 19000,
+    "endMs": 19150,
+    "timestampMs": 19220,
+    "confidence": 0.989591
+  },
+  {
+    "text": " to",
+    "startMs": 19150,
+    "endMs": 19280,
+    "timestampMs": 19340,
+    "confidence": 0.993187
+  },
+  {
+    "text": " check",
+    "startMs": 19280,
+    "endMs": 19440,
+    "timestampMs": 19520,
+    "confidence": 0.972524
+  },
+  {
+    "text": " the",
+    "startMs": 19440,
+    "endMs": 19620,
+    "timestampMs": 19640,
+    "confidence": 0.961228
+  },
+  {
+    "text": " configuration",
+    "startMs": 19620,
+    "endMs": 20390,
+    "timestampMs": 20140,
+    "confidence": 0.99482
+  },
+  {
+    "text": " each",
+    "startMs": 20390,
+    "endMs": 20660,
+    "timestampMs": 20680,
+    "confidence": 0.784043
+  },
+  {
+    "text": " buyer",
+    "startMs": 20660,
+    "endMs": 21050,
+    "timestampMs": 20900,
+    "confidence": 0.901261
+  },
+  {
+    "text": " ordered",
+    "startMs": 21050,
+    "endMs": 21760,
+    "timestampMs": 21340,
+    "confidence": 0.519703
+  },
+  {
+    "text": ".",
+    "startMs": 21760,
+    "endMs": 21760,
+    "timestampMs": 21860,
+    "confidence": 0.992536
+  },
+  {
+    "text": " For",
+    "startMs": 21760,
+    "endMs": 21960,
+    "timestampMs": 22000,
+    "confidence": 0.983558
+  },
+  {
+    "text": " the",
+    "startMs": 21960,
+    "endMs": 22160,
+    "timestampMs": 22100,
+    "confidence": 0.979828
+  },
+  {
+    "text": " T",
+    "startMs": 22160,
+    "endMs": 22220,
+    "timestampMs": 22240,
+    "confidence": 0.992019
+  },
+  {
+    "text": "14",
+    "startMs": 22220,
+    "endMs": 22610,
+    "timestampMs": 22480,
+    "confidence": 0.673979
+  },
+  {
+    "text": ",",
+    "startMs": 22610,
+    "endMs": 22740,
+    "timestampMs": 23140,
+    "confidence": 0.983742
+  },
+  {
+    "text": " a",
+    "startMs": 22740,
+    "endMs": 22800,
+    "timestampMs": 23280,
+    "confidence": 0.98984
+  },
+  {
+    "text": " technical",
+    "startMs": 22800,
+    "endMs": 23390,
+    "timestampMs": 23580,
+    "confidence": 0.996907
+  },
+  {
+    "text": " description",
+    "startMs": 23390,
+    "endMs": 24160,
+    "timestampMs": 24080,
+    "confidence": 0.99639
+  },
+  {
+    "text": " published",
+    "startMs": 24160,
+    "endMs": 24570,
+    "timestampMs": 24460,
+    "confidence": 0.976066
+  },
+  {
+    "text": " in",
+    "startMs": 24570,
+    "endMs": 24640,
+    "timestampMs": 24700,
+    "confidence": 0.973264
+  },
+  {
+    "text": " the",
+    "startMs": 24640,
+    "endMs": 24790,
+    "timestampMs": 24780,
+    "confidence": 0.901168
+  },
+  {
+    "text": " military",
+    "startMs": 24790,
+    "endMs": 25200,
+    "timestampMs": 25080,
+    "confidence": 0.597116
+  },
+  {
+    "text": " magazine",
+    "startMs": 25200,
+    "endMs": 25760,
+    "timestampMs": 25640,
+    "confidence": 0.959518
+  },
+  {
+    "text": " Hadi",
+    "startMs": 25760,
+    "endMs": 26080,
+    "timestampMs": 26040,
+    "confidence": 0.175974
+  },
+  {
+    "text": " Techn",
+    "startMs": 26080,
+    "endMs": 26500,
+    "timestampMs": 26360,
+    "confidence": 0.431754
+  },
+  {
+    "text": "ica",
+    "startMs": 26500,
+    "endMs": 26760,
+    "timestampMs": 26600,
+    "confidence": 0.837339
+  },
+  {
+    "text": " in",
+    "startMs": 26760,
+    "endMs": 26890,
+    "timestampMs": 26840,
+    "confidence": 0.917078
+  },
+  {
+    "text": " 2016",
+    "startMs": 26890,
+    "endMs": 28060,
+    "timestampMs": 27500,
+    "confidence": 0.996797
+  },
+  {
+    "text": " pointed",
+    "startMs": 28060,
+    "endMs": 28440,
+    "timestampMs": 28200,
+    "confidence": 0.902034
+  },
+  {
+    "text": " to",
+    "startMs": 28440,
+    "endMs": 28600,
+    "timestampMs": 28440,
+    "confidence": 0.993161
+  },
+  {
+    "text": " 55",
+    "startMs": 28600,
+    "endMs": 29090,
+    "timestampMs": 29020,
+    "confidence": 0.986293
+  },
+  {
+    "text": " tons",
+    "startMs": 29090,
+    "endMs": 29410,
+    "timestampMs": 29340,
+    "confidence": 0.828338
+  },
+  {
+    "text": " and",
+    "startMs": 29410,
+    "endMs": 29650,
+    "timestampMs": 29740,
+    "confidence": 0.980797
+  },
+  {
+    "text": " 1",
+    "startMs": 29650,
+    "endMs": 29890,
+    "timestampMs": 30040,
+    "confidence": 0.957587
+  },
+  {
+    "text": ",",
+    "startMs": 29890,
+    "endMs": 30090,
+    "timestampMs": 30240,
+    "confidence": 0.998578
+  },
+  {
+    "text": "500",
+    "startMs": 30090,
+    "endMs": 30780,
+    "timestampMs": 30800,
+    "confidence": 0.997748
+  },
+  {
+    "text": " horsepower",
+    "startMs": 30780,
+    "endMs": 31920,
+    "timestampMs": 31380,
+    "confidence": 0.836938
+  },
+  {
+    "text": ".",
+    "startMs": 31920,
+    "endMs": 31920,
+    "timestampMs": 31960,
+    "confidence": 0.982493
+  },
+  {
+    "text": " Those",
+    "startMs": 31920,
+    "endMs": 32220,
+    "timestampMs": 32220,
+    "confidence": 0.994093
+  },
+  {
+    "text": " numbers",
+    "startMs": 32220,
+    "endMs": 32640,
+    "timestampMs": 32500,
+    "confidence": 0.998186
+  },
+  {
+    "text": " describe",
+    "startMs": 32640,
+    "endMs": 33120,
+    "timestampMs": 32940,
+    "confidence": 0.827036
+  },
+  {
+    "text": " the",
+    "startMs": 33120,
+    "endMs": 33300,
+    "timestampMs": 33140,
+    "confidence": 0.995159
+  },
+  {
+    "text": " design",
+    "startMs": 33300,
+    "endMs": 33660,
+    "timestampMs": 33500,
+    "confidence": 0.999093
+  },
+  {
+    "text": " as",
+    "startMs": 33660,
+    "endMs": 33780,
+    "timestampMs": 33760,
+    "confidence": 0.992313
+  },
+  {
+    "text": " it",
+    "startMs": 33780,
+    "endMs": 33900,
+    "timestampMs": 33860,
+    "confidence": 0.992178
+  },
+  {
+    "text": " was",
+    "startMs": 33900,
+    "endMs": 34080,
+    "timestampMs": 33940,
+    "confidence": 0.995338
+  },
+  {
+    "text": " discl",
+    "startMs": 34080,
+    "endMs": 34380,
+    "timestampMs": 34200,
+    "confidence": 0.995078
+  },
+  {
+    "text": "osed",
+    "startMs": 34380,
+    "endMs": 34630,
+    "timestampMs": 34440,
+    "confidence": 0.99992
+  },
+  {
+    "text": " at",
+    "startMs": 34630,
+    "endMs": 34740,
+    "timestampMs": 34600,
+    "confidence": 0.994696
+  },
+  {
+    "text": " the",
+    "startMs": 34740,
+    "endMs": 34920,
+    "timestampMs": 34700,
+    "confidence": 0.964119
+  },
+  {
+    "text": " time",
+    "startMs": 34920,
+    "endMs": 35150,
+    "timestampMs": 35100,
+    "confidence": 0.998963
+  },
+  {
+    "text": ".",
+    "startMs": 35150,
+    "endMs": 35360,
+    "timestampMs": 35480,
+    "confidence": 0.94784
+  },
+  {
+    "text": " They",
+    "startMs": 35360,
+    "endMs": 35580,
+    "timestampMs": 35640,
+    "confidence": 0.994844
+  },
+  {
+    "text": " aren",
+    "startMs": 35580,
+    "endMs": 35800,
+    "timestampMs": 35860,
+    "confidence": 0.987106
+  },
+  {
+    "text": "'t",
+    "startMs": 35800,
+    "endMs": 35910,
+    "timestampMs": 35920,
+    "confidence": 0.997649
+  },
+  {
+    "text": " an",
+    "startMs": 35910,
+    "endMs": 36020,
+    "timestampMs": 36060,
+    "confidence": 0.994886
+  },
+  {
+    "text": " independent",
+    "startMs": 36020,
+    "endMs": 36640,
+    "timestampMs": 36440,
+    "confidence": 0.998951
+  },
+  {
+    "text": " measurement",
+    "startMs": 36640,
+    "endMs": 37240,
+    "timestampMs": 36980,
+    "confidence": 0.99582
+  },
+  {
+    "text": " of",
+    "startMs": 37240,
+    "endMs": 37360,
+    "timestampMs": 37200,
+    "confidence": 0.989829
+  },
+  {
+    "text": " a",
+    "startMs": 37360,
+    "endMs": 37400,
+    "timestampMs": 37300,
+    "confidence": 0.966402
+  },
+  {
+    "text": " current",
+    "startMs": 37400,
+    "endMs": 37790,
+    "timestampMs": 37600,
+    "confidence": 0.987046
+  },
+  {
+    "text": " operational",
+    "startMs": 37790,
+    "endMs": 38390,
+    "timestampMs": 38200,
+    "confidence": 0.991132
+  },
+  {
+    "text": " configuration",
+    "startMs": 38390,
+    "endMs": 39360,
+    "timestampMs": 38720,
+    "confidence": 0.998689
+  },
+  {
+    "text": ".",
+    "startMs": 39360,
+    "endMs": 39360,
+    "timestampMs": 39400,
+    "confidence": 0.963567
+  },
+  {
+    "text": " I",
+    "startMs": 39360,
+    "endMs": 39590,
+    "timestampMs": 39660,
+    "confidence": 0.997942
+  },
+  {
+    "text": " wouldn",
+    "startMs": 39590,
+    "endMs": 39770,
+    "timestampMs": 39820,
+    "confidence": 0.997778
+  },
+  {
+    "text": "'t",
+    "startMs": 39770,
+    "endMs": 39880,
+    "timestampMs": 39900,
+    "confidence": 0.999905
+  },
+  {
+    "text": " use",
+    "startMs": 39880,
+    "endMs": 40060,
+    "timestampMs": 40100,
+    "confidence": 0.998254
+  },
+  {
+    "text": " those",
+    "startMs": 40060,
+    "endMs": 40400,
+    "timestampMs": 40340,
+    "confidence": 0.968235
+  },
+  {
+    "text": " two",
+    "startMs": 40400,
+    "endMs": 40530,
+    "timestampMs": 40520,
+    "confidence": 0.931775
+  },
+  {
+    "text": " spec",
+    "startMs": 40530,
+    "endMs": 40770,
+    "timestampMs": 40740,
+    "confidence": 0.939549
+  },
+  {
+    "text": " sheets",
+    "startMs": 40770,
+    "endMs": 41140,
+    "timestampMs": 41000,
+    "confidence": 0.99544
+  },
+  {
+    "text": " to",
+    "startMs": 41140,
+    "endMs": 41240,
+    "timestampMs": 41220,
+    "confidence": 0.991575
+  },
+  {
+    "text": " declare",
+    "startMs": 41240,
+    "endMs": 41650,
+    "timestampMs": 41520,
+    "confidence": 0.995739
+  },
+  {
+    "text": " an",
+    "startMs": 41650,
+    "endMs": 41780,
+    "timestampMs": 41660,
+    "confidence": 0.970239
+  },
+  {
+    "text": " absolute",
+    "startMs": 41780,
+    "endMs": 42240,
+    "timestampMs": 42180,
+    "confidence": 0.989121
+  },
+  {
+    "text": " winner",
+    "startMs": 42240,
+    "endMs": 42590,
+    "timestampMs": 42520,
+    "confidence": 0.951237
+  },
+  {
+    "text": " in",
+    "startMs": 42590,
+    "endMs": 42710,
+    "timestampMs": 42700,
+    "confidence": 0.995589
+  },
+  {
+    "text": " mobility",
+    "startMs": 42710,
+    "endMs": 43150,
+    "timestampMs": 43040,
+    "confidence": 0.993729
+  },
+  {
+    "text": ".",
+    "startMs": 43150,
+    "endMs": 43440,
+    "timestampMs": 43520,
+    "confidence": 0.878054
+  },
+  {
+    "text": " They",
+    "startMs": 43440,
+    "endMs": 43660,
+    "timestampMs": 43720,
+    "confidence": 0.998277
+  },
+  {
+    "text": " come",
+    "startMs": 43660,
+    "endMs": 43840,
+    "timestampMs": 43880,
+    "confidence": 0.997208
+  },
+  {
+    "text": " from",
+    "startMs": 43840,
+    "endMs": 44040,
+    "timestampMs": 44020,
+    "confidence": 0.99862
+  },
+  {
+    "text": " different",
+    "startMs": 44040,
+    "endMs": 44500,
+    "timestampMs": 44300,
+    "confidence": 0.9976
+  },
+  {
+    "text": " er",
+    "startMs": 44500,
+    "endMs": 44600,
+    "timestampMs": 44560,
+    "confidence": 0.915239
+  },
+  {
+    "text": "as",
+    "startMs": 44600,
+    "endMs": 44690,
+    "timestampMs": 44720,
+    "confidence": 0.999457
+  },
+  {
+    "text": " and",
+    "startMs": 44690,
+    "endMs": 44940,
+    "timestampMs": 45100,
+    "confidence": 0.875843
+  },
+  {
+    "text": " different",
+    "startMs": 44940,
+    "endMs": 45310,
+    "timestampMs": 45420,
+    "confidence": 0.993377
+  },
+  {
+    "text": " levels",
+    "startMs": 45310,
+    "endMs": 45620,
+    "timestampMs": 45680,
+    "confidence": 0.998094
+  },
+  {
+    "text": " of",
+    "startMs": 45620,
+    "endMs": 45710,
+    "timestampMs": 45820,
+    "confidence": 0.999047
+  },
+  {
+    "text": " detail",
+    "startMs": 45710,
+    "endMs": 46030,
+    "timestampMs": 46080,
+    "confidence": 0.998734
+  },
+  {
+    "text": ".",
+    "startMs": 46030,
+    "endMs": 46240,
+    "timestampMs": 46780,
+    "confidence": 0.992263
+  },
+  {
+    "text": " Think",
+    "startMs": 46240,
+    "endMs": 47000,
+    "timestampMs": 47140,
+    "confidence": 0.994848
+  },
+  {
+    "text": " of",
+    "startMs": 47000,
+    "endMs": 47050,
+    "timestampMs": 47260,
+    "confidence": 0.998532
+  },
+  {
+    "text": " a",
+    "startMs": 47050,
+    "endMs": 47110,
+    "timestampMs": 47400,
+    "confidence": 0.994245
+  },
+  {
+    "text": " truck",
+    "startMs": 47110,
+    "endMs": 47680,
+    "timestampMs": 47580,
+    "confidence": 0.996875
+  },
+  {
+    "text": ".",
+    "startMs": 47680,
+    "endMs": 48110,
+    "timestampMs": 48140,
+    "confidence": 0.862462
+  },
+  {
+    "text": " It",
+    "startMs": 48110,
+    "endMs": 48210,
+    "timestampMs": 48280,
+    "confidence": 0.664344
+  },
+  {
+    "text": " might",
+    "startMs": 48210,
+    "endMs": 48400,
+    "timestampMs": 48460,
+    "confidence": 0.996877
+  },
+  {
+    "text": " reach",
+    "startMs": 48400,
+    "endMs": 48690,
+    "timestampMs": 48680,
+    "confidence": 0.998254
+  },
+  {
+    "text": " a",
+    "startMs": 48690,
+    "endMs": 48740,
+    "timestampMs": 48800,
+    "confidence": 0.988259
+  },
+  {
+    "text": " good",
+    "startMs": 48740,
+    "endMs": 48990,
+    "timestampMs": 48980,
+    "confidence": 0.998395
+  },
+  {
+    "text": " speed",
+    "startMs": 48990,
+    "endMs": 49260,
+    "timestampMs": 49200,
+    "confidence": 0.996527
+  },
+  {
+    "text": " on",
+    "startMs": 49260,
+    "endMs": 49370,
+    "timestampMs": 49380,
+    "confidence": 0.989198
+  },
+  {
+    "text": " the",
+    "startMs": 49370,
+    "endMs": 49530,
+    "timestampMs": 49500,
+    "confidence": 0.991783
+  },
+  {
+    "text": " highway",
+    "startMs": 49530,
+    "endMs": 50000,
+    "timestampMs": 49800,
+    "confidence": 0.99651
+  },
+  {
+    "text": " and",
+    "startMs": 50000,
+    "endMs": 50170,
+    "timestampMs": 50180,
+    "confidence": 0.99329
+  },
+  {
+    "text": " still",
+    "startMs": 50170,
+    "endMs": 50460,
+    "timestampMs": 50460,
+    "confidence": 0.99606
+  },
+  {
+    "text": " struggle",
+    "startMs": 50460,
+    "endMs": 50920,
+    "timestampMs": 50900,
+    "confidence": 0.993453
+  },
+  {
+    "text": " to",
+    "startMs": 50920,
+    "endMs": 51060,
+    "timestampMs": 51060,
+    "confidence": 0.999428
+  },
+  {
+    "text": " climb",
+    "startMs": 51060,
+    "endMs": 51320,
+    "timestampMs": 51260,
+    "confidence": 0.999413
+  },
+  {
+    "text": " a",
+    "startMs": 51320,
+    "endMs": 51370,
+    "timestampMs": 51400,
+    "confidence": 0.997702
+  },
+  {
+    "text": " hill",
+    "startMs": 51370,
+    "endMs": 51600,
+    "timestampMs": 51620,
+    "confidence": 0.999153
+  },
+  {
+    "text": " when",
+    "startMs": 51600,
+    "endMs": 51830,
+    "timestampMs": 51780,
+    "confidence": 0.994723
+  },
+  {
+    "text": " it",
+    "startMs": 51830,
+    "endMs": 51950,
+    "timestampMs": 51880,
+    "confidence": 0.9867
+  },
+  {
+    "text": "'s",
+    "startMs": 51950,
+    "endMs": 52050,
+    "timestampMs": 51980,
+    "confidence": 0.932391
+  },
+  {
+    "text": " loaded",
+    "startMs": 52050,
+    "endMs": 52640,
+    "timestampMs": 52180,
+    "confidence": 0.998616
+  },
+  {
+    "text": ".",
+    "startMs": 52640,
+    "endMs": 52640,
+    "timestampMs": 52500,
+    "confidence": 0.993206
+  },
+  {
+    "text": " With",
+    "startMs": 52810,
+    "endMs": 52930,
+    "timestampMs": 52900,
+    "confidence": 0.99846
+  },
+  {
+    "text": " a",
+    "startMs": 52930,
+    "endMs": 53020,
+    "timestampMs": 53040,
+    "confidence": 0.988131
+  },
+  {
+    "text": " tank",
+    "startMs": 53020,
+    "endMs": 53290,
+    "timestampMs": 53340,
+    "confidence": 0.996398
+  },
+  {
+    "text": ",",
+    "startMs": 53290,
+    "endMs": 53570,
+    "timestampMs": 53640,
+    "confidence": 0.9692
+  },
+  {
+    "text": " we",
+    "startMs": 53570,
+    "endMs": 53700,
+    "timestampMs": 53780,
+    "confidence": 0.998635
+  },
+  {
+    "text": " also",
+    "startMs": 53700,
+    "endMs": 53860,
+    "timestampMs": 54100,
+    "confidence": 0.976719
+  },
+  {
+    "text": " need",
+    "startMs": 53860,
+    "endMs": 54150,
+    "timestampMs": 54280,
+    "confidence": 0.997615
+  },
+  {
+    "text": " to",
+    "startMs": 54150,
+    "endMs": 54290,
+    "timestampMs": 54400,
+    "confidence": 0.999035
+  },
+  {
+    "text": " understand",
+    "startMs": 54290,
+    "endMs": 55030,
+    "timestampMs": 54800,
+    "confidence": 0.998913
+  },
+  {
+    "text": " how",
+    "startMs": 55030,
+    "endMs": 55250,
+    "timestampMs": 55200,
+    "confidence": 0.995801
+  },
+  {
+    "text": " the",
+    "startMs": 55250,
+    "endMs": 55470,
+    "timestampMs": 55360,
+    "confidence": 0.988289
+  },
+  {
+    "text": " power",
+    "startMs": 55470,
+    "endMs": 55840,
+    "timestampMs": 55660,
+    "confidence": 0.997318
+  },
+  {
+    "text": " is",
+    "startMs": 55840,
+    "endMs": 55980,
+    "timestampMs": 55840,
+    "confidence": 0.997664
+  },
+  {
+    "text": " put",
+    "startMs": 55980,
+    "endMs": 56200,
+    "timestampMs": 56000,
+    "confidence": 0.995038
+  },
+  {
+    "text": " to",
+    "startMs": 56200,
+    "endMs": 56340,
+    "timestampMs": 56160,
+    "confidence": 0.995353
+  },
+  {
+    "text": " use",
+    "startMs": 56340,
+    "endMs": 56560,
+    "timestampMs": 56460,
+    "confidence": 0.995676
+  },
+  {
+    "text": ".",
+    "startMs": 56560,
+    "endMs": 56880,
+    "timestampMs": 57020,
+    "confidence": 0.983061
+  },
+  {
+    "text": " Acc",
+    "startMs": 56880,
+    "endMs": 57060,
+    "timestampMs": 57160,
+    "confidence": 0.991876
+  },
+  {
+    "text": "eleration",
+    "startMs": 57060,
+    "endMs": 57620,
+    "timestampMs": 57460,
+    "confidence": 0.997853
+  },
+  {
+    "text": ",",
+    "startMs": 57620,
+    "endMs": 57740,
+    "timestampMs": 58000,
+    "confidence": 0.994454
+  },
+  {
+    "text": " transmission",
+    "startMs": 57740,
+    "endMs": 58490,
+    "timestampMs": 58320,
+    "confidence": 0.993424
+  },
+  {
+    "text": ",",
+    "startMs": 58490,
+    "endMs": 58640,
+    "timestampMs": 58780,
+    "confidence": 0.998034
+  },
+  {
+    "text": " terrain",
+    "startMs": 58640,
+    "endMs": 59130,
+    "timestampMs": 59080,
+    "confidence": 0.971588
+  },
+  {
+    "text": ",",
+    "startMs": 59130,
+    "endMs": 59360,
+    "timestampMs": 59280,
+    "confidence": 0.612069
+  },
+  {
+    "text": " and",
+    "startMs": 59360,
+    "endMs": 59510,
+    "timestampMs": 59540,
+    "confidence": 0.968851
+  },
+  {
+    "text": " reliability",
+    "startMs": 59510,
+    "endMs": 60530,
+    "timestampMs": 60020,
+    "confidence": 0.99911
+  },
+  {
+    "text": " all",
+    "startMs": 60530,
+    "endMs": 60590,
+    "timestampMs": 60700,
+    "confidence": 0.975593
+  },
+  {
+    "text": " shape",
+    "startMs": 60590,
+    "endMs": 60970,
+    "timestampMs": 60980,
+    "confidence": 0.993672
+  },
+  {
+    "text": " the",
+    "startMs": 60970,
+    "endMs": 61200,
+    "timestampMs": 61120,
+    "confidence": 0.996599
+  },
+  {
+    "text": " result",
+    "startMs": 61200,
+    "endMs": 61920,
+    "timestampMs": 61500,
+    "confidence": 0.992888
+  },
+  {
+    "text": ".",
+    "startMs": 61920,
+    "endMs": 61920,
+    "timestampMs": 62060,
+    "confidence": 0.994624
+  },
+  {
+    "text": " Rever",
+    "startMs": 61920,
+    "endMs": 62190,
+    "timestampMs": 62240,
+    "confidence": 0.993269
+  },
+  {
+    "text": "se",
+    "startMs": 62190,
+    "endMs": 62300,
+    "timestampMs": 62420,
+    "confidence": 0.999561
+  },
+  {
+    "text": " speed",
+    "startMs": 62300,
+    "endMs": 62570,
+    "timestampMs": 62620,
+    "confidence": 0.942051
+  },
+  {
+    "text": " deserves",
+    "startMs": 62570,
+    "endMs": 63030,
+    "timestampMs": 62920,
+    "confidence": 0.99613
+  },
+  {
+    "text": " attention",
+    "startMs": 63030,
+    "endMs": 63520,
+    "timestampMs": 63460,
+    "confidence": 0.964531
+  },
+  {
+    "text": " because",
+    "startMs": 63520,
+    "endMs": 63840,
+    "timestampMs": 63820,
+    "confidence": 0.852791
+  },
+  {
+    "text": " it",
+    "startMs": 63840,
+    "endMs": 63940,
+    "timestampMs": 64040,
+    "confidence": 0.973082
+  },
+  {
+    "text": " lets",
+    "startMs": 63940,
+    "endMs": 64200,
+    "timestampMs": 64180,
+    "confidence": 0.954405
+  },
+  {
+    "text": " a",
+    "startMs": 64200,
+    "endMs": 64240,
+    "timestampMs": 64340,
+    "confidence": 0.901652
+  },
+  {
+    "text": " tank",
+    "startMs": 64240,
+    "endMs": 64650,
+    "timestampMs": 64520,
+    "confidence": 0.988959
+  },
+  {
+    "text": " back",
+    "startMs": 64650,
+    "endMs": 64870,
+    "timestampMs": 64780,
+    "confidence": 0.973807
+  },
+  {
+    "text": " away",
+    "startMs": 64870,
+    "endMs": 65120,
+    "timestampMs": 65120,
+    "confidence": 0.918531
+  },
+  {
+    "text": " without",
+    "startMs": 65120,
+    "endMs": 65590,
+    "timestampMs": 65440,
+    "confidence": 0.999024
+  },
+  {
+    "text": " turning",
+    "startMs": 65590,
+    "endMs": 66050,
+    "timestampMs": 65820,
+    "confidence": 0.999153
+  },
+  {
+    "text": " the",
+    "startMs": 66050,
+    "endMs": 66140,
+    "timestampMs": 65960,
+    "confidence": 0.995919
+  },
+  {
+    "text": " whole",
+    "startMs": 66140,
+    "endMs": 66440,
+    "timestampMs": 66160,
+    "confidence": 0.988795
+  },
+  {
+    "text": " vehicle",
+    "startMs": 66440,
+    "endMs": 66850,
+    "timestampMs": 66500,
+    "confidence": 0.996276
+  },
+  {
+    "text": " around",
+    "startMs": 66850,
+    "endMs": 67440,
+    "timestampMs": 66880,
+    "confidence": 0.998753
+  },
+  {
+    "text": ".",
+    "startMs": 67440,
+    "endMs": 67440,
+    "timestampMs": 67500,
+    "confidence": 0.992036
+  },
+  {
+    "text": " Weight",
+    "startMs": 67440,
+    "endMs": 67810,
+    "timestampMs": 67700,
+    "confidence": 0.986845
+  },
+  {
+    "text": " has",
+    "startMs": 67810,
+    "endMs": 67990,
+    "timestampMs": 67920,
+    "confidence": 0.992055
+  },
+  {
+    "text": " consequences",
+    "startMs": 67990,
+    "endMs": 68730,
+    "timestampMs": 68400,
+    "confidence": 0.995965
+  },
+  {
+    "text": " too",
+    "startMs": 68730,
+    "endMs": 69120,
+    "timestampMs": 68780,
+    "confidence": 0.752241
+  },
+  {
+    "text": ".",
+    "startMs": 69120,
+    "endMs": 69120,
+    "timestampMs": 69240,
+    "confidence": 0.850695
+  },
+  {
+    "text": " It",
+    "startMs": 69120,
+    "endMs": 69300,
+    "timestampMs": 69380,
+    "confidence": 0.998502
+  },
+  {
+    "text": " affects",
+    "startMs": 69300,
+    "endMs": 69710,
+    "timestampMs": 69560,
+    "confidence": 0.966416
+  },
+  {
+    "text": " transport",
+    "startMs": 69710,
+    "endMs": 70400,
+    "timestampMs": 70080,
+    "confidence": 0.986464
+  },
+  {
+    "text": ",",
+    "startMs": 70400,
+    "endMs": 70570,
+    "timestampMs": 70520,
+    "confidence": 0.952621
+  },
+  {
+    "text": " which",
+    "startMs": 70570,
+    "endMs": 70740,
+    "timestampMs": 70720,
+    "confidence": 0.978939
+  },
+  {
+    "text": " bridges",
+    "startMs": 70740,
+    "endMs": 71210,
+    "timestampMs": 71040,
+    "confidence": 0.993055
+  },
+  {
+    "text": " can",
+    "startMs": 71210,
+    "endMs": 71410,
+    "timestampMs": 71280,
+    "confidence": 0.996288
+  },
+  {
+    "text": " be",
+    "startMs": 71410,
+    "endMs": 71540,
+    "timestampMs": 71400,
+    "confidence": 0.997425
+  },
+  {
+    "text": " used",
+    "startMs": 71540,
+    "endMs": 71840,
+    "timestampMs": 71660,
+    "confidence": 0.990125
+  },
+  {
+    "text": ",",
+    "startMs": 71840,
+    "endMs": 71840,
+    "timestampMs": 71940,
+    "confidence": 0.880674
+  },
+  {
+    "text": " and",
+    "startMs": 71840,
+    "endMs": 72030,
+    "timestampMs": 72080,
+    "confidence": 0.99899
+  },
+  {
+    "text": " the",
+    "startMs": 72030,
+    "endMs": 72220,
+    "timestampMs": 72180,
+    "confidence": 0.994256
+  },
+  {
+    "text": " work",
+    "startMs": 72220,
+    "endMs": 72470,
+    "timestampMs": 72400,
+    "confidence": 0.998932
+  },
+  {
+    "text": " needed",
+    "startMs": 72470,
+    "endMs": 72870,
+    "timestampMs": 72640,
+    "confidence": 0.996584
+  },
+  {
+    "text": " to",
+    "startMs": 72870,
+    "endMs": 73010,
+    "timestampMs": 72840,
+    "confidence": 0.999157
+  },
+  {
+    "text": " recover",
+    "startMs": 73010,
+    "endMs": 73460,
+    "timestampMs": 73240,
+    "confidence": 0.998852
+  },
+  {
+    "text": " an",
+    "startMs": 73460,
+    "endMs": 73590,
+    "timestampMs": 73440,
+    "confidence": 0.932999
+  },
+  {
+    "text": " imm",
+    "startMs": 73590,
+    "endMs": 73780,
+    "timestampMs": 73560,
+    "confidence": 0.998586
+  },
+  {
+    "text": "obil",
+    "startMs": 73780,
+    "endMs": 74060,
+    "timestampMs": 73720,
+    "confidence": 0.999043
+  },
+  {
+    "text": "ized",
+    "startMs": 74060,
+    "endMs": 74290,
+    "timestampMs": 73980,
+    "confidence": 0.987954
+  },
+  {
+    "text": " tank",
+    "startMs": 74290,
+    "endMs": 74530,
+    "timestampMs": 74300,
+    "confidence": 0.999222
+  },
+  {
+    "text": ".",
+    "startMs": 74530,
+    "endMs": 74800,
+    "timestampMs": 74860,
+    "confidence": 0.998205
+  },
+  {
+    "text": " All",
+    "startMs": 74800,
+    "endMs": 74980,
+    "timestampMs": 75120,
+    "confidence": 0.998818
+  },
+  {
+    "text": " of",
+    "startMs": 74980,
+    "endMs": 75100,
+    "timestampMs": 75240,
+    "confidence": 0.963097
+  },
+  {
+    "text": " this",
+    "startMs": 75100,
+    "endMs": 75340,
+    "timestampMs": 75400,
+    "confidence": 0.995501
+  },
+  {
+    "text": " affects",
+    "startMs": 75340,
+    "endMs": 75790,
+    "timestampMs": 75640,
+    "confidence": 0.98635
+  },
+  {
+    "text": " the",
+    "startMs": 75790,
+    "endMs": 75940,
+    "timestampMs": 75860,
+    "confidence": 0.997691
+  },
+  {
+    "text": " ability",
+    "startMs": 75940,
+    "endMs": 76360,
+    "timestampMs": 76160,
+    "confidence": 0.999306
+  },
+  {
+    "text": " to",
+    "startMs": 76360,
+    "endMs": 76480,
+    "timestampMs": 76400,
+    "confidence": 0.999134
+  },
+  {
+    "text": " keep",
+    "startMs": 76480,
+    "endMs": 76720,
+    "timestampMs": 76620,
+    "confidence": 0.998727
+  },
+  {
+    "text": " the",
+    "startMs": 76720,
+    "endMs": 76900,
+    "timestampMs": 76780,
+    "confidence": 0.994856
+  },
+  {
+    "text": " vehicle",
+    "startMs": 76900,
+    "endMs": 77320,
+    "timestampMs": 77080,
+    "confidence": 0.998978
+  },
+  {
+    "text": " in",
+    "startMs": 77320,
+    "endMs": 77440,
+    "timestampMs": 77280,
+    "confidence": 0.99846
+  },
+  {
+    "text": " operation",
+    "startMs": 77440,
+    "endMs": 78240,
+    "timestampMs": 77740,
+    "confidence": 0.998445
+  },
+  {
+    "text": ".",
+    "startMs": 78240,
+    "endMs": 78240,
+    "timestampMs": 78220,
+    "confidence": 0.996402
+  },
+  {
+    "text": " Top",
+    "startMs": 78390,
+    "endMs": 78420,
+    "timestampMs": 78540,
+    "confidence": 0.951689
+  },
+  {
+    "text": " Speed",
+    "startMs": 78420,
+    "endMs": 78720,
+    "timestampMs": 78780,
+    "confidence": 0.589243
+  },
+  {
+    "text": " alone",
+    "startMs": 78720,
+    "endMs": 79020,
+    "timestampMs": 79100,
+    "confidence": 0.901923
+  },
+  {
+    "text": " says",
+    "startMs": 79020,
+    "endMs": 79260,
+    "timestampMs": 79400,
+    "confidence": 0.987279
+  },
+  {
+    "text": " little",
+    "startMs": 79260,
+    "endMs": 79620,
+    "timestampMs": 79780,
+    "confidence": 0.954389
+  },
+  {
+    "text": " about",
+    "startMs": 79620,
+    "endMs": 79920,
+    "timestampMs": 80040,
+    "confidence": 0.997105
+  },
+  {
+    "text": " how",
+    "startMs": 79920,
+    "endMs": 80110,
+    "timestampMs": 80340,
+    "confidence": 0.992222
+  },
+  {
+    "text": " it",
+    "startMs": 80110,
+    "endMs": 80220,
+    "timestampMs": 80460,
+    "confidence": 0.989553
+  },
+  {
+    "text": "'ll",
+    "startMs": 80220,
+    "endMs": 80400,
+    "timestampMs": 80540,
+    "confidence": 0.408579
+  },
+  {
+    "text": " do",
+    "startMs": 80400,
+    "endMs": 80520,
+    "timestampMs": 80740,
+    "confidence": 0.992559
+  },
+  {
+    "text": " in",
+    "startMs": 80520,
+    "endMs": 80640,
+    "timestampMs": 80940,
+    "confidence": 0.988244
+  },
+  {
+    "text": " that",
+    "startMs": 80640,
+    "endMs": 80870,
+    "timestampMs": 81100,
+    "confidence": 0.939685
+  },
+  {
+    "text": " day",
+    "startMs": 80870,
+    "endMs": 81060,
+    "timestampMs": 81360,
+    "confidence": 0.998609
+  },
+  {
+    "text": "-",
+    "startMs": 81060,
+    "endMs": 81120,
+    "timestampMs": 81420,
+    "confidence": 0.619982
+  },
+  {
+    "text": "to",
+    "startMs": 81120,
+    "endMs": 81240,
+    "timestampMs": 81460,
+    "confidence": 0.997463
+  },
+  {
+    "text": "-",
+    "startMs": 81240,
+    "endMs": 81300,
+    "timestampMs": 81580,
+    "confidence": 0.999458
+  },
+  {
+    "text": "day",
+    "startMs": 81300,
+    "endMs": 81480,
+    "timestampMs": 81580,
+    "confidence": 0.99855
+  },
+  {
+    "text": " grind",
+    "startMs": 81480,
+    "endMs": 81780,
+    "timestampMs": 81940,
+    "confidence": 0.996856
+  },
+  {
+    "text": ".",
+    "startMs": 81780,
+    "endMs": 82000,
+    "timestampMs": 82660,
+    "confidence": 0.987472
+  },
+  {
+    "text": " That",
+    "startMs": 82000,
+    "endMs": 82180,
+    "timestampMs": 82960,
+    "confidence": 0.997699
+  },
+  {
+    "text": "'s",
+    "startMs": 82180,
+    "endMs": 82730,
+    "timestampMs": 83080,
+    "confidence": 0.988689
+  },
+  {
+    "text": " where",
+    "startMs": 82730,
+    "endMs": 82800,
+    "timestampMs": 83200,
+    "confidence": 0.990244
+  },
+  {
+    "text": " the",
+    "startMs": 82800,
+    "endMs": 82930,
+    "timestampMs": 83280,
+    "confidence": 0.995159
+  },
+  {
+    "text": " case",
+    "startMs": 82930,
+    "endMs": 83220,
+    "timestampMs": 83540,
+    "confidence": 0.999112
+  },
+  {
+    "text": " for",
+    "startMs": 83220,
+    "endMs": 83400,
+    "timestampMs": 83720,
+    "confidence": 0.980449
+  },
+  {
+    "text": " the",
+    "startMs": 83400,
+    "endMs": 83660,
+    "timestampMs": 83820,
+    "confidence": 0.961555
+  },
+  {
+    "text": " Le",
+    "startMs": 83660,
+    "endMs": 83730,
+    "timestampMs": 83980,
+    "confidence": 0.86211
+  },
+  {
+    "text": "opard",
+    "startMs": 83730,
+    "endMs": 84060,
+    "timestampMs": 84100,
+    "confidence": 0.941718
+  },
+  {
+    "text": " gets",
+    "startMs": 84060,
+    "endMs": 84340,
+    "timestampMs": 84320,
+    "confidence": 0.967818
+  },
+  {
+    "text": " stronger",
+    "startMs": 84340,
+    "endMs": 84860,
+    "timestampMs": 84760,
+    "confidence": 0.986316
+  },
+  {
+    "text": ".",
+    "startMs": 84860,
+    "endMs": 85120,
+    "timestampMs": 85240,
+    "confidence": 0.561405
+  },
+  {
+    "text": " The",
+    "startMs": 85120,
+    "endMs": 85300,
+    "timestampMs": 85360,
+    "confidence": 0.996223
+  },
+  {
+    "text": " support",
+    "startMs": 85300,
+    "endMs": 85730,
+    "timestampMs": 85660,
+    "confidence": 0.998997
+  },
+  {
+    "text": " needed",
+    "startMs": 85730,
+    "endMs": 86130,
+    "timestampMs": 86000,
+    "confidence": 0.988071
+  },
+  {
+    "text": " to",
+    "startMs": 86130,
+    "endMs": 86280,
+    "timestampMs": 86240,
+    "confidence": 0.995581
+  },
+  {
+    "text": " keep",
+    "startMs": 86280,
+    "endMs": 86470,
+    "timestampMs": 86500,
+    "confidence": 0.998475
+  },
+  {
+    "text": " these",
+    "startMs": 86470,
+    "endMs": 86790,
+    "timestampMs": 86700,
+    "confidence": 0.966003
+  },
+  {
+    "text": " tanks",
+    "startMs": 86790,
+    "endMs": 87100,
+    "timestampMs": 87000,
+    "confidence": 0.996398
+  },
+  {
+    "text": " running",
+    "startMs": 87100,
+    "endMs": 87510,
+    "timestampMs": 87360,
+    "confidence": 0.998232
+  },
+  {
+    "text": ".",
+    "startMs": 87510,
+    "endMs": 87760,
+    "timestampMs": 87880,
+    "confidence": 0.992347
+  },
+  {
+    "text": " The",
+    "startMs": 87760,
+    "endMs": 87980,
+    "timestampMs": 88040,
+    "confidence": 0.99886
+  },
+  {
+    "text": " Le",
+    "startMs": 87980,
+    "endMs": 88030,
+    "timestampMs": 88160,
+    "confidence": 0.994325
+  },
+  {
+    "text": "opard",
+    "startMs": 88030,
+    "endMs": 88300,
+    "timestampMs": 88300,
+    "confidence": 0.999068
+  },
+  {
+    "text": " 2",
+    "startMs": 88300,
+    "endMs": 88470,
+    "timestampMs": 88540,
+    "confidence": 0.889015
+  },
+  {
+    "text": " family",
+    "startMs": 88470,
+    "endMs": 88800,
+    "timestampMs": 88860,
+    "confidence": 0.978401
+  },
+  {
+    "text": " has",
+    "startMs": 88800,
+    "endMs": 88960,
+    "timestampMs": 89120,
+    "confidence": 0.99001
+  },
+  {
+    "text": " an",
+    "startMs": 88960,
+    "endMs": 89070,
+    "timestampMs": 89280,
+    "confidence": 0.992615
+  },
+  {
+    "text": " international",
+    "startMs": 89070,
+    "endMs": 89840,
+    "timestampMs": 89760,
+    "confidence": 0.990452
+  },
+  {
+    "text": " community",
+    "startMs": 89840,
+    "endMs": 90320,
+    "timestampMs": 90300,
+    "confidence": 0.982032
+  },
+  {
+    "text": " of",
+    "startMs": 90320,
+    "endMs": 90440,
+    "timestampMs": 90500,
+    "confidence": 0.999093
+  },
+  {
+    "text": " operators",
+    "startMs": 90440,
+    "endMs": 91010,
+    "timestampMs": 90960,
+    "confidence": 0.996155
+  },
+  {
+    "text": ",",
+    "startMs": 91010,
+    "endMs": 91120,
+    "timestampMs": 91360,
+    "confidence": 0.995372
+  },
+  {
+    "text": " suppliers",
+    "startMs": 91120,
+    "endMs": 91680,
+    "timestampMs": 91720,
+    "confidence": 0.997636
+  },
+  {
+    "text": ",",
+    "startMs": 91680,
+    "endMs": 91800,
+    "timestampMs": 92080,
+    "confidence": 0.883261
+  },
+  {
+    "text": " and",
+    "startMs": 91800,
+    "endMs": 92060,
+    "timestampMs": 92240,
+    "confidence": 0.996983
+  },
+  {
+    "text": " training",
+    "startMs": 92060,
+    "endMs": 92490,
+    "timestampMs": 92500,
+    "confidence": 0.998921
+  },
+  {
+    "text": " structures",
+    "startMs": 92490,
+    "endMs": 93120,
+    "timestampMs": 92920,
+    "confidence": 0.998155
+  },
+  {
+    "text": ".",
+    "startMs": 93120,
+    "endMs": 93360,
+    "timestampMs": 93460,
+    "confidence": 0.980165
+  },
+  {
+    "text": " That",
+    "startMs": 93360,
+    "endMs": 93580,
+    "timestampMs": 93680,
+    "confidence": 0.9965
+  },
+  {
+    "text": " gives",
+    "startMs": 93580,
+    "endMs": 93850,
+    "timestampMs": 93860,
+    "confidence": 0.997356
+  },
+  {
+    "text": " you",
+    "startMs": 93850,
+    "endMs": 94010,
+    "timestampMs": 94000,
+    "confidence": 0.997847
+  },
+  {
+    "text": " accumulated",
+    "startMs": 94010,
+    "endMs": 94620,
+    "timestampMs": 94460,
+    "confidence": 0.804771
+  },
+  {
+    "text": " experience",
+    "startMs": 94620,
+    "endMs": 95200,
+    "timestampMs": 95240,
+    "confidence": 0.997954
+  },
+  {
+    "text": " for",
+    "startMs": 95200,
+    "endMs": 95370,
+    "timestampMs": 95420,
+    "confidence": 0.948241
+  },
+  {
+    "text": " introducing",
+    "startMs": 95370,
+    "endMs": 95920,
+    "timestampMs": 95840,
+    "confidence": 0.992649
+  },
+  {
+    "text": " a",
+    "startMs": 95920,
+    "endMs": 95980,
+    "timestampMs": 96080,
+    "confidence": 0.983138
+  },
+  {
+    "text": " new",
+    "startMs": 95980,
+    "endMs": 96160,
+    "timestampMs": 96180,
+    "confidence": 0.998704
+  },
+  {
+    "text": " version",
+    "startMs": 96160,
+    "endMs": 96760,
+    "timestampMs": 96560,
+    "confidence": 0.975372
+  },
+  {
+    "text": ",",
+    "startMs": 96760,
+    "endMs": 96800,
+    "timestampMs": 96840,
+    "confidence": 0.867356
+  },
+  {
+    "text": " though",
+    "startMs": 96800,
+    "endMs": 97140,
+    "timestampMs": 97100,
+    "confidence": 0.995649
+  },
+  {
+    "text": " it",
+    "startMs": 97140,
+    "endMs": 97250,
+    "timestampMs": 97300,
+    "confidence": 0.989561
+  },
+  {
+    "text": " doesn",
+    "startMs": 97250,
+    "endMs": 97530,
+    "timestampMs": 97560,
+    "confidence": 0.995835
+  },
+  {
+    "text": "'t",
+    "startMs": 97530,
+    "endMs": 97650,
+    "timestampMs": 97640,
+    "confidence": 0.999943
+  },
+  {
+    "text": " make",
+    "startMs": 97650,
+    "endMs": 97940,
+    "timestampMs": 97820,
+    "confidence": 0.997824
+  },
+  {
+    "text": " every",
+    "startMs": 97940,
+    "endMs": 98140,
+    "timestampMs": 98160,
+    "confidence": 0.9842
+  },
+  {
+    "text": " configuration",
+    "startMs": 98140,
+    "endMs": 98870,
+    "timestampMs": 98740,
+    "confidence": 0.997546
+  },
+  {
+    "text": " interchange",
+    "startMs": 98870,
+    "endMs": 99480,
+    "timestampMs": 99120,
+    "confidence": 0.992356
+  },
+  {
+    "text": "able",
+    "startMs": 99480,
+    "endMs": 99920,
+    "timestampMs": 99520,
+    "confidence": 0.998818
+  },
+  {
+    "text": ".",
+    "startMs": 99920,
+    "endMs": 99920,
+    "timestampMs": 99920,
+    "confidence": 0.997927
+  },
+  {
+    "text": " There",
+    "startMs": 99920,
+    "endMs": 100250,
+    "timestampMs": 100200,
+    "confidence": 0.997299
+  },
+  {
+    "text": " are",
+    "startMs": 100250,
+    "endMs": 100450,
+    "timestampMs": 100320,
+    "confidence": 0.996398
+  },
+  {
+    "text": " also",
+    "startMs": 100450,
+    "endMs": 100720,
+    "timestampMs": 100580,
+    "confidence": 0.995965
+  },
+  {
+    "text": " investments",
+    "startMs": 100720,
+    "endMs": 101460,
+    "timestampMs": 101100,
+    "confidence": 0.987325
+  },
+  {
+    "text": " specific",
+    "startMs": 101460,
+    "endMs": 102000,
+    "timestampMs": 101640,
+    "confidence": 0.99606
+  },
+  {
+    "text": " to",
+    "startMs": 102000,
+    "endMs": 102130,
+    "timestampMs": 101940,
+    "confidence": 0.995623
+  },
+  {
+    "text": " the",
+    "startMs": 102130,
+    "endMs": 102330,
+    "timestampMs": 102060,
+    "confidence": 0.994977
+  },
+  {
+    "text": " 2",
+    "startMs": 102330,
+    "endMs": 102530,
+    "timestampMs": 102240,
+    "confidence": 0.956503
+  },
+  {
+    "text": "A",
+    "startMs": 102530,
+    "endMs": 102590,
+    "timestampMs": 102360,
+    "confidence": 0.871856
+  },
+  {
+    "text": "8",
+    "startMs": 102590,
+    "endMs": 103040,
+    "timestampMs": 102660,
+    "confidence": 0.969888
+  },
+  {
+    "text": ".",
+    "startMs": 103040,
+    "endMs": 103040,
+    "timestampMs": 103020,
+    "confidence": 0.991015
+  },
+  {
+    "text": " In",
+    "startMs": 103190,
+    "endMs": 103190,
+    "timestampMs": 103260,
+    "confidence": 0.997954
+  },
+  {
+    "text": " April",
+    "startMs": 103190,
+    "endMs": 103590,
+    "timestampMs": 103500,
+    "confidence": 0.999096
+  },
+  {
+    "text": " 20",
+    "startMs": 103590,
+    "endMs": 104050,
+    "timestampMs": 103760,
+    "confidence": 0.6507
+  },
+  {
+    "text": "26",
+    "startMs": 104050,
+    "endMs": 104670,
+    "timestampMs": 104340,
+    "confidence": 0.995697
+  },
+  {
+    "text": ",",
+    "startMs": 104670,
+    "endMs": 104750,
+    "timestampMs": 104700,
+    "confidence": 0.931694
+  },
+  {
+    "text": " KN",
+    "startMs": 104750,
+    "endMs": 104820,
+    "timestampMs": 104960,
+    "confidence": 0.914985
+  },
+  {
+    "text": "DS",
+    "startMs": 104820,
+    "endMs": 104970,
+    "timestampMs": 105240,
+    "confidence": 0.986726
+  },
+  {
+    "text": " and",
+    "startMs": 104970,
+    "endMs": 105200,
+    "timestampMs": 105580,
+    "confidence": 0.982279
+  },
+  {
+    "text": " R",
+    "startMs": 105200,
+    "endMs": 105270,
+    "timestampMs": 105780,
+    "confidence": 0.606477
+  },
+  {
+    "text": "ite",
+    "startMs": 105270,
+    "endMs": 105500,
+    "timestampMs": 105920,
+    "confidence": 0.260269
+  },
+  {
+    "text": "ch",
+    "startMs": 105500,
+    "endMs": 105650,
+    "timestampMs": 106120,
+    "confidence": 0.628178
+  },
+  {
+    "text": " announced",
+    "startMs": 105650,
+    "endMs": 106350,
+    "timestampMs": 106400,
+    "confidence": 0.990881
+  },
+  {
+    "text": " a",
+    "startMs": 106350,
+    "endMs": 106420,
+    "timestampMs": 106680,
+    "confidence": 0.988478
+  },
+  {
+    "text": " new",
+    "startMs": 106420,
+    "endMs": 106650,
+    "timestampMs": 106840,
+    "confidence": 0.999203
+  },
+  {
+    "text": " facility",
+    "startMs": 106650,
+    "endMs": 107270,
+    "timestampMs": 107240,
+    "confidence": 0.998833
+  },
+  {
+    "text": " in",
+    "startMs": 107270,
+    "endMs": 107420,
+    "timestampMs": 107500,
+    "confidence": 0.993138
+  },
+  {
+    "text": " Norway",
+    "startMs": 107420,
+    "endMs": 108000,
+    "timestampMs": 107780,
+    "confidence": 0.995175
+  },
+  {
+    "text": " to",
+    "startMs": 108000,
+    "endMs": 108160,
+    "timestampMs": 108220,
+    "confidence": 0.999802
+  },
+  {
+    "text": " produce",
+    "startMs": 108160,
+    "endMs": 108610,
+    "timestampMs": 108460,
+    "confidence": 0.998338
+  },
+  {
+    "text": " part",
+    "startMs": 108610,
+    "endMs": 108750,
+    "timestampMs": 108780,
+    "confidence": 0.995038
+  },
+  {
+    "text": " of",
+    "startMs": 108750,
+    "endMs": 108850,
+    "timestampMs": 108940,
+    "confidence": 0.998932
+  },
+  {
+    "text": " the",
+    "startMs": 108850,
+    "endMs": 109030,
+    "timestampMs": 109020,
+    "confidence": 0.997847
+  },
+  {
+    "text": " contracted",
+    "startMs": 109030,
+    "endMs": 109620,
+    "timestampMs": 109460,
+    "confidence": 0.994097
+  },
+  {
+    "text": " vehicles",
+    "startMs": 109620,
+    "endMs": 110320,
+    "timestampMs": 109920,
+    "confidence": 0.990913
+  },
+  {
+    "text": ".",
+    "startMs": 110320,
+    "endMs": 110320,
+    "timestampMs": 110480,
+    "confidence": 0.998479
+  },
+  {
+    "text": " The",
+    "startMs": 110320,
+    "endMs": 110560,
+    "timestampMs": 110600,
+    "confidence": 0.998277
+  },
+  {
+    "text": " plan",
+    "startMs": 110560,
+    "endMs": 110880,
+    "timestampMs": 110880,
+    "confidence": 0.999565
+  },
+  {
+    "text": " is",
+    "startMs": 110880,
+    "endMs": 111040,
+    "timestampMs": 111080,
+    "confidence": 0.99617
+  },
+  {
+    "text": " to",
+    "startMs": 111040,
+    "endMs": 111200,
+    "timestampMs": 111200,
+    "confidence": 0.997455
+  },
+  {
+    "text": " build",
+    "startMs": 111200,
+    "endMs": 111600,
+    "timestampMs": 111340,
+    "confidence": 0.99774
+  },
+  {
+    "text": " 37",
+    "startMs": 111600,
+    "endMs": 112080,
+    "timestampMs": 112060,
+    "confidence": 0.990718
+  },
+  {
+    "text": " of",
+    "startMs": 112080,
+    "endMs": 112240,
+    "timestampMs": 112380,
+    "confidence": 0.990524
+  },
+  {
+    "text": " Norway",
+    "startMs": 112240,
+    "endMs": 112720,
+    "timestampMs": 112640,
+    "confidence": 0.998723
+  },
+  {
+    "text": "'s",
+    "startMs": 112720,
+    "endMs": 112970,
+    "timestampMs": 112840,
+    "confidence": 0.9991
+  },
+  {
+    "text": " 54",
+    "startMs": 112970,
+    "endMs": 113360,
+    "timestampMs": 113300,
+    "confidence": 0.992934
+  },
+  {
+    "text": " tanks",
+    "startMs": 113360,
+    "endMs": 113760,
+    "timestampMs": 113760,
+    "confidence": 0.996729
+  },
+  {
+    "text": " there",
+    "startMs": 113760,
+    "endMs": 114480,
+    "timestampMs": 114040,
+    "confidence": 0.979144
+  },
+  {
+    "text": ".",
+    "startMs": 114480,
+    "endMs": 114480,
+    "timestampMs": 114600,
+    "confidence": 0.996162
+  },
+  {
+    "text": " On",
+    "startMs": 114480,
+    "endMs": 114630,
+    "timestampMs": 114720,
+    "confidence": 0.997421
+  },
+  {
+    "text": " ammunition",
+    "startMs": 114630,
+    "endMs": 115210,
+    "timestampMs": 115060,
+    "confidence": 0.911739
+  },
+  {
+    "text": ",",
+    "startMs": 115210,
+    "endMs": 115320,
+    "timestampMs": 115720,
+    "confidence": 0.994514
+  },
+  {
+    "text": " R",
+    "startMs": 115320,
+    "endMs": 115630,
+    "timestampMs": 115780,
+    "confidence": 0.764866
+  },
+  {
+    "text": "hein",
+    "startMs": 115630,
+    "endMs": 115660,
+    "timestampMs": 115860,
+    "confidence": 0.865809
+  },
+  {
+    "text": "met",
+    "startMs": 115660,
+    "endMs": 115810,
+    "timestampMs": 116040,
+    "confidence": 0.964211
+  },
+  {
+    "text": "all",
+    "startMs": 115810,
+    "endMs": 115990,
+    "timestampMs": 116180,
+    "confidence": 0.988502
+  },
+  {
+    "text": " announced",
+    "startMs": 115990,
+    "endMs": 116550,
+    "timestampMs": 116520,
+    "confidence": 0.994224
+  },
+  {
+    "text": " in",
+    "startMs": 116550,
+    "endMs": 116700,
+    "timestampMs": 116740,
+    "confidence": 0.904401
+  },
+  {
+    "text": " December",
+    "startMs": 116700,
+    "endMs": 117280,
+    "timestampMs": 117020,
+    "confidence": 0.994401
+  },
+  {
+    "text": " 2025",
+    "startMs": 117280,
+    "endMs": 118160,
+    "timestampMs": 117660,
+    "confidence": 0.830107
+  },
+  {
+    "text": " a",
+    "startMs": 118160,
+    "endMs": 118300,
+    "timestampMs": 118380,
+    "confidence": 0.996276
+  },
+  {
+    "text": " new",
+    "startMs": 118300,
+    "endMs": 118440,
+    "timestampMs": 118620,
+    "confidence": 0.987686
+  },
+  {
+    "text": " German",
+    "startMs": 118440,
+    "endMs": 118860,
+    "timestampMs": 118920,
+    "confidence": 0.992207
+  },
+  {
+    "text": " order",
+    "startMs": 118860,
+    "endMs": 119220,
+    "timestampMs": 119260,
+    "confidence": 0.951658
+  },
+  {
+    "text": " for",
+    "startMs": 119220,
+    "endMs": 119440,
+    "timestampMs": 119480,
+    "confidence": 0.996177
+  },
+  {
+    "text": " 120",
+    "startMs": 119440,
+    "endMs": 120090,
+    "timestampMs": 120040,
+    "confidence": 0.996557
+  },
+  {
+    "text": "-",
+    "startMs": 120090,
+    "endMs": 120180,
+    "timestampMs": 120340,
+    "confidence": 0.203774
+  },
+  {
+    "text": "millimeter",
+    "startMs": 120180,
+    "endMs": 120870,
+    "timestampMs": 120700,
+    "confidence": 0.879191
+  },
+  {
+    "text": " rounds",
+    "startMs": 120870,
+    "endMs": 121360,
+    "timestampMs": 121200,
+    "confidence": 0.996099
+  },
+  {
+    "text": " under",
+    "startMs": 121360,
+    "endMs": 121630,
+    "timestampMs": 121640,
+    "confidence": 0.998582
+  },
+  {
+    "text": " an",
+    "startMs": 121630,
+    "endMs": 121730,
+    "timestampMs": 121780,
+    "confidence": 0.997048
+  },
+  {
+    "text": " agreement",
+    "startMs": 121730,
+    "endMs": 122270,
+    "timestampMs": 122060,
+    "confidence": 0.998711
+  },
+  {
+    "text": " that",
+    "startMs": 122270,
+    "endMs": 122430,
+    "timestampMs": 122340,
+    "confidence": 0.998479
+  },
+  {
+    "text": " allows",
+    "startMs": 122430,
+    "endMs": 122760,
+    "timestampMs": 122580,
+    "confidence": 0.992581
+  },
+  {
+    "text": " purchases",
+    "startMs": 122760,
+    "endMs": 123290,
+    "timestampMs": 123040,
+    "confidence": 0.995832
+  },
+  {
+    "text": " through",
+    "startMs": 123290,
+    "endMs": 123620,
+    "timestampMs": 123400,
+    "confidence": 0.997329
+  },
+  {
+    "text": " 2030",
+    "startMs": 123620,
+    "endMs": 124060,
+    "timestampMs": 123880,
+    "confidence": 0.941799
+  },
+  {
+    "text": ".",
+    "startMs": 124060,
+    "endMs": 124480,
+    "timestampMs": 124560,
+    "confidence": 0.998117
+  },
+  {
+    "text": " These",
+    "startMs": 124480,
+    "endMs": 124730,
+    "timestampMs": 124800,
+    "confidence": 0.997394
+  },
+  {
+    "text": " announcements",
+    "startMs": 124730,
+    "endMs": 125390,
+    "timestampMs": 125160,
+    "confidence": 0.995961
+  },
+  {
+    "text": " show",
+    "startMs": 125390,
+    "endMs": 125600,
+    "timestampMs": 125560,
+    "confidence": 0.997748
+  },
+  {
+    "text": " how",
+    "startMs": 125600,
+    "endMs": 125780,
+    "timestampMs": 125820,
+    "confidence": 0.970254
+  },
+  {
+    "text": " the",
+    "startMs": 125780,
+    "endMs": 125960,
+    "timestampMs": 125980,
+    "confidence": 0.991144
+  },
+  {
+    "text": " program",
+    "startMs": 125960,
+    "endMs": 126400,
+    "timestampMs": 126340,
+    "confidence": 0.935929
+  },
+  {
+    "text": " is",
+    "startMs": 126400,
+    "endMs": 126620,
+    "timestampMs": 126540,
+    "confidence": 0.815786
+  },
+  {
+    "text": " organizing",
+    "startMs": 126620,
+    "endMs": 127030,
+    "timestampMs": 126980,
+    "confidence": 0.93299
+  },
+  {
+    "text": " its",
+    "startMs": 127030,
+    "endMs": 127200,
+    "timestampMs": 127260,
+    "confidence": 0.69936
+  },
+  {
+    "text": " production",
+    "startMs": 127200,
+    "endMs": 127840,
+    "timestampMs": 127640,
+    "confidence": 0.974362
+  },
+  {
+    "text": " and",
+    "startMs": 127840,
+    "endMs": 128040,
+    "timestampMs": 128040,
+    "confidence": 0.999073
+  },
+  {
+    "text": " support",
+    "startMs": 128040,
+    "endMs": 128510,
+    "timestampMs": 128480,
+    "confidence": 0.999028
+  },
+  {
+    "text": " over",
+    "startMs": 128510,
+    "endMs": 128780,
+    "timestampMs": 128780,
+    "confidence": 0.992536
+  },
+  {
+    "text": " time",
+    "startMs": 128780,
+    "endMs": 129050,
+    "timestampMs": 129140,
+    "confidence": 0.99875
+  },
+  {
+    "text": ".",
+    "startMs": 129050,
+    "endMs": 129280,
+    "timestampMs": 129420,
+    "confidence": 0.993494
+  },
+  {
+    "text": " They",
+    "startMs": 129280,
+    "endMs": 129540,
+    "timestampMs": 129560,
+    "confidence": 0.956112
+  },
+  {
+    "text": " don",
+    "startMs": 129540,
+    "endMs": 129730,
+    "timestampMs": 129720,
+    "confidence": 0.996922
+  },
+  {
+    "text": "'t",
+    "startMs": 129730,
+    "endMs": 129860,
+    "timestampMs": 129740,
+    "confidence": 0.99995
+  },
+  {
+    "text": " guarantee",
+    "startMs": 129860,
+    "endMs": 130560,
+    "timestampMs": 130120,
+    "confidence": 0.998555
+  },
+  {
+    "text": " that",
+    "startMs": 130560,
+    "endMs": 130710,
+    "timestampMs": 130460,
+    "confidence": 0.992067
+  },
+  {
+    "text": " every",
+    "startMs": 130710,
+    "endMs": 131040,
+    "timestampMs": 130820,
+    "confidence": 0.988889
+  },
+  {
+    "text": " tank",
+    "startMs": 131040,
+    "endMs": 131420,
+    "timestampMs": 131140,
+    "confidence": 0.997581
+  },
+  {
+    "text": " will",
+    "startMs": 131420,
+    "endMs": 131560,
+    "timestampMs": 131300,
+    "confidence": 0.995023
+  },
+  {
+    "text": " always",
+    "startMs": 131560,
+    "endMs": 131950,
+    "timestampMs": 131720,
+    "confidence": 0.986971
+  },
+  {
+    "text": " be",
+    "startMs": 131950,
+    "endMs": 132080,
+    "timestampMs": 131920,
+    "confidence": 0.99739
+  },
+  {
+    "text": " available",
+    "startMs": 132080,
+    "endMs": 132600,
+    "timestampMs": 132380,
+    "confidence": 0.999165
+  },
+  {
+    "text": ",",
+    "startMs": 132600,
+    "endMs": 132720,
+    "timestampMs": 132680,
+    "confidence": 0.553132
+  },
+  {
+    "text": " but",
+    "startMs": 132860,
+    "endMs": 132890,
+    "timestampMs": 133000,
+    "confidence": 0.998548
+  },
+  {
+    "text": " they",
+    "startMs": 132890,
+    "endMs": 133120,
+    "timestampMs": 133220,
+    "confidence": 0.426482
+  },
+  {
+    "text": "'re",
+    "startMs": 133120,
+    "endMs": 133340,
+    "timestampMs": 133280,
+    "confidence": 0.85831
+  },
+  {
+    "text": " concrete",
+    "startMs": 133340,
+    "endMs": 133750,
+    "timestampMs": 133720,
+    "confidence": 0.992101
+  },
+  {
+    "text": " evidence",
+    "startMs": 133750,
+    "endMs": 134240,
+    "timestampMs": 134220,
+    "confidence": 0.999439
+  },
+  {
+    "text": " of",
+    "startMs": 134240,
+    "endMs": 134340,
+    "timestampMs": 134440,
+    "confidence": 0.938974
+  },
+  {
+    "text": " the",
+    "startMs": 134340,
+    "endMs": 134490,
+    "timestampMs": 134540,
+    "confidence": 0.996079
+  },
+  {
+    "text": " structure",
+    "startMs": 134490,
+    "endMs": 134960,
+    "timestampMs": 134880,
+    "confidence": 0.995946
+  },
+  {
+    "text": " being",
+    "startMs": 134960,
+    "endMs": 135200,
+    "timestampMs": 135200,
+    "confidence": 0.97492
+  },
+  {
+    "text": " put",
+    "startMs": 135200,
+    "endMs": 135340,
+    "timestampMs": 135400,
+    "confidence": 0.997885
+  },
+  {
+    "text": " in",
+    "startMs": 135340,
+    "endMs": 135430,
+    "timestampMs": 135500,
+    "confidence": 0.993691
+  },
+  {
+    "text": " place",
+    "startMs": 135430,
+    "endMs": 135670,
+    "timestampMs": 135820,
+    "confidence": 0.999127
+  },
+  {
+    "text": ".",
+    "startMs": 135670,
+    "endMs": 135840,
+    "timestampMs": 136540,
+    "confidence": 0.998087
+  },
+  {
+    "text": " With",
+    "startMs": 135840,
+    "endMs": 136620,
+    "timestampMs": 136760,
+    "confidence": 0.997988
+  },
+  {
+    "text": " the",
+    "startMs": 136620,
+    "endMs": 136670,
+    "timestampMs": 136900,
+    "confidence": 0.97861
+  },
+  {
+    "text": " T",
+    "startMs": 136670,
+    "endMs": 136730,
+    "timestampMs": 137020,
+    "confidence": 0.991862
+  },
+  {
+    "text": "-",
+    "startMs": 136730,
+    "endMs": 136840,
+    "timestampMs": 137120,
+    "confidence": 0.660312
+  },
+  {
+    "text": "14",
+    "startMs": 136840,
+    "endMs": 137510,
+    "timestampMs": 137220,
+    "confidence": 0.994836
+  },
+  {
+    "text": ",",
+    "startMs": 137510,
+    "endMs": 137890,
+    "timestampMs": 137840,
+    "confidence": 0.912834
+  },
+  {
+    "text": " there",
+    "startMs": 137890,
+    "endMs": 138080,
+    "timestampMs": 138000,
+    "confidence": 0.921493
+  },
+  {
+    "text": "'s",
+    "startMs": 138080,
+    "endMs": 138200,
+    "timestampMs": 138140,
+    "confidence": 0.896131
+  },
+  {
+    "text": " no",
+    "startMs": 138200,
+    "endMs": 138320,
+    "timestampMs": 138380,
+    "confidence": 0.997603
+  },
+  {
+    "text": " equivalent",
+    "startMs": 138320,
+    "endMs": 138960,
+    "timestampMs": 138920,
+    "confidence": 0.99822
+  },
+  {
+    "text": " transparency",
+    "startMs": 138960,
+    "endMs": 139760,
+    "timestampMs": 139660,
+    "confidence": 0.992138
+  },
+  {
+    "text": " about",
+    "startMs": 139760,
+    "endMs": 140190,
+    "timestampMs": 139980,
+    "confidence": 0.999051
+  },
+  {
+    "text": " fleet",
+    "startMs": 140190,
+    "endMs": 140420,
+    "timestampMs": 140340,
+    "confidence": 0.994875
+  },
+  {
+    "text": " availability",
+    "startMs": 140420,
+    "endMs": 141360,
+    "timestampMs": 140720,
+    "confidence": 0.998323
+  },
+  {
+    "text": ",",
+    "startMs": 141360,
+    "endMs": 141420,
+    "timestampMs": 141400,
+    "confidence": 0.990535
+  },
+  {
+    "text": " maintenance",
+    "startMs": 141420,
+    "endMs": 141900,
+    "timestampMs": 141720,
+    "confidence": 0.915292
+  },
+  {
+    "text": ",",
+    "startMs": 141900,
+    "endMs": 142000,
+    "timestampMs": 142160,
+    "confidence": 0.918184
+  },
+  {
+    "text": " or",
+    "startMs": 142000,
+    "endMs": 142130,
+    "timestampMs": 142280,
+    "confidence": 0.953544
+  },
+  {
+    "text": " regular",
+    "startMs": 142130,
+    "endMs": 142570,
+    "timestampMs": 142680,
+    "confidence": 0.994626
+  },
+  {
+    "text": " supply",
+    "startMs": 142570,
+    "endMs": 142940,
+    "timestampMs": 143120,
+    "confidence": 0.986096
+  },
+  {
+    "text": " at",
+    "startMs": 142940,
+    "endMs": 143060,
+    "timestampMs": 143300,
+    "confidence": 0.986451
+  },
+  {
+    "text": " scale",
+    "startMs": 143060,
+    "endMs": 143380,
+    "timestampMs": 143620,
+    "confidence": 0.998479
+  },
+  {
+    "text": ".",
+    "startMs": 143380,
+    "endMs": 143600,
+    "timestampMs": 144280,
+    "confidence": 0.996003
+  },
+  {
+    "text": " The",
+    "startMs": 143600,
+    "endMs": 144330,
+    "timestampMs": 144400,
+    "confidence": 0.998791
+  },
+  {
+    "text": " existence",
+    "startMs": 144330,
+    "endMs": 144730,
+    "timestampMs": 144740,
+    "confidence": 0.998811
+  },
+  {
+    "text": " of",
+    "startMs": 144730,
+    "endMs": 144860,
+    "timestampMs": 145020,
+    "confidence": 0.999405
+  },
+  {
+    "text": " prototypes",
+    "startMs": 144860,
+    "endMs": 145780,
+    "timestampMs": 145440,
+    "confidence": 0.993337
+  },
+  {
+    "text": " or",
+    "startMs": 145780,
+    "endMs": 146040,
+    "timestampMs": 145920,
+    "confidence": 0.681241
+  },
+  {
+    "text": " batch",
+    "startMs": 146040,
+    "endMs": 146430,
+    "timestampMs": 146260,
+    "confidence": 0.962292
+  },
+  {
+    "text": "es",
+    "startMs": 146430,
+    "endMs": 146640,
+    "timestampMs": 146620,
+    "confidence": 0.999188
+  },
+  {
+    "text": " or",
+    "startMs": 146640,
+    "endMs": 146770,
+    "timestampMs": 146860,
+    "confidence": 0.998403
+  },
+  {
+    "text": " statements",
+    "startMs": 146770,
+    "endMs": 147410,
+    "timestampMs": 147240,
+    "confidence": 0.998308
+  },
+  {
+    "text": " about",
+    "startMs": 147410,
+    "endMs": 147730,
+    "timestampMs": 147540,
+    "confidence": 0.998559
+  },
+  {
+    "text": " entering",
+    "startMs": 147730,
+    "endMs": 148240,
+    "timestampMs": 147920,
+    "confidence": 0.996402
+  },
+  {
+    "text": " service",
+    "startMs": 148240,
+    "endMs": 148720,
+    "timestampMs": 148400,
+    "confidence": 0.993646
+  },
+  {
+    "text": " doesn",
+    "startMs": 148720,
+    "endMs": 148970,
+    "timestampMs": 148980,
+    "confidence": 0.998209
+  },
+  {
+    "text": "'t",
+    "startMs": 148970,
+    "endMs": 149070,
+    "timestampMs": 149100,
+    "confidence": 0.999966
+  },
+  {
+    "text": " settle",
+    "startMs": 149070,
+    "endMs": 149370,
+    "timestampMs": 149400,
+    "confidence": 0.994198
+  },
+  {
+    "text": " those",
+    "startMs": 149370,
+    "endMs": 149620,
+    "timestampMs": 149620,
+    "confidence": 0.993475
+  },
+  {
+    "text": " questions",
+    "startMs": 149620,
+    "endMs": 150070,
+    "timestampMs": 150020,
+    "confidence": 0.996725
+  },
+  {
+    "text": " on",
+    "startMs": 150070,
+    "endMs": 150170,
+    "timestampMs": 150260,
+    "confidence": 0.99747
+  },
+  {
+    "text": " its",
+    "startMs": 150170,
+    "endMs": 150320,
+    "timestampMs": 150400,
+    "confidence": 0.991204
+  },
+  {
+    "text": " own",
+    "startMs": 150320,
+    "endMs": 150470,
+    "timestampMs": 150640,
+    "confidence": 0.999458
+  },
+  {
+    "text": ".",
+    "startMs": 150470,
+    "endMs": 150640,
+    "timestampMs": 151660,
+    "confidence": 0.996196
+  },
+  {
+    "text": " The",
+    "startMs": 150640,
+    "endMs": 150970,
+    "timestampMs": 151920,
+    "confidence": 0.997874
+  },
+  {
+    "text": " Le",
+    "startMs": 150970,
+    "endMs": 150970,
+    "timestampMs": 152060,
+    "confidence": 0.983492
+  },
+  {
+    "text": "opard",
+    "startMs": 150970,
+    "endMs": 151300,
+    "timestampMs": 152180,
+    "confidence": 0.999405
+  },
+  {
+    "text": " has",
+    "startMs": 151300,
+    "endMs": 151830,
+    "timestampMs": 152400,
+    "confidence": 0.993972
+  },
+  {
+    "text": " problems",
+    "startMs": 151830,
+    "endMs": 152030,
+    "timestampMs": 152820,
+    "confidence": 0.996307
+  },
+  {
+    "text": " that",
+    "startMs": 152030,
+    "endMs": 152290,
+    "timestampMs": 153040,
+    "confidence": 0.996086
+  },
+  {
+    "text": " belong",
+    "startMs": 152290,
+    "endMs": 152690,
+    "timestampMs": 153280,
+    "confidence": 0.9959
+  },
+  {
+    "text": " in",
+    "startMs": 152690,
+    "endMs": 152820,
+    "timestampMs": 153500,
+    "confidence": 0.983629
+  },
+  {
+    "text": " this",
+    "startMs": 152820,
+    "endMs": 153110,
+    "timestampMs": 153640,
+    "confidence": 0.993593
+  },
+  {
+    "text": " assessment",
+    "startMs": 153110,
+    "endMs": 153740,
+    "timestampMs": 154000,
+    "confidence": 0.991482
+  },
+  {
+    "text": ",",
+    "startMs": 153740,
+    "endMs": 153870,
+    "timestampMs": 154160,
+    "confidence": 0.546121
+  },
+  {
+    "text": " too",
+    "startMs": 153870,
+    "endMs": 154070,
+    "timestampMs": 154340,
+    "confidence": 0.995957
+  },
+  {
+    "text": ".",
+    "startMs": 154070,
+    "endMs": 154320,
+    "timestampMs": 155000,
+    "confidence": 0.997227
+  },
+  {
+    "text": " The",
+    "startMs": 154320,
+    "endMs": 154690,
+    "timestampMs": 155140,
+    "confidence": 0.99918
+  },
+  {
+    "text": " IF",
+    "startMs": 154690,
+    "endMs": 154690,
+    "timestampMs": 155440,
+    "confidence": 0.961747
+  },
+  {
+    "text": "RI",
+    "startMs": 154690,
+    "endMs": 155070,
+    "timestampMs": 155680,
+    "confidence": 0.977159
+  },
+  {
+    "text": " study",
+    "startMs": 155070,
+    "endMs": 155220,
+    "timestampMs": 156060,
+    "confidence": 0.953199
+  },
+  {
+    "text": " documents",
+    "startMs": 155220,
+    "endMs": 155960,
+    "timestampMs": 156620,
+    "confidence": 0.99663
+  },
+  {
+    "text": " maintenance",
+    "startMs": 155960,
+    "endMs": 156730,
+    "timestampMs": 157000,
+    "confidence": 0.990476
+  },
+  {
+    "text": " difficulties",
+    "startMs": 156730,
+    "endMs": 157680,
+    "timestampMs": 157580,
+    "confidence": 0.989659
+  },
+  {
+    "text": " with",
+    "startMs": 157680,
+    "endMs": 158000,
+    "timestampMs": 157940,
+    "confidence": 0.999214
+  },
+  {
+    "text": " Western",
+    "startMs": 158000,
+    "endMs": 158480,
+    "timestampMs": 158260,
+    "confidence": 0.762707
+  },
+  {
+    "text": " tanks",
+    "startMs": 158480,
+    "endMs": 158840,
+    "timestampMs": 158620,
+    "confidence": 0.992767
+  },
+  {
+    "text": " in",
+    "startMs": 158840,
+    "endMs": 158980,
+    "timestampMs": 158800,
+    "confidence": 0.979727
+  },
+  {
+    "text": " Ukraine",
+    "startMs": 158980,
+    "endMs": 159520,
+    "timestampMs": 159160,
+    "confidence": 0.997982
+  },
+  {
+    "text": ",",
+    "startMs": 159520,
+    "endMs": 159520,
+    "timestampMs": 159440,
+    "confidence": 0.933102
+  },
+  {
+    "text": " including",
+    "startMs": 159520,
+    "endMs": 160030,
+    "timestampMs": 159920,
+    "confidence": 0.724135
+  },
+  {
+    "text": " the",
+    "startMs": 160030,
+    "endMs": 160200,
+    "timestampMs": 160140,
+    "confidence": 0.999108
+  },
+  {
+    "text": " complexity",
+    "startMs": 160200,
+    "endMs": 160770,
+    "timestampMs": 160600,
+    "confidence": 0.999405
+  },
+  {
+    "text": " of",
+    "startMs": 160770,
+    "endMs": 160890,
+    "timestampMs": 160880,
+    "confidence": 0.997189
+  },
+  {
+    "text": " the",
+    "startMs": 160890,
+    "endMs": 161050,
+    "timestampMs": 160960,
+    "confidence": 0.981796
+  },
+  {
+    "text": " vehicles",
+    "startMs": 161050,
+    "endMs": 161520,
+    "timestampMs": 161320,
+    "confidence": 0.997645
+  },
+  {
+    "text": " and",
+    "startMs": 161620,
+    "endMs": 161680,
+    "timestampMs": 161700,
+    "confidence": 0.999828
+  },
+  {
+    "text": " the",
+    "startMs": 161680,
+    "endMs": 161870,
+    "timestampMs": 161800,
+    "confidence": 0.988746
+  },
+  {
+    "text": " obstacles",
+    "startMs": 161870,
+    "endMs": 162310,
+    "timestampMs": 162240,
+    "confidence": 0.997181
+  },
+  {
+    "text": " to",
+    "startMs": 162310,
+    "endMs": 162410,
+    "timestampMs": 162580,
+    "confidence": 0.993775
+  },
+  {
+    "text": " getting",
+    "startMs": 162410,
+    "endMs": 162780,
+    "timestampMs": 162780,
+    "confidence": 0.998258
+  },
+  {
+    "text": " parts",
+    "startMs": 162780,
+    "endMs": 163040,
+    "timestampMs": 163120,
+    "confidence": 0.99822
+  },
+  {
+    "text": " and",
+    "startMs": 163040,
+    "endMs": 163210,
+    "timestampMs": 163320,
+    "confidence": 0.977756
+  },
+  {
+    "text": " documentation",
+    "startMs": 163210,
+    "endMs": 163890,
+    "timestampMs": 163980,
+    "confidence": 0.999466
+  },
+  {
+    "text": ".",
+    "startMs": 163890,
+    "endMs": 164080,
+    "timestampMs": 164700,
+    "confidence": 0.993703
+  },
+  {
+    "text": " That",
+    "startMs": 164080,
+    "endMs": 164830,
+    "timestampMs": 164940,
+    "confidence": 0.990849
+  },
+  {
+    "text": " experience",
+    "startMs": 164830,
+    "endMs": 165180,
+    "timestampMs": 165400,
+    "confidence": 0.996554
+  },
+  {
+    "text": " refers",
+    "startMs": 165180,
+    "endMs": 165610,
+    "timestampMs": 165680,
+    "confidence": 0.993771
+  },
+  {
+    "text": " to",
+    "startMs": 165610,
+    "endMs": 165760,
+    "timestampMs": 166020,
+    "confidence": 0.995577
+  },
+  {
+    "text": " the",
+    "startMs": 165760,
+    "endMs": 165990,
+    "timestampMs": 166120,
+    "confidence": 0.936958
+  },
+  {
+    "text": " models",
+    "startMs": 165990,
+    "endMs": 166480,
+    "timestampMs": 166420,
+    "confidence": 0.99865
+  },
+  {
+    "text": " used",
+    "startMs": 166480,
+    "endMs": 166720,
+    "timestampMs": 166680,
+    "confidence": 0.926539
+  },
+  {
+    "text": " in",
+    "startMs": 166720,
+    "endMs": 166880,
+    "timestampMs": 166940,
+    "confidence": 0.96687
+  },
+  {
+    "text": " that",
+    "startMs": 166880,
+    "endMs": 167280,
+    "timestampMs": 167220,
+    "confidence": 0.970467
+  },
+  {
+    "text": " conflict",
+    "startMs": 167280,
+    "endMs": 168000,
+    "timestampMs": 167680,
+    "confidence": 0.994537
+  },
+  {
+    "text": ",",
+    "startMs": 168000,
+    "endMs": 168000,
+    "timestampMs": 167980,
+    "confidence": 0.895608
+  },
+  {
+    "text": " not",
+    "startMs": 168000,
+    "endMs": 168190,
+    "timestampMs": 168280,
+    "confidence": 0.981635
+  },
+  {
+    "text": " the",
+    "startMs": 168190,
+    "endMs": 168390,
+    "timestampMs": 168480,
+    "confidence": 0.995171
+  },
+  {
+    "text": " 2",
+    "startMs": 168390,
+    "endMs": 168580,
+    "timestampMs": 168680,
+    "confidence": 0.718931
+  },
+  {
+    "text": "A",
+    "startMs": 168580,
+    "endMs": 168630,
+    "timestampMs": 168800,
+    "confidence": 0.827211
+  },
+  {
+    "text": "8",
+    "startMs": 168630,
+    "endMs": 168820,
+    "timestampMs": 169020,
+    "confidence": 0.962452
+  },
+  {
+    "text": ".",
+    "startMs": 168820,
+    "endMs": 169040,
+    "timestampMs": 169640,
+    "confidence": 0.992971
+  },
+  {
+    "text": " Still",
+    "startMs": 169040,
+    "endMs": 169840,
+    "timestampMs": 169920,
+    "confidence": 0.998464
+  },
+  {
+    "text": ",",
+    "startMs": 169840,
+    "endMs": 170280,
+    "timestampMs": 170220,
+    "confidence": 0.972503
+  },
+  {
+    "text": " it",
+    "startMs": 170280,
+    "endMs": 170300,
+    "timestampMs": 170380,
+    "confidence": 0.98734
+  },
+  {
+    "text": " shows",
+    "startMs": 170300,
+    "endMs": 170600,
+    "timestampMs": 170620,
+    "confidence": 0.997645
+  },
+  {
+    "text": " how",
+    "startMs": 170600,
+    "endMs": 170790,
+    "timestampMs": 170880,
+    "confidence": 0.997352
+  },
+  {
+    "text": " hard",
+    "startMs": 170790,
+    "endMs": 171040,
+    "timestampMs": 171200,
+    "confidence": 0.999043
+  },
+  {
+    "text": " it",
+    "startMs": 171040,
+    "endMs": 171160,
+    "timestampMs": 171280,
+    "confidence": 0.995725
+  },
+  {
+    "text": " can",
+    "startMs": 171160,
+    "endMs": 171360,
+    "timestampMs": 171440,
+    "confidence": 0.994052
+  },
+  {
+    "text": " be",
+    "startMs": 171360,
+    "endMs": 171520,
+    "timestampMs": 171620,
+    "confidence": 0.989874
+  },
+  {
+    "text": " to",
+    "startMs": 171520,
+    "endMs": 171650,
+    "timestampMs": 171740,
+    "confidence": 0.689017
+  },
+  {
+    "text": " turn",
+    "startMs": 171650,
+    "endMs": 171920,
+    "timestampMs": 171960,
+    "confidence": 0.993688
+  },
+  {
+    "text": " a",
+    "startMs": 171920,
+    "endMs": 172000,
+    "timestampMs": 172080,
+    "confidence": 0.907984
+  },
+  {
+    "text": " large",
+    "startMs": 172000,
+    "endMs": 172420,
+    "timestampMs": 172380,
+    "confidence": 0.991473
+  },
+  {
+    "text": " industrial",
+    "startMs": 172420,
+    "endMs": 173190,
+    "timestampMs": 172940,
+    "confidence": 0.97826
+  },
+  {
+    "text": " base",
+    "startMs": 173190,
+    "endMs": 173520,
+    "timestampMs": 173260,
+    "confidence": 0.989013
+  },
+  {
+    "text": " into",
+    "startMs": 173520,
+    "endMs": 173740,
+    "timestampMs": 173780,
+    "confidence": 0.996557
+  },
+  {
+    "text": " support",
+    "startMs": 173740,
+    "endMs": 174100,
+    "timestampMs": 174200,
+    "confidence": 0.994677
+  },
+  {
+    "text": " that",
+    "startMs": 174100,
+    "endMs": 174320,
+    "timestampMs": 174400,
+    "confidence": 0.993695
+  },
+  {
+    "text": "'s",
+    "startMs": 174320,
+    "endMs": 174420,
+    "timestampMs": 174480,
+    "confidence": 0.978129
+  },
+  {
+    "text": " actually",
+    "startMs": 174420,
+    "endMs": 174820,
+    "timestampMs": 174940,
+    "confidence": 0.986572
+  },
+  {
+    "text": " available",
+    "startMs": 174820,
+    "endMs": 175290,
+    "timestampMs": 175340,
+    "confidence": 0.999546
+  },
+  {
+    "text": " at",
+    "startMs": 175290,
+    "endMs": 175390,
+    "timestampMs": 175580,
+    "confidence": 0.995984
+  },
+  {
+    "text": " the",
+    "startMs": 175390,
+    "endMs": 175540,
+    "timestampMs": 175680,
+    "confidence": 0.999321
+  },
+  {
+    "text": " front",
+    "startMs": 175540,
+    "endMs": 175800,
+    "timestampMs": 175920,
+    "confidence": 0.999207
+  },
+  {
+    "text": ".",
+    "startMs": 175800,
+    "endMs": 176000,
+    "timestampMs": 176800,
+    "confidence": 0.985026
+  },
+  {
+    "text": " And",
+    "startMs": 176000,
+    "endMs": 176140,
+    "timestampMs": 177220,
+    "confidence": 0.994215
+  },
+  {
+    "text": " then",
+    "startMs": 176140,
+    "endMs": 177120,
+    "timestampMs": 177460,
+    "confidence": 0.995664
+  },
+  {
+    "text": " there",
+    "startMs": 177120,
+    "endMs": 177360,
+    "timestampMs": 177860,
+    "confidence": 0.588004
+  },
+  {
+    "text": "'s",
+    "startMs": 177360,
+    "endMs": 177580,
+    "timestampMs": 178000,
+    "confidence": 0.992017
+  },
+  {
+    "text": " cost",
+    "startMs": 177580,
+    "endMs": 178030,
+    "timestampMs": 178280,
+    "confidence": 0.958592
+  },
+  {
+    "text": ".",
+    "startMs": 178030,
+    "endMs": 178400,
+    "timestampMs": 179080,
+    "confidence": 0.984271
+  },
+  {
+    "text": " The",
+    "startMs": 178400,
+    "endMs": 179110,
+    "timestampMs": 179200,
+    "confidence": 0.999058
+  },
+  {
+    "text": " public",
+    "startMs": 179110,
+    "endMs": 179140,
+    "timestampMs": 179460,
+    "confidence": 0.998342
+  },
+  {
+    "text": " prices",
+    "startMs": 179140,
+    "endMs": 179580,
+    "timestampMs": 179840,
+    "confidence": 0.998388
+  },
+  {
+    "text": " for",
+    "startMs": 179580,
+    "endMs": 179820,
+    "timestampMs": 180100,
+    "confidence": 0.995239
+  },
+  {
+    "text": " the",
+    "startMs": 179820,
+    "endMs": 180060,
+    "timestampMs": 180200,
+    "confidence": 0.993104
+  },
+  {
+    "text": " two",
+    "startMs": 180060,
+    "endMs": 180300,
+    "timestampMs": 180380,
+    "confidence": 0.986305
+  },
+  {
+    "text": " programs",
+    "startMs": 180300,
+    "endMs": 180960,
+    "timestampMs": 180860,
+    "confidence": 0.997649
+  },
+  {
+    "text": " aren",
+    "startMs": 180960,
+    "endMs": 181140,
+    "timestampMs": 181220,
+    "confidence": 0.998433
+  },
+  {
+    "text": "'t",
+    "startMs": 181140,
+    "endMs": 181330,
+    "timestampMs": 181300,
+    "confidence": 0.999977
+  },
+  {
+    "text": " comparable",
+    "startMs": 181330,
+    "endMs": 181700,
+    "timestampMs": 181680,
+    "confidence": 0.999592
+  },
+  {
+    "text": " enough",
+    "startMs": 181700,
+    "endMs": 182000,
+    "timestampMs": 182040,
+    "confidence": 0.998121
+  },
+  {
+    "text": " to",
+    "startMs": 182000,
+    "endMs": 182130,
+    "timestampMs": 182200,
+    "confidence": 0.848246
+  },
+  {
+    "text": " claim",
+    "startMs": 182130,
+    "endMs": 182400,
+    "timestampMs": 182460,
+    "confidence": 0.998553
+  },
+  {
+    "text": " that",
+    "startMs": 182400,
+    "endMs": 182640,
+    "timestampMs": 182620,
+    "confidence": 0.999825
+  },
+  {
+    "text": " one",
+    "startMs": 182640,
+    "endMs": 182790,
+    "timestampMs": 182920,
+    "confidence": 0.997596
+  },
+  {
+    "text": " tank",
+    "startMs": 182790,
+    "endMs": 183010,
+    "timestampMs": 183180,
+    "confidence": 0.999153
+  },
+  {
+    "text": " costs",
+    "startMs": 183010,
+    "endMs": 183290,
+    "timestampMs": 183540,
+    "confidence": 0.992044
+  },
+  {
+    "text": " a",
+    "startMs": 183290,
+    "endMs": 183340,
+    "timestampMs": 183720,
+    "confidence": 0.995053
+  },
+  {
+    "text": " fraction",
+    "startMs": 183340,
+    "endMs": 183850,
+    "timestampMs": 184060,
+    "confidence": 0.998974
+  },
+  {
+    "text": " of",
+    "startMs": 183850,
+    "endMs": 183900,
+    "timestampMs": 184300,
+    "confidence": 0.996333
+  },
+  {
+    "text": " the",
+    "startMs": 183900,
+    "endMs": 184070,
+    "timestampMs": 184420,
+    "confidence": 0.998224
+  },
+  {
+    "text": " other",
+    "startMs": 184070,
+    "endMs": 184350,
+    "timestampMs": 184600,
+    "confidence": 0.999325
+  },
+  {
+    "text": ".",
+    "startMs": 184350,
+    "endMs": 184560,
+    "timestampMs": 185240,
+    "confidence": 0.995118
+  },
+  {
+    "text": " A",
+    "startMs": 184560,
+    "endMs": 184620,
+    "timestampMs": 185400,
+    "confidence": 0.998666
+  },
+  {
+    "text": " contract",
+    "startMs": 184620,
+    "endMs": 185310,
+    "timestampMs": 185740,
+    "confidence": 0.999234
+  },
+  {
+    "text": " might",
+    "startMs": 185310,
+    "endMs": 185700,
+    "timestampMs": 186080,
+    "confidence": 0.994863
+  },
+  {
+    "text": " include",
+    "startMs": 185700,
+    "endMs": 186300,
+    "timestampMs": 186380,
+    "confidence": 0.999283
+  },
+  {
+    "text": " ammunition",
+    "startMs": 186300,
+    "endMs": 187090,
+    "timestampMs": 186920,
+    "confidence": 0.989015
+  },
+  {
+    "text": ",",
+    "startMs": 187090,
+    "endMs": 187280,
+    "timestampMs": 187420,
+    "confidence": 0.996193
+  },
+  {
+    "text": " sim",
+    "startMs": 187280,
+    "endMs": 187500,
+    "timestampMs": 187560,
+    "confidence": 0.992354
+  },
+  {
+    "text": "ulators",
+    "startMs": 187500,
+    "endMs": 188000,
+    "timestampMs": 187940,
+    "confidence": 0.998454
+  },
+  {
+    "text": ",",
+    "startMs": 188000,
+    "endMs": 188210,
+    "timestampMs": 188260,
+    "confidence": 0.997858
+  },
+  {
+    "text": " spare",
+    "startMs": 188210,
+    "endMs": 188510,
+    "timestampMs": 188480,
+    "confidence": 0.994588
+  },
+  {
+    "text": " parts",
+    "startMs": 188510,
+    "endMs": 188870,
+    "timestampMs": 188880,
+    "confidence": 0.999279
+  },
+  {
+    "text": ",",
+    "startMs": 188870,
+    "endMs": 189200,
+    "timestampMs": 189100,
+    "confidence": 0.851903
+  },
+  {
+    "text": " and",
+    "startMs": 189200,
+    "endMs": 189300,
+    "timestampMs": 189320,
+    "confidence": 0.972852
+  },
+  {
+    "text": " years",
+    "startMs": 189300,
+    "endMs": 189740,
+    "timestampMs": 189680,
+    "confidence": 0.999081
+  },
+  {
+    "text": " of",
+    "startMs": 189740,
+    "endMs": 189900,
+    "timestampMs": 189860,
+    "confidence": 0.999127
+  },
+  {
+    "text": " support",
+    "startMs": 189900,
+    "endMs": 190800,
+    "timestampMs": 190220,
+    "confidence": 0.999752
+  },
+  {
+    "text": ".",
+    "startMs": 190800,
+    "endMs": 190800,
+    "timestampMs": 190720,
+    "confidence": 0.985037
+  },
+  {
+    "text": " Another",
+    "startMs": 190920,
+    "endMs": 191160,
+    "timestampMs": 191120,
+    "confidence": 0.997706
+  },
+  {
+    "text": " published",
+    "startMs": 191160,
+    "endMs": 191650,
+    "timestampMs": 191540,
+    "confidence": 0.99644
+  },
+  {
+    "text": " figure",
+    "startMs": 191650,
+    "endMs": 191940,
+    "timestampMs": 191860,
+    "confidence": 0.999622
+  },
+  {
+    "text": " might",
+    "startMs": 191940,
+    "endMs": 192220,
+    "timestampMs": 192100,
+    "confidence": 0.985498
+  },
+  {
+    "text": " cover",
+    "startMs": 192220,
+    "endMs": 192550,
+    "timestampMs": 192380,
+    "confidence": 0.989378
+  },
+  {
+    "text": " only",
+    "startMs": 192550,
+    "endMs": 192720,
+    "timestampMs": 192760,
+    "confidence": 0.935033
+  },
+  {
+    "text": " the",
+    "startMs": 192720,
+    "endMs": 192950,
+    "timestampMs": 192920,
+    "confidence": 0.983644
+  },
+  {
+    "text": " vehicle",
+    "startMs": 192950,
+    "endMs": 193520,
+    "timestampMs": 193260,
+    "confidence": 0.999302
+  },
+  {
+    "text": ",",
+    "startMs": 193520,
+    "endMs": 193520,
+    "timestampMs": 193500,
+    "confidence": 0.578883
+  },
+  {
+    "text": " or",
+    "startMs": 193520,
+    "endMs": 193680,
+    "timestampMs": 193840,
+    "confidence": 0.999096
+  },
+  {
+    "text": " even",
+    "startMs": 193680,
+    "endMs": 193980,
+    "timestampMs": 194200,
+    "confidence": 0.992422
+  },
+  {
+    "text": " be",
+    "startMs": 193980,
+    "endMs": 194040,
+    "timestampMs": 194360,
+    "confidence": 0.979006
+  },
+  {
+    "text": " an",
+    "startMs": 194040,
+    "endMs": 194170,
+    "timestampMs": 194480,
+    "confidence": 0.992968
+  },
+  {
+    "text": " old",
+    "startMs": 194170,
+    "endMs": 194370,
+    "timestampMs": 194720,
+    "confidence": 0.976507
+  },
+  {
+    "text": " estimate",
+    "startMs": 194370,
+    "endMs": 194900,
+    "timestampMs": 195120,
+    "confidence": 0.99563
+  },
+  {
+    "text": ".",
+    "startMs": 194900,
+    "endMs": 195120,
+    "timestampMs": 195780,
+    "confidence": 0.99644
+  },
+  {
+    "text": " It",
+    "startMs": 195120,
+    "endMs": 195380,
+    "timestampMs": 195920,
+    "confidence": 0.998727
+  },
+  {
+    "text": "'s",
+    "startMs": 195380,
+    "endMs": 195380,
+    "timestampMs": 195980,
+    "confidence": 0.99763
+  },
+  {
+    "text": " like",
+    "startMs": 195380,
+    "endMs": 195850,
+    "timestampMs": 196100,
+    "confidence": 0.998353
+  },
+  {
+    "text": " comparing",
+    "startMs": 195850,
+    "endMs": 196230,
+    "timestampMs": 196480,
+    "confidence": 0.997132
+  },
+  {
+    "text": " the",
+    "startMs": 196230,
+    "endMs": 196420,
+    "timestampMs": 196640,
+    "confidence": 0.991268
+  },
+  {
+    "text": " price",
+    "startMs": 196420,
+    "endMs": 196750,
+    "timestampMs": 196900,
+    "confidence": 0.998449
+  },
+  {
+    "text": " of",
+    "startMs": 196750,
+    "endMs": 196880,
+    "timestampMs": 197060,
+    "confidence": 0.989704
+  },
+  {
+    "text": " a",
+    "startMs": 196880,
+    "endMs": 196930,
+    "timestampMs": 197140,
+    "confidence": 0.979014
+  },
+  {
+    "text": " machine",
+    "startMs": 196930,
+    "endMs": 197440,
+    "timestampMs": 197460,
+    "confidence": 0.998285
+  },
+  {
+    "text": " by",
+    "startMs": 197440,
+    "endMs": 197640,
+    "timestampMs": 197660,
+    "confidence": 0.815
+  },
+  {
+    "text": " itself",
+    "startMs": 197640,
+    "endMs": 198240,
+    "timestampMs": 198140,
+    "confidence": 0.998258
+  },
+  {
+    "text": " with",
+    "startMs": 198240,
+    "endMs": 198470,
+    "timestampMs": 198540,
+    "confidence": 0.999142
+  },
+  {
+    "text": " a",
+    "startMs": 198470,
+    "endMs": 198500,
+    "timestampMs": 198660,
+    "confidence": 0.983198
+  },
+  {
+    "text": " package",
+    "startMs": 198500,
+    "endMs": 198870,
+    "timestampMs": 198980,
+    "confidence": 0.998445
+  },
+  {
+    "text": " that",
+    "startMs": 198870,
+    "endMs": 199080,
+    "timestampMs": 199220,
+    "confidence": 0.996641
+  },
+  {
+    "text": " includes",
+    "startMs": 199080,
+    "endMs": 199520,
+    "timestampMs": 199500,
+    "confidence": 0.998563
+  },
+  {
+    "text": " the",
+    "startMs": 199520,
+    "endMs": 199740,
+    "timestampMs": 199720,
+    "confidence": 0.956439
+  },
+  {
+    "text": " machine",
+    "startMs": 199740,
+    "endMs": 200400,
+    "timestampMs": 200100,
+    "confidence": 0.997746
+  },
+  {
+    "text": ",",
+    "startMs": 200400,
+    "endMs": 200510,
+    "timestampMs": 200520,
+    "confidence": 0.998216
+  },
+  {
+    "text": " spare",
+    "startMs": 200510,
+    "endMs": 200800,
+    "timestampMs": 200740,
+    "confidence": 0.666417
+  },
+  {
+    "text": " parts",
+    "startMs": 200800,
+    "endMs": 201200,
+    "timestampMs": 201180,
+    "confidence": 0.998527
+  },
+  {
+    "text": ",",
+    "startMs": 201200,
+    "endMs": 201360,
+    "timestampMs": 201400,
+    "confidence": 0.996185
+  },
+  {
+    "text": " training",
+    "startMs": 201360,
+    "endMs": 201790,
+    "timestampMs": 201760,
+    "confidence": 0.998064
+  },
+  {
+    "text": ",",
+    "startMs": 201790,
+    "endMs": 201890,
+    "timestampMs": 202120,
+    "confidence": 0.94978
+  },
+  {
+    "text": " and",
+    "startMs": 201890,
+    "endMs": 202090,
+    "timestampMs": 202200,
+    "confidence": 0.998418
+  },
+  {
+    "text": " years",
+    "startMs": 202090,
+    "endMs": 202320,
+    "timestampMs": 202560,
+    "confidence": 0.997839
+  },
+  {
+    "text": " of",
+    "startMs": 202320,
+    "endMs": 202420,
+    "timestampMs": 202760,
+    "confidence": 0.998559
+  },
+  {
+    "text": " maintenance",
+    "startMs": 202420,
+    "endMs": 203000,
+    "timestampMs": 203040,
+    "confidence": 0.999458
+  },
+  {
+    "text": ".",
+    "startMs": 203000,
+    "endMs": 203200,
+    "timestampMs": 203760,
+    "confidence": 0.995577
+  },
+  {
+    "text": " That",
+    "startMs": 203200,
+    "endMs": 203290,
+    "timestampMs": 203980,
+    "confidence": 0.998936
+  },
+  {
+    "text": "'s",
+    "startMs": 203290,
+    "endMs": 203870,
+    "timestampMs": 204100,
+    "confidence": 0.99838
+  },
+  {
+    "text": " why",
+    "startMs": 203870,
+    "endMs": 203890,
+    "timestampMs": 204200,
+    "confidence": 0.998445
+  },
+  {
+    "text": " dividing",
+    "startMs": 203890,
+    "endMs": 204470,
+    "timestampMs": 204560,
+    "confidence": 0.998064
+  },
+  {
+    "text": " a",
+    "startMs": 204470,
+    "endMs": 204540,
+    "timestampMs": 204780,
+    "confidence": 0.996786
+  },
+  {
+    "text": " contract",
+    "startMs": 204540,
+    "endMs": 205140,
+    "timestampMs": 205100,
+    "confidence": 0.991045
+  },
+  {
+    "text": "'s",
+    "startMs": 205140,
+    "endMs": 205290,
+    "timestampMs": 205400,
+    "confidence": 0.998319
+  },
+  {
+    "text": " total",
+    "startMs": 205290,
+    "endMs": 205680,
+    "timestampMs": 205600,
+    "confidence": 0.992364
+  },
+  {
+    "text": " value",
+    "startMs": 205680,
+    "endMs": 206000,
+    "timestampMs": 206040,
+    "confidence": 0.965812
+  },
+  {
+    "text": " by",
+    "startMs": 206000,
+    "endMs": 206150,
+    "timestampMs": 206240,
+    "confidence": 0.999386
+  },
+  {
+    "text": " the",
+    "startMs": 206150,
+    "endMs": 206370,
+    "timestampMs": 206360,
+    "confidence": 0.994795
+  },
+  {
+    "text": " number",
+    "startMs": 206370,
+    "endMs": 206840,
+    "timestampMs": 206640,
+    "confidence": 0.998593
+  },
+  {
+    "text": " of",
+    "startMs": 206840,
+    "endMs": 206970,
+    "timestampMs": 206780,
+    "confidence": 0.999508
+  },
+  {
+    "text": " tanks",
+    "startMs": 206970,
+    "endMs": 207360,
+    "timestampMs": 207120,
+    "confidence": 0.996641
+  },
+  {
+    "text": " doesn",
+    "startMs": 207360,
+    "endMs": 207660,
+    "timestampMs": 207700,
+    "confidence": 0.999203
+  },
+  {
+    "text": "'t",
+    "startMs": 207660,
+    "endMs": 207770,
+    "timestampMs": 207840,
+    "confidence": 0.999977
+  },
+  {
+    "text": " necessarily",
+    "startMs": 207770,
+    "endMs": 208420,
+    "timestampMs": 208320,
+    "confidence": 0.997817
+  },
+  {
+    "text": " reveal",
+    "startMs": 208420,
+    "endMs": 208800,
+    "timestampMs": 208860,
+    "confidence": 0.998797
+  },
+  {
+    "text": " the",
+    "startMs": 208800,
+    "endMs": 208950,
+    "timestampMs": 209000,
+    "confidence": 0.985552
+  },
+  {
+    "text": " price",
+    "startMs": 208950,
+    "endMs": 209190,
+    "timestampMs": 209320,
+    "confidence": 0.999417
+  },
+  {
+    "text": " of",
+    "startMs": 209190,
+    "endMs": 209290,
+    "timestampMs": 209460,
+    "confidence": 0.996793
+  },
+  {
+    "text": " each",
+    "startMs": 209290,
+    "endMs": 209490,
+    "timestampMs": 209620,
+    "confidence": 0.996094
+  },
+  {
+    "text": " vehicle",
+    "startMs": 209490,
+    "endMs": 209830,
+    "timestampMs": 209980,
+    "confidence": 0.999718
+  },
+  {
+    "text": ".",
+    "startMs": 209830,
+    "endMs": 210000,
+    "timestampMs": 210860,
+    "confidence": 0.998917
+  },
+  {
+    "text": " In",
+    "startMs": 210000,
+    "endMs": 210080,
+    "timestampMs": 211160,
+    "confidence": 0.999005
+  },
+  {
+    "text": " my",
+    "startMs": 210080,
+    "endMs": 211070,
+    "timestampMs": 211340,
+    "confidence": 0.999333
+  },
+  {
+    "text": " assessment",
+    "startMs": 211070,
+    "endMs": 211740,
+    "timestampMs": 211720,
+    "confidence": 0.998468
+  },
+  {
+    "text": ",",
+    "startMs": 211740,
+    "endMs": 212120,
+    "timestampMs": 212160,
+    "confidence": 0.994264
+  },
+  {
+    "text": " the",
+    "startMs": 212120,
+    "endMs": 212180,
+    "timestampMs": 212240,
+    "confidence": 0.833489
+  },
+  {
+    "text": " Le",
+    "startMs": 212180,
+    "endMs": 212300,
+    "timestampMs": 212400,
+    "confidence": 0.985626
+  },
+  {
+    "text": "opard",
+    "startMs": 212300,
+    "endMs": 212590,
+    "timestampMs": 212500,
+    "confidence": 0.999826
+  },
+  {
+    "text": " has",
+    "startMs": 212590,
+    "endMs": 212760,
+    "timestampMs": 212760,
+    "confidence": 0.989112
+  },
+  {
+    "text": " the",
+    "startMs": 212760,
+    "endMs": 212980,
+    "timestampMs": 212920,
+    "confidence": 0.98098
+  },
+  {
+    "text": " edge",
+    "startMs": 212980,
+    "endMs": 213200,
+    "timestampMs": 213260,
+    "confidence": 0.946099
+  },
+  {
+    "text": " thanks",
+    "startMs": 213200,
+    "endMs": 213520,
+    "timestampMs": 213500,
+    "confidence": 0.998532
+  },
+  {
+    "text": " to",
+    "startMs": 213520,
+    "endMs": 213620,
+    "timestampMs": 213700,
+    "confidence": 0.999558
+  },
+  {
+    "text": " better",
+    "startMs": 213620,
+    "endMs": 213940,
+    "timestampMs": 213960,
+    "confidence": 0.998049
+  },
+  {
+    "text": " documented",
+    "startMs": 213940,
+    "endMs": 214480,
+    "timestampMs": 214520,
+    "confidence": 0.967737
+  },
+  {
+    "text": " sustain",
+    "startMs": 214480,
+    "endMs": 214930,
+    "timestampMs": 214860,
+    "confidence": 0.855181
+  },
+  {
+    "text": "ment",
+    "startMs": 214930,
+    "endMs": 215200,
+    "timestampMs": 215200,
+    "confidence": 0.990293
+  },
+  {
+    "text": " and",
+    "startMs": 215200,
+    "endMs": 215410,
+    "timestampMs": 215420,
+    "confidence": 0.999828
+  },
+  {
+    "text": " fewer",
+    "startMs": 215410,
+    "endMs": 215760,
+    "timestampMs": 215740,
+    "confidence": 0.998776
+  },
+  {
+    "text": " technical",
+    "startMs": 215760,
+    "endMs": 216400,
+    "timestampMs": 216160,
+    "confidence": 0.998464
+  },
+  {
+    "text": " unknowns",
+    "startMs": 216400,
+    "endMs": 217200,
+    "timestampMs": 216620,
+    "confidence": 0.999131
+  },
+  {
+    "text": ".",
+    "startMs": 217200,
+    "endMs": 217200,
+    "timestampMs": 217220,
+    "confidence": 0.836814
+  },
+  {
+    "text": " But",
+    "startMs": 217200,
+    "endMs": 217390,
+    "timestampMs": 217460,
+    "confidence": 0.993551
+  },
+  {
+    "text": " the",
+    "startMs": 217390,
+    "endMs": 217580,
+    "timestampMs": 217540,
+    "confidence": 0.994435
+  },
+  {
+    "text": " operator",
+    "startMs": 217580,
+    "endMs": 218080,
+    "timestampMs": 217920,
+    "confidence": 0.973303
+  },
+  {
+    "text": " still",
+    "startMs": 218080,
+    "endMs": 218390,
+    "timestampMs": 218360,
+    "confidence": 0.975312
+  },
+  {
+    "text": " has",
+    "startMs": 218390,
+    "endMs": 218580,
+    "timestampMs": 218580,
+    "confidence": 0.994268
+  },
+  {
+    "text": " to",
+    "startMs": 218580,
+    "endMs": 218720,
+    "timestampMs": 218720,
+    "confidence": 0.99173
+  },
+  {
+    "text": " turn",
+    "startMs": 218720,
+    "endMs": 218960,
+    "timestampMs": 218980,
+    "confidence": 0.985564
+  },
+  {
+    "text": " that",
+    "startMs": 218960,
+    "endMs": 219120,
+    "timestampMs": 219160,
+    "confidence": 0.83186
+  },
+  {
+    "text": " structure",
+    "startMs": 219120,
+    "endMs": 219600,
+    "timestampMs": 219580,
+    "confidence": 0.938938
+  },
+  {
+    "text": " into",
+    "startMs": 219600,
+    "endMs": 219930,
+    "timestampMs": 219840,
+    "confidence": 0.997775
+  },
+  {
+    "text": " training",
+    "startMs": 219930,
+    "endMs": 220520,
+    "timestampMs": 220220,
+    "confidence": 0.99795
+  },
+  {
+    "text": ",",
+    "startMs": 220520,
+    "endMs": 220620,
+    "timestampMs": 220660,
+    "confidence": 0.988304
+  },
+  {
+    "text": " stock",
+    "startMs": 220620,
+    "endMs": 220850,
+    "timestampMs": 220860,
+    "confidence": 0.995317
+  },
+  {
+    "text": "p",
+    "startMs": 220850,
+    "endMs": 220990,
+    "timestampMs": 221140,
+    "confidence": 0.997845
+  },
+  {
+    "text": "iles",
+    "startMs": 220990,
+    "endMs": 221170,
+    "timestampMs": 221180,
+    "confidence": 0.988212
+  },
+  {
+    "text": ",",
+    "startMs": 221170,
+    "endMs": 221290,
+    "timestampMs": 221460,
+    "confidence": 0.949472
+  },
+  {
+    "text": " and",
+    "startMs": 221290,
+    "endMs": 221500,
+    "timestampMs": 221560,
+    "confidence": 0.994461
+  },
+  {
+    "text": " maintenance",
+    "startMs": 221500,
+    "endMs": 222480,
+    "timestampMs": 221860,
+    "confidence": 0.999481
+  },
+  {
+    "text": ".",
+    "startMs": 222480,
+    "endMs": 222480,
+    "timestampMs": 222660,
+    "confidence": 0.996949
+  },
+  {
+    "text": " Bu",
+    "startMs": 222480,
+    "endMs": 222670,
+    "timestampMs": 222780,
+    "confidence": 0.994835
+  },
+  {
+    "text": "ying",
+    "startMs": 222670,
+    "endMs": 222840,
+    "timestampMs": 222880,
+    "confidence": 0.999897
+  },
+  {
+    "text": " the",
+    "startMs": 222840,
+    "endMs": 223030,
+    "timestampMs": 223000,
+    "confidence": 0.979029
+  },
+  {
+    "text": " tank",
+    "startMs": 223030,
+    "endMs": 223280,
+    "timestampMs": 223280,
+    "confidence": 0.998784
+  },
+  {
+    "text": " is",
+    "startMs": 223280,
+    "endMs": 223440,
+    "timestampMs": 223460,
+    "confidence": 0.944764
+  },
+  {
+    "text": " only",
+    "startMs": 223440,
+    "endMs": 223760,
+    "timestampMs": 223700,
+    "confidence": 0.990471
+  },
+  {
+    "text": " one",
+    "startMs": 223760,
+    "endMs": 224080,
+    "timestampMs": 224080,
+    "confidence": 0.952065
+  },
+  {
+    "text": " part",
+    "startMs": 224080,
+    "endMs": 224250,
+    "timestampMs": 224340,
+    "confidence": 0.954469
+  },
+  {
+    "text": " of",
+    "startMs": 224250,
+    "endMs": 224400,
+    "timestampMs": 224480,
+    "confidence": 0.60051
+  },
+  {
+    "text": " the",
+    "startMs": 224400,
+    "endMs": 224510,
+    "timestampMs": 224580,
+    "confidence": 0.947052
+  },
+  {
+    "text": " work",
+    "startMs": 224510,
+    "endMs": 224720,
+    "timestampMs": 224800,
+    "confidence": 0.984928
+  },
+  {
+    "text": " it",
+    "startMs": 224720,
+    "endMs": 224840,
+    "timestampMs": 224920,
+    "confidence": 0.543826
+  },
+  {
+    "text": " takes",
+    "startMs": 224840,
+    "endMs": 225120,
+    "timestampMs": 225100,
+    "confidence": 0.989632
+  }
+]

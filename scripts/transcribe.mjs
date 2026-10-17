@@ -1,5 +1,5 @@
 ﻿// Transcreve a narração com whisper.cpp e grava as legendas em src/data/captions.json
-// Uso: node scripts/transcribe.mjs <arquivo-16khz.wav> [modelo]
+// Uso: node scripts/transcribe.mjs <arquivo-16khz.wav> [modelo] [idioma] [saida.json]
 import path from "path";
 import fs from "fs";
 import {
@@ -30,7 +30,7 @@ const whisperCppOutput = await transcribe({
 
 const { captions } = toCaptions({ whisperCppOutput });
 fs.writeFileSync(
-  path.join(process.cwd(), "src", "data", "captions.json"),
+  process.argv[5] ? path.resolve(process.argv[5]) : path.join(process.cwd(), "src", "data", "captions.json"),
   JSON.stringify(captions, null, 2),
 );
 console.log(captions.map((c) => c.text).join(""));
