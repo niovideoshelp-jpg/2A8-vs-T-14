@@ -18,7 +18,7 @@ export type CalloutDef = {
 };
 
 export type Beat =
-  | { kind: "photo"; at: number; src: string; grade?: "cold" | "warm" | "neutral" | "mono"; move?: Move; position?: string; label?: string; side?: Side; year?: string; letterbox?: boolean; enter?: EnterKind }
+  | { kind: "photo"; at: number; src: string; grade?: "cold" | "warm" | "neutral" | "mono" | "thermal"; move?: Move; position?: string; label?: string; side?: Side; year?: string; letterbox?: boolean; enter?: EnterKind }
   | { kind: "tank"; at: number; tank: TankId; title?: boolean; callouts?: CalloutDef[]; enter?: EnterKind; scale?: number }
   | {
       kind: "versus";
@@ -39,7 +39,12 @@ export type Beat =
   | { kind: "stage"; at: number; focus?: Side | "both"; enter?: EnterKind }
   | { kind: "dates"; at: number; side: Side; items: { date: string; text?: string; at: number }[]; enter?: EnterKind }
   | { kind: "sources"; at: number; enter?: EnterKind }
-  | { kind: "airburst"; at: number; fireAt: number; burstAt: number; label?: string; enter?: EnterKind };
+  | { kind: "airburst"; at: number; fireAt: number; burstAt: number; label?: string; enter?: EnterKind }
+  | { kind: "hunter"; at: number; findAt: number; titleAt: number; enter?: EnterKind }
+  | { kind: "intercept"; at: number; detectAt: number; fireAt: number; threat?: "missile" | "drone"; label?: string; enter?: EnterKind }
+  | { kind: "champion"; at: number; enter?: EnterKind }
+  | { kind: "cta"; at: number; likeAt: number; subAt: number; enter?: EnterKind }
+  | { kind: "brand"; at: number; urlAt: number; enter?: EnterKind };
 
 export type Sfx = { src: string; at: number; volume: number };
 

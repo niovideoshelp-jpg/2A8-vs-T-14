@@ -22,7 +22,7 @@ type Move = {
 export const Photo: React.FC<{
   src: string;
   move?: Move;
-  grade?: "cold" | "warm" | "neutral" | "mono";
+  grade?: "cold" | "warm" | "neutral" | "mono" | "thermal";
   position?: string;
   darken?: number;
   blur?: number;
@@ -53,10 +53,29 @@ export const Photo: React.FC<{
     warm: "contrast(1.1) saturate(0.85) brightness(0.95) sepia(0.12)",
     neutral: "contrast(1.1) saturate(0.8) brightness(0.95)",
     mono: "grayscale(1) contrast(1.2) brightness(0.9)",
+    thermal: "url(#thermal-palette) contrast(1.05) blur(1.2px)",
   };
 
   return (
     <AbsoluteFill style={{ overflow: "hidden", backgroundColor: "#000", ...style }}>
+      {grade === "thermal" ? (
+        <svg width={0} height={0} style={{ position: "absolute" }}>
+          <filter id="thermal-palette" colorInterpolationFilters="sRGB">
+            <feColorMatrix type="saturate" values="0" />
+            {/* inverte: superfícies escuras (veículo) viram "quentes", céu claro vira "frio" */}
+            <feComponentTransfer>
+              <feFuncR type="table" tableValues="1 0" />
+              <feFuncG type="table" tableValues="1 0" />
+              <feFuncB type="table" tableValues="1 0" />
+            </feComponentTransfer>
+            <feComponentTransfer>
+              <feFuncR type="table" tableValues="0.02 0.25 0.75 1 1 1" />
+              <feFuncG type="table" tableValues="0.0 0.02 0.12 0.45 0.82 1" />
+              <feFuncB type="table" tableValues="0.12 0.45 0.35 0.05 0.25 0.9" />
+            </feComponentTransfer>
+          </filter>
+        </svg>
+      ) : null}
       <Img
         src={staticFile(`img/${src}`)}
         style={{
@@ -74,7 +93,9 @@ export const Photo: React.FC<{
           background:
             grade === "warm"
               ? "linear-gradient(180deg, rgba(40,25,5,0.15), rgba(0,0,0,0.1))"
-              : "linear-gradient(180deg, rgba(5,18,28,0.25), rgba(0,0,0,0.15))",
+              : grade === "thermal"
+                ? "transparent"
+                : "linear-gradient(180deg, rgba(5,18,28,0.25), rgba(0,0,0,0.15))",
           mixBlendMode: "multiply",
         }}
       />

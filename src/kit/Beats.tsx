@@ -300,9 +300,12 @@ export const ListBeat: React.FC<{ b: Extract<Beat, { kind: "list" }> }> = ({ b }
           const k = interpolate(frame, [local(it.at), local(it.at) + 10], [0, 1], { ...clamp, easing: E });
           const isActive = i === active;
           const color = it.side ? sideColor(it.side) : C.text;
+          // cabe na largura disponível (ao lado da imagem, quando houver)
+          const maxW = hasImg ? 900 : 1640;
+          const fit = (base: number) => Math.max(MIN_TEXT, Math.min(base, Math.floor(maxW / (0.53 * it.t.length))));
           return (
             <div key={it.t} style={{ opacity: k * (isActive ? 1 : 0.55), transform: `translateX(${(1 - k) * -60}px)` }}>
-              <Big size={isActive ? 92 : 72} color={color}>{it.t}</Big>
+              <Big size={fit(isActive ? 92 : 72)} color={color}>{it.t}</Big>
             </div>
           );
         })}
@@ -671,6 +674,237 @@ export const AirburstBeat: React.FC<{ b: Extract<Beat, { kind: "airburst" }> }> 
           <Big size={120} color={C.de}>{b.label}</Big>
         </div>
       ) : null}
+    </AbsoluteFill>
+  );
+};
+
+// ---------- Hunter-killer: atirador travado num alvo enquanto o comandante procura o próximo ----------
+export const HunterBeat: React.FC<{ b: Extract<Beat, { kind: "hunter" }> }> = ({ b }) => {
+  const frame = useCurrentFrame();
+  const { local } = useBeatClock();
+  const O = [520, 720]; // posição da torre
+  const A = [1460, 700]; // alvo do atirador
+  const B = [1340, 330]; // alvo encontrado pelo comandante
+  const fFind = local(b.findAt);
+  const intro = interpolate(frame, [0, 16], [0, 1], { ...clamp, easing: E });
+  // ângulo do comandante: varre, trava em B por ~1,5 s e volta a varrer
+  const angB = Math.atan2(B[1] - O[1], B[0] - O[0]);
+  const sweep = (f: number) => -0.95 + 0.55 * Math.sin(f * 0.045);
+  const lockK = interpolate(frame, [fFind - 10, fFind, fFind + 45, fFind + 60], [0, 1, 1, 0], clamp);
+  const angC = sweep(frame) * (1 - lockK) + angB * lockK;
+  const angA = Math.atan2(A[1] - O[1], A[0] - O[0]);
+  const cone = (ang: number, spread: number, len: number) => {
+    const p1 = [O[0] + Math.cos(ang - spread) * len, O[1] + Math.sin(ang - spread) * len];
+    const p2 = [O[0] + Math.cos(ang + spread) * len, O[1] + Math.sin(ang + spread) * len];
+    return `${O[0]},${O[1]} ${p1[0]},${p1[1]} ${p2[0]},${p2[1]}`;
+  };
+  const foundB = interpolate(frame, [fFind, fFind + 8], [0, 1], clamp);
+  const title = interpolate(frame, [local(b.titleAt), local(b.titleAt) + 12], [0, 1], { ...clamp, easing: E });
+  const sil = (x: number, y: number, k: number) => (
+    <Img
+      src={staticFile(`img/${TANKS.t14.src}`)}
+      style={{ position: "absolute", left: x - 130, top: y - 60, width: 260, opacity: k, filter: "brightness(0.15) drop-shadow(0 0 2px rgba(226,54,43,0.9)) drop-shadow(0 0 14px rgba(226,54,43,0.5))" }}
+    />
+  );
+  return (
+    <AbsoluteFill>
+      <DarkStage left={C.de} right={C.ru} glow={0.12} />
+      <svg width={1920} height={1080} style={{ position: "absolute", inset: 0, opacity: intro }}>
+        <defs>
+          <linearGradient id="hk-g" x1="0" x2="1">
+            <stop offset="0" stopColor={C.de} stopOpacity="0.55" />
+            <stop offset="1" stopColor={C.de} stopOpacity="0.05" />
+          </linearGradient>
+          <linearGradient id="hk-c" x1="0" x2="1">
+            <stop offset="0" stopColor="#ffffff" stopOpacity="0.4" />
+            <stop offset="1" stopColor="#ffffff" stopOpacity="0.03" />
+          </linearGradient>
+        </defs>
+        <polygon points={cone(angA, 0.035, 1100)} fill="url(#hk-g)" />
+        <polygon points={cone(angC, 0.13, 1000)} fill="url(#hk-c)" />
+      </svg>
+      {sil(A[0], A[1], intro)}
+      {sil(B[0], B[1], 0.25 + 0.75 * foundB)}
+      <div style={{ position: "absolute", left: A[0] - 130, top: A[1] - 130, width: 260, height: 260 }}>
+        <LottieAsset name="reticle-red" />
+      </div>
+      <svg width={1920} height={1080} style={{ position: "absolute", inset: 0 }}>
+        <rect x={B[0] - 110} y={B[1] - 80} width={220} height={160} fill="none" stroke="#fff" strokeWidth={4} opacity={foundB} strokeDasharray="40 20" />
+      </svg>
+      <div style={{ position: "absolute", left: 60, top: 600, width: 620, opacity: intro }}>
+        <Img src={staticFile(`img/${TANKS.leo.src}`)} style={{ width: "100%", filter: "brightness(0.85) saturate(0.85)" }} />
+      </div>
+      <div style={{ position: "absolute", left: A[0] - 180, top: A[1] + 120, width: 360, textAlign: "center", opacity: intro }}>
+        <Big size={60} color={C.de}>Gunner</Big>
+      </div>
+      <div style={{ position: "absolute", left: B[0] - 220, top: B[1] - 170, width: 440, textAlign: "center", opacity: foundB }}>
+        <Big size={60}>Commander</Big>
+      </div>
+      <div style={{ position: "absolute", left: 120, top: 110, opacity: title, transform: `translateY(${(1 - title) * -20}px)` }}>
+        <Big size={120} color={C.de}>Hunter-killer</Big>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// ---------- Proteção ativa: radar detecta a ameaça, lançador dispara e intercepta antes do impacto ----------
+export const InterceptBeat: React.FC<{ b: Extract<Beat, { kind: "intercept" }> }> = ({ b }) => {
+  const frame = useCurrentFrame();
+  const { local } = useBeatClock();
+  const drone = b.threat === "drone";
+  const fDet = local(b.detectAt);
+  const fFire = local(b.fireAt);
+  const fHit = fFire + 9; // contramedida encontra a ameaça
+  const W = 980;
+  const tankL = 140;
+  const tankT = 600;
+  const H = W * TANKS.leo.ratio;
+  const launcher = [tankL + 0.754 * W, tankT + 0.27 * H];
+  // ameaça: entra pela direita (míssil) ou desce do alto (drone) até o ponto de interceptação
+  const start = drone ? [1500, -80] : [2050, 520];
+  const meet = drone ? [1140, 360] : [1420, 560];
+  const approachEnd = fHit;
+  const p = interpolate(frame, [0, approachEnd], [0, 1], clamp);
+  const tx = start[0] + (meet[0] - start[0]) * p;
+  const ty = start[1] + (meet[1] - start[1]) * p;
+  const det = interpolate(frame, [fDet, fDet + 10], [0, 1], { ...clamp, easing: E });
+  const cm = interpolate(frame, [fFire, fHit], [0, 1], clamp);
+  const cx = launcher[0] + (meet[0] - launcher[0]) * cm;
+  const cy = launcher[1] + (meet[1] - launcher[1]) * cm;
+  const boom = interpolate(frame, [fHit, fHit + 20], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const alive = frame < fHit;
+  const sweep = (frame * 0.06) % (Math.PI * 2);
+  const radarR = 520;
+  const label = interpolate(frame, [4, 16], [0, 1], { ...clamp, easing: E });
+  return (
+    <AbsoluteFill>
+      <DarkStage left={C.de} right={C.de} glow={0.14} />
+      <div style={{ position: "absolute", left: tankL, top: tankT, width: W }}>
+        <Cutout src={TANKS.leo.src} width={W} glow={hexA(C.de, 0.22)} style={{ position: "relative" }} />
+      </div>
+      <svg width={1920} height={1080} style={{ position: "absolute", inset: 0 }}>
+        {/* cobertura do radar */}
+        <g opacity={0.25 + 0.4 * det}>
+          <circle cx={launcher[0]} cy={launcher[1]} r={radarR} fill="none" stroke={C.de} strokeWidth={2} strokeDasharray="6 12" />
+          <path d={`M ${launcher[0]} ${launcher[1]} L ${launcher[0] + Math.cos(sweep) * radarR} ${launcher[1] + Math.sin(sweep) * radarR}`} stroke={C.de} strokeWidth={3} opacity={0.6} />
+        </g>
+        {/* trava na ameaça */}
+        {alive ? <rect x={tx - 40} y={ty - 40} width={80} height={80} fill="none" stroke={C.ru} strokeWidth={4} opacity={det} /> : null}
+        {/* ameaça */}
+        {alive ? (
+          drone ? (
+            <g transform={`translate(${tx} ${ty})`}>
+              <rect x={-14} y={-6} width={28} height={12} fill="#ddd" />
+              {[-1, 1].map((s) => (
+                <g key={s}>
+                  <line x1={0} y1={0} x2={s * 34} y2={-12} stroke="#ddd" strokeWidth={4} />
+                  <ellipse cx={s * 34} cy={-14} rx={16} ry={4} fill="#ddd" opacity={0.8} />
+                </g>
+              ))}
+            </g>
+          ) : (
+            <g>
+              <line x1={tx} y1={ty} x2={tx + 220} y2={ty - 10} stroke="rgba(255,255,255,0.35)" strokeWidth={8} strokeLinecap="round" />
+              <polygon points={`${tx - 26},${ty} ${tx + 14},${ty - 9} ${tx + 14},${ty + 9}`} fill="#eee" />
+              <circle cx={tx + 20} cy={ty} r={9} fill="#FFB347" />
+            </g>
+          )
+        ) : null}
+        {/* contramedida */}
+        {cm > 0 && cm < 1 ? <line x1={launcher[0]} y1={launcher[1]} x2={cx} y2={cy} stroke="#FFE2A8" strokeWidth={5} strokeLinecap="round" /> : null}
+        {/* interceptação */}
+        {boom > 0 ? (
+          <g>
+            <circle cx={meet[0]} cy={meet[1]} r={20 + 150 * boom} fill="none" stroke="#FFE2A8" strokeWidth={6 * (1 - boom) + 1} opacity={1 - boom} />
+            <circle cx={meet[0]} cy={meet[1]} r={70 * (1 - boom) + 10} fill="#FFF3D6" opacity={(1 - boom) * 0.9} />
+          </g>
+        ) : null}
+      </svg>
+      {b.label ? (
+        <div style={{ position: "absolute", left: 120, top: 110, opacity: label }}>
+          <Big size={120} color={C.de}>{b.label}</Big>
+        </div>
+      ) : null}
+    </AbsoluteFill>
+  );
+};
+
+// ---------- Campeão da comparação ----------
+export const ChampionBeat: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { dur } = useBeatClock();
+  const ref = useGsapTimeline<HTMLDivElement>(({ timeline, selector }) => {
+    timeline
+      .from(selector(".tank"), { y: 120, opacity: 0, scale: 0.9, duration: 0.9, ease: "expo.out" }, 0)
+      .from(selector(".ch"), { opacity: 0, scale: 1.5, filter: "blur(14px)", duration: 0.6, ease: "expo.out" }, 0.25);
+  });
+  const push = interpolate(frame, [0, dur], [1, 1.06]);
+  const rays = interpolate(frame, [0, 30], [0, 1], { ...clamp, easing: E });
+  return (
+    <AbsoluteFill>
+      <DarkStage left={C.de} right={C.de} glow={0.32} />
+      <AbsoluteFill style={{ background: `radial-gradient(ellipse 50% 45% at 50% 62%, ${hexA(C.de, 0.28 * rays)} 0%, transparent 70%)` }} />
+      <div ref={ref} style={{ position: "absolute", inset: 0, transform: `scale(${push})` }}>
+        <div className="tank" style={{ position: "absolute", left: 960 - 650, top: 430, width: 1300 }}>
+          <Cutout src={TANKS.leo.src} width={1300} glow={hexA(C.de, 0.45)} style={{ position: "relative" }} />
+        </div>
+        <div className="ch" style={{ position: "absolute", left: 0, right: 0, top: 90, textAlign: "center" }}>
+          <Big size={110} color={C.de} style={{ display: "block", letterSpacing: 8 }}>Champion</Big>
+          <Big size={170} style={{ display: "block", marginTop: 10 }}>Leopard 2A8</Big>
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// ---------- Like + inscrição ----------
+export const CtaBeat: React.FC<{ b: Extract<Beat, { kind: "cta" }> }> = ({ b }) => {
+  const frame = useCurrentFrame();
+  const { local } = useBeatClock();
+  const inK = interpolate(frame, [0, 14], [0, 1], { ...clamp, easing: E });
+  const fl = local(b.likeAt);
+  const fs = local(b.subAt);
+  const liked = frame >= fl;
+  const subbed = frame >= fs;
+  const pop = (f0: number) => (frame >= f0 ? 1 + 0.18 * Math.max(0, Math.sin(Math.min(1, (frame - f0) / 10) * Math.PI)) : 1);
+  const press = (f0: number) => interpolate(frame, [f0 - 6, f0], [1, 0.9], clamp) * pop(f0);
+  return (
+    <AbsoluteFill>
+      <DarkStage left={C.de} right={C.ru} glow={0.18} />
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 60, flexDirection: "row", opacity: inK, transform: `translateY(${(1 - inK) * 30}px)` }}>
+        <div style={{ width: 240, height: 240, borderRadius: 120, border: `5px solid ${liked ? C.de : C.text}`, background: liked ? hexA(C.de, 0.2) : "rgba(255,255,255,0.04)", display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${frame < fl ? press(fl) : pop(fl)})`, boxShadow: liked ? `0 0 50px ${hexA(C.de, 0.6)}` : "none" }}>
+          <svg width={130} height={130} viewBox="0 0 24 24">
+            <path d="M2 21h4V9H2v12zm20-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L13.17 1 6.59 7.59C6.22 7.95 6 8.45 6 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z" fill={liked ? C.de : "none"} stroke={liked ? C.de : C.text} strokeWidth={0.6} />
+          </svg>
+        </div>
+        <div style={{ padding: "34px 64px", background: subbed ? "#2A2F33" : C.ru, transform: `scale(${frame < fs ? press(fs) : pop(fs)})`, boxShadow: subbed ? "none" : `0 0 40px ${hexA(C.ru, 0.5)}` }}>
+          <Big size={96} color="#fff">{subbed ? "Subscribed" : "Subscribe"}</Big>
+        </div>
+      </AbsoluteFill>
+    </AbsoluteFill>
+  );
+};
+
+// ---------- Comunidade MOBERISK ----------
+export const BrandBeat: React.FC<{ b: Extract<Beat, { kind: "brand" }> }> = ({ b }) => {
+  const frame = useCurrentFrame();
+  const { local } = useBeatClock();
+  const k = interpolate(frame, [0, 16], [0, 1], { ...clamp, easing: E });
+  const u = interpolate(frame, [local(b.urlAt), local(b.urlAt) + 14], [0, 1], { ...clamp, easing: E });
+  return (
+    <AbsoluteFill>
+      <DarkStage left={C.ru} right={C.ru} glow={0.22} />
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 40 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 40, opacity: k, transform: `scale(${0.9 + 0.1 * k})` }}>
+          <div style={{ width: 190, height: 190, background: "#E0281F", borderRadius: 18, display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <Big size={150} color="#fff" style={{ textShadow: "none" }}>M</Big>
+          </div>
+          <Big size={200}>Moberisk</Big>
+        </div>
+        <div style={{ opacity: u, transform: `translateY(${(1 - u) * 20}px)` }}>
+          <Big size={96} color={C.de} style={{ textTransform: "none" }}>moberisk.com</Big>
+        </div>
+      </AbsoluteFill>
     </AbsoluteFill>
   );
 };

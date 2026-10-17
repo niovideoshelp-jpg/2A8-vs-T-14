@@ -5,7 +5,7 @@ import { Flash, Grain, Vignette } from "../components/Atmosphere";
 import { Enter } from "../components/Motion";
 import { C, FPS } from "../theme";
 import { ClockCtx, narrFrame } from "./context";
-import { AirburstBeat, BarsBeat, BlueprintBeat, CapsuleBeat, ChapterCard, DatesBeat, SourcesBeat, ListBeat, MapBeat, NumberBeat, PhotoBeat, SplitBeat, StageBeat, TankBeat, VersusBeat } from "./Beats";
+import { AirburstBeat, BarsBeat, BrandBeat, ChampionBeat, CtaBeat, HunterBeat, InterceptBeat, BlueprintBeat, CapsuleBeat, ChapterCard, DatesBeat, SourcesBeat, ListBeat, MapBeat, NumberBeat, PhotoBeat, SplitBeat, StageBeat, TankBeat, VersusBeat } from "./Beats";
 import type { Beat, ChapterDef, Sfx } from "./types";
 
 export const TAIL = 1.2; // segundos após a última fala
@@ -44,6 +44,16 @@ const renderBeat = (b: Beat) => {
       return <SourcesBeat />;
     case "airburst":
       return <AirburstBeat b={b} />;
+    case "hunter":
+      return <HunterBeat b={b} />;
+    case "intercept":
+      return <InterceptBeat b={b} />;
+    case "champion":
+      return <ChampionBeat />;
+    case "cta":
+      return <CtaBeat b={b} />;
+    case "brand":
+      return <BrandBeat b={b} />;
   }
 };
 
@@ -85,7 +95,7 @@ export const Chapter: React.FC<{ def: ChapterDef }> = ({ def }) => {
 
   // efeitos: impacto na cartela, um whoosh discreto em cada corte e os extras do capítulo
   const sfx: Sfx[] = [
-    { src: "sfx/boom_1.mp3", at: -offset + 0.03, volume: 0.5 },
+    ...(def.num ? [{ src: "sfx/boom_1.mp3", at: -offset + 0.03, volume: 0.5 }] : []),
     ...def.beats.slice(1).map((b, i) => ({ src: WHOOSH[i % 3], at: b.at - 0.08, volume: 0.2 })),
     ...(def.sfx ?? []),
   ];
@@ -94,9 +104,11 @@ export const Chapter: React.FC<{ def: ChapterDef }> = ({ def }) => {
   return (
     <AbsoluteFill style={{ backgroundColor: C.bg }}>
       <AbsoluteFill style={{ opacity: fadeOut }}>
-        <Sequence durationInFrames={firstStart + 2} name="cartela">
-          <ChapterCard num={def.num} title={def.title} />
-        </Sequence>
+        {def.num ? (
+          <Sequence durationInFrames={firstStart + 2} name="cartela">
+            <ChapterCard num={def.num} title={def.title} />
+          </Sequence>
+        ) : null}
         {def.beats.map((b, i) => {
           const from = starts[i];
           const to = i + 1 < starts.length ? starts[i + 1] + 2 : total;
@@ -110,7 +122,7 @@ export const Chapter: React.FC<{ def: ChapterDef }> = ({ def }) => {
             </Sequence>
           );
         })}
-        <Flash at={firstStart} length={7} peak={0.55} />
+        {def.num ? <Flash at={firstStart} length={7} peak={0.55} /> : null}
         <Vignette strength={0.55} />
         <Grain opacity={0.05} />
       </AbsoluteFill>
