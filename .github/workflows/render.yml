@@ -1,10 +1,16 @@
 name: Renderizar vídeo
 
-# Renderiza o vídeo na nuvem (GitHub Actions) e publica o MP4 como artefato.
-# Manual: aba Actions → "Renderizar vídeo" → Run workflow.
-# Automático: a cada push na main que altere código, assets ou este workflow.
+# Renderiza na nuvem (GitHub Actions) e publica cada MP4 como artefato.
+# Manual: aba Actions → "Renderizar vídeo" → Run workflow → escolha a parte (ou "Todos").
+# Automático: a cada push na main que altere código, assets ou este workflow (renderiza a Intro).
 on:
   workflow_dispatch:
+    inputs:
+      composicao:
+        description: "Parte a renderizar"
+        type: choice
+        default: Intro
+        options: [Intro, Ch1, Ch2, Ch3, Ch4, Ch5, Ch6, Ch7, Final, Todos]
   push:
     branches: [main]
     paths:
@@ -15,13 +21,30 @@ on:
       - ".github/workflows/render.yml"
 
 concurrency:
-  group: render-${{ github.ref }}
+  group: render-${{ github.ref }}-${{ inputs.composicao || 'push' }}
   cancel-in-progress: true
 
 jobs:
-  render:
+  lista:
     runs-on: ubuntu-24.04
-    timeout-minutes: 90
+    outputs:
+      ids: ${{ steps.ids.outputs.ids }}
+    steps:
+      - id: ids
+        run: |
+          case "${{ inputs.composicao || 'Intro' }}" in
+            Todos) echo 'ids=["Intro","Ch1","Ch2","Ch3","Ch4","Ch5","Ch6","Ch7","Final"]' >> "$GITHUB_OUTPUT" ;;
+            *) echo 'ids=["${{ inputs.composicao || 'Intro' }}"]' >> "$GITHUB_OUTPUT" ;;
+          esac
+
+  render:
+    needs: lista
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        id: ${{ fromJSON(needs.lista.outputs.ids) }}
     steps:
       - uses: actions/checkout@v4
 
@@ -46,13 +69,13 @@ jobs:
         run: npm run lint
 
       - name: Renderizar (1080p · H.264)
-        run: npx remotion render Intro out/intro_raw.mp4 --codec=h264 --crf=16 --jpeg-quality=92 --audio-bitrate=320k --concurrency=100%
+        run: npx remotion render ${{ matrix.id }} out/${{ matrix.id }}_raw.mp4 --codec=h264 --crf=16 --jpeg-quality=92 --audio-bitrate=320k --concurrency=100%
 
       - name: Masterizar loudness (-14 LUFS)
-        run: npm run master
+        run: node scripts/master.mjs out/${{ matrix.id }}_raw.mp4 out/${{ matrix.id }}_2A8_vs_T14.mp4
 
       - uses: actions/upload-artifact@v4
         with:
-          name: Intro_2A8_vs_T14-${{ github.run_number }}
-          path: out/Intro_2A8_vs_T14.mp4
+          name: ${{ matrix.id }}_2A8_vs_T14-${{ github.run_number }}
+          path: out/${{ matrix.id }}_2A8_vs_T14.mp4
           retention-days: 30

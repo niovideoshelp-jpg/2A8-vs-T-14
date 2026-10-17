@@ -1,11 +1,38 @@
-# Leopard 2A8 × T-14 Armata — Intro (motion)
+# Leopard 2A8 × T-14 Armata (motion)
 
-Intro de ~1 min 48 s do vídeo **Leopard 2A8 vs T-14 Armata** (narração em inglês), editada em código com
-[Remotion](https://www.remotion.dev), `@remotion/gsap` (timelines GSAP sincronizadas ao frame)
-e `@remotion/lottie` (retícula de mira e marcadores do mapa). Trilha e efeitos sonoros gerados na Magnific.
+Vídeo **Leopard 2A8 vs T-14 Armata** (narração em inglês) em 9 partes — a Intro, 7 capítulos e o
+encerramento — editado em código com [Remotion](https://www.remotion.dev), `@remotion/gsap`
+(timelines GSAP sincronizadas ao frame) e `@remotion/lottie` (retícula de mira e marcadores do mapa).
+Trilha e efeitos sonoros gerados na Magnific. Cada parte é renderizada como um vídeo separado,
+para juntar na montagem final.
 
 - **Formato:** 1920×1080 · 30 fps · H.264 · áudio AAC 320 kbps · master em −14 LUFS
-- **Composição:** `Intro` (3240 frames)
+- **Composições:** `Intro` (3240 frames) e, na pasta `Capitulos`, `Ch1` … `Ch7` e `Final`
+
+## Capítulos
+
+Os capítulos usam um kit orientado a dados ([`src/kit/`](src/kit)): cada capítulo em
+[`src/chapters/`](src/chapters) é uma lista de *beats* (foto, tanque com callouts, versus, número,
+lista, mapa, datas, cápsula, desenho técnico…) marcados nos segundos da narração. O kit cuida dos
+cortes, whooshes, ducking da trilha e da cartela de abertura (número + título).
+
+| Composição | Título | Narração | Trilha |
+|---|---|---|---|
+| `Ch1` | 01 · The Concept | 1:53 | A |
+| `Ch2` | 02 · Track Record | 2:05 | B |
+| `Ch3` | 03 · Firepower | 2:44 | C |
+| `Ch4` | 04 · Crew & Sensors | 3:44 | A |
+| `Ch5` | 05 · Protection | 4:04 | B |
+| `Ch6` | 06 · Mobility & Support | 3:46 | C |
+| `Ch7` | 07 · The Verdict | 1:45 | A |
+| `Final` | Fontes, like/inscrição, comunidade | 0:13 | B |
+
+As três trilhas (`public/music/bed_a|b|c.mp3`) alternam entre os capítulos para dar estrutura
+de assunto sem repetir a mesma música em sequência. Para renderizar e masterizar todos:
+
+```bash
+bash scripts/render-chapters.sh          # ou: bash scripts/render-chapters.sh Ch3 Ch5
+```
 
 ## Direção de arte
 
@@ -63,8 +90,9 @@ Local:
 npm run build      # render + masterização → out/Intro_2A8_vs_T14.mp4
 ```
 
-Na nuvem: cada push na `main` (ou **Actions → Renderizar vídeo → Run workflow**) renderiza no
-GitHub Actions e publica o MP4 como artefato da execução.
+Na nuvem: cada push na `main` renderiza a Intro no GitHub Actions. Em **Actions → Renderizar vídeo →
+Run workflow** dá para escolher qualquer parte (`Ch1` … `Final`) ou **Todos** — as partes rodam em
+paralelo e cada MP4 sai como artefato da execução.
 
 Outros scripts: `npm run stills` (quadros de conferência), `npm run lottie` (regera os JSON
 Lottie), `npm run transcribe` (Whisper em inglês → `src/data/captions.json`).
