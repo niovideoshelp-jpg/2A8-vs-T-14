@@ -2,7 +2,16 @@ import React from "react";
 import { Img, staticFile } from "remotion";
 import { C, FONT } from "../theme";
 
-// Folheto promocional (ilustrativo) com as promessas do T-14
+// Linhas abstratas no lugar de texto corrido (o objeto é reconhecível sem precisar ser lido)
+const Lines: React.FC<{ widths: number[]; color: string; h?: number; gap?: number }> = ({ widths, color, h = 12, gap = 12 }) => (
+  <div style={{ display: "flex", flexDirection: "column", gap }}>
+    {widths.map((w, i) => (
+      <div key={i} style={{ width: `${w}%`, height: h, background: color, borderRadius: 2 }} />
+    ))}
+  </div>
+);
+
+// Folheto promocional ilustrativo do T-14 (somente o nome é legível)
 export const Brochure: React.FC<{ style?: React.CSSProperties }> = ({ style }) => (
   <div
     style={{
@@ -15,24 +24,19 @@ export const Brochure: React.FC<{ style?: React.CSSProperties }> = ({ style }) =
       ...style,
     }}
   >
-    <div style={{ height: 300, position: "relative" }}>
+    <div style={{ height: 360, position: "relative" }}>
       <Img src={staticFile("img/t14_expo.jpg")} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "saturate(1.15) contrast(1.05)" }} />
-      <div style={{ position: "absolute", left: 0, top: 26, background: C.ru, color: "#fff", fontFamily: FONT.display, fontWeight: 700, fontSize: 34, padding: "6px 22px", letterSpacing: 2 }}>
+      <div style={{ position: "absolute", left: 0, top: 26, background: C.ru, color: "#fff", fontFamily: FONT.display, fontWeight: 700, fontSize: 38, padding: "6px 24px", letterSpacing: 2 }}>
         T-14 ARMATA
       </div>
     </div>
-    <div style={{ padding: "26px 38px" }}>
-      <div style={{ fontFamily: FONT.mono, fontSize: 16, color: "#7A776F", letterSpacing: 3 }}>FOLHETO PROMOCIONAL</div>
-      <div style={{ fontFamily: FONT.display, fontWeight: 700, fontSize: 64, lineHeight: 1.02, textTransform: "uppercase", marginTop: 6 }}>
-        O tanque
-        <br />
-        do futuro
-      </div>
-      <div style={{ marginTop: 22, display: "flex", flexDirection: "column", gap: 12 }}>
-        {["Torre não tripulada", "Cápsula blindada", "Proteção ativa Afganit", "Radares AESA", "Canhão de 125 mm"].map((t) => (
-          <div key={t} style={{ display: "flex", alignItems: "center", gap: 14, fontFamily: FONT.label, fontWeight: 600, fontSize: 30 }}>
+    <div style={{ padding: "34px 40px" }}>
+      <Lines widths={[82, 64]} color="#1d2226" h={30} gap={14} />
+      <div style={{ marginTop: 34, display: "flex", flexDirection: "column", gap: 20 }}>
+        {[70, 58, 76, 52, 64].map((w, i) => (
+          <div key={i} style={{ display: "flex", alignItems: "center", gap: 16 }}>
             <span style={{ width: 26, height: 26, background: C.ru, color: "#fff", fontSize: 20, display: "flex", alignItems: "center", justifyContent: "center" }}>✓</span>
-            {t}
+            <div style={{ width: `${w}%`, height: 12, background: "#9a958c", borderRadius: 2 }} />
           </div>
         ))}
       </div>
@@ -40,33 +44,24 @@ export const Brochure: React.FC<{ style?: React.CSSProperties }> = ({ style }) =
   </div>
 );
 
-// Cartão de fórum (ilustrativo, sem marca real)
-export const ForumCard: React.FC<{ style?: React.CSSProperties }> = ({ style }) => {
-  const posts = [
-    { u: "tanker_88", t: "T-14 é simplesmente imbatível.", v: "2,4 mil" },
-    { u: "blindado_br", t: "Nenhum tanque ocidental chega perto.", v: "1,8 mil" },
-    { u: "steel_rain", t: "Leopard? Projeto dos anos 70...", v: "1,1 mil" },
-  ];
-  return (
-    <div style={{ width: 660, background: "#12171B", border: `1px solid ${C.line}`, boxShadow: "0 40px 90px rgba(0,0,0,0.65)", ...style }}>
-      <div style={{ padding: "16px 24px", borderBottom: `1px solid ${C.line}`, fontFamily: FONT.mono, fontSize: 16, letterSpacing: 3, color: C.muted }}>
-        FÓRUM · JOGOS DE GUERRA
-      </div>
-      <div style={{ padding: "18px 24px 6px", fontFamily: FONT.label, fontWeight: 700, fontSize: 34, color: C.text }}>
-        T-14 x Leopard 2A8: alguém ainda duvida?
-      </div>
-      {posts.map((p) => (
-        <div key={p.u} style={{ display: "flex", gap: 16, padding: "16px 24px", borderTop: `1px solid ${C.line}`, alignItems: "center" }}>
-          <div style={{ width: 46, height: 46, borderRadius: 23, background: C.steel, color: C.muted, fontFamily: FONT.mono, fontSize: 18, display: "flex", alignItems: "center", justifyContent: "center" }}>
-            {p.u.slice(0, 2).toUpperCase()}
-          </div>
-          <div style={{ flex: 1 }}>
-            <div style={{ fontFamily: FONT.mono, fontSize: 16, color: C.muted }}>@{p.u}</div>
-            <div style={{ fontFamily: FONT.label, fontWeight: 600, fontSize: 28, color: C.text }}>{p.t}</div>
-          </div>
-          <div style={{ fontFamily: FONT.mono, fontSize: 20, color: C.ru }}>▲ {p.v}</div>
-        </div>
-      ))}
+// Cartão de fórum ilustrativo (sem marca nem texto real)
+export const ForumCard: React.FC<{ style?: React.CSSProperties }> = ({ style }) => (
+  <div style={{ width: 660, background: "#12171B", border: `1px solid ${C.line}`, boxShadow: "0 40px 90px rgba(0,0,0,0.65)", ...style }}>
+    <div style={{ padding: "20px 24px", borderBottom: `1px solid ${C.line}` }}>
+      <Lines widths={[78]} color="rgba(233,238,241,0.8)" h={22} />
     </div>
-  );
-};
+    {[
+      [72, 48],
+      [84, 36],
+      [66, 54],
+    ].map(([a, b], i) => (
+      <div key={i} style={{ display: "flex", gap: 18, padding: "20px 24px", borderTop: i ? `1px solid ${C.line}` : undefined, alignItems: "center" }}>
+        <div style={{ width: 48, height: 48, borderRadius: 24, background: C.steel, flexShrink: 0 }} />
+        <div style={{ flex: 1 }}>
+          <Lines widths={[a, b]} color="rgba(233,238,241,0.35)" h={12} gap={10} />
+        </div>
+        <div style={{ fontFamily: FONT.display, fontSize: 34, color: C.ru, lineHeight: 1 }}>▲</div>
+      </div>
+    ))}
+  </div>
+);

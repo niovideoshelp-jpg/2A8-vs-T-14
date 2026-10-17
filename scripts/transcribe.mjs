@@ -25,7 +25,7 @@ const whisperCppOutput = await transcribe({
   whisperCppVersion: version,
   inputPath: path.resolve(input),
   tokenLevelTimestamps: true,
-  language: "pt",
+  language: (process.argv[4] ?? "en"),
 });
 
 const { captions } = toCaptions({ whisperCppOutput });

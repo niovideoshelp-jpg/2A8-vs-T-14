@@ -1,80 +1,58 @@
 import React from "react";
-import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
-import { DarkStage, Flash, Grain, TechGrid } from "../components/Atmosphere";
+import { AbsoluteFill, Easing, Img, interpolate, staticFile, useCurrentFrame } from "remotion";
+import { DarkStage, Flash, Grain } from "../components/Atmosphere";
 import { FlagDE, FlagRU } from "../components/Flags";
-import { KineticTitle, Tag, TypeOn } from "../components/Type";
-import { C, FONT } from "../theme";
+import { Tag } from "../components/Type";
+import { C } from "../theme";
 import { N, SCENES } from "../timeline";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const S0 = SCENES.philosophies.from;
 const L = (t: number) => N(t) - S0;
-const sec = (t: number) => L(t) / 30;
+const E = Easing.bezier(0.16, 1, 0.3, 1);
 
+// Silhueta com luz de contorno na cor do país
+const Silhouette: React.FC<{ src: string; color: string; width: number }> = ({ src, color, width }) => (
+  <Img
+    src={staticFile(`img/${src}`)}
+    style={{
+      width,
+      filter: `brightness(0.09) contrast(1.3) drop-shadow(0 0 1.5px ${color}) drop-shadow(0 0 22px ${color})`,
+    }}
+  />
+);
+
+// "Two completely opposite philosophies of war going head to head"
 export const S3Philosophies: React.FC = () => {
   const frame = useCurrentFrame();
   const dur = SCENES.philosophies.to - S0;
-  const face = interpolate(frame, [L(31.1), L(31.6)], [0, 1], { ...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1) });
-  const titleUp = interpolate(frame, [L(31.1), L(31.6)], [0, -270], { ...clamp, easing: Easing.bezier(0.65, 0, 0.35, 1) });
-  const titleScale = interpolate(frame, [L(31.1), L(31.6)], [1, 0.55], { ...clamp, easing: Easing.bezier(0.65, 0, 0.35, 1) });
-  const push = interpolate(frame, [0, dur], [1, 1.08]);
-  const split = interpolate(frame, [L(31.15), L(31.7)], [0, 1], { ...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1) });
-  const imagine = interpolate(frame, [L(28.1), L(28.35)], [1, 0], clamp);
+  const lights = interpolate(frame, [0, L(28.4)], [0, 1], { ...clamp, easing: Easing.bezier(0.33, 0, 0.67, 1) });
+  // entrada lenta pelas laterais durante "two completely opposite philosophies"
+  const approach = interpolate(frame, [L(28.3), L(31.2)], [0, 1], { ...clamp, easing: E });
+  // "head to head": avanço final e corte
+  const clash = interpolate(frame, [L(31.25), L(31.9)], [0, 1], { ...clamp, easing: Easing.bezier(0.7, 0, 0.84, 0) });
+  const ids = interpolate(frame, [L(31.3), L(31.7)], [0, 1], { ...clamp, easing: E });
+  const leftX = -900 + 820 * approach + 90 * clash;
+  const rightX = 1920 - 960 * approach - 90 * clash;
   return (
     <AbsoluteFill style={{ backgroundColor: C.bg }}>
-      <AbsoluteFill style={{ transform: `scale(${push})` }}>
-        <DarkStage left={C.de} right={C.ru} glow={0.08 + 0.22 * face} />
-        <TechGrid opacity={0.18} />
+      <AbsoluteFill style={{ opacity: lights }}>
+        <DarkStage left={C.de} right={C.ru} glow={0.12 + 0.2 * approach} />
       </AbsoluteFill>
-
-      {/* "Agora, imagine..." */}
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: imagine }}>
-        <TypeOn text="AGORA, IMAGINE..." startFrame={L(27.15)} cps={22} style={{ fontSize: 34, letterSpacing: 10, color: C.muted }} />
-      </AbsoluteFill>
-
-      {/* Duas filosofias opostas */}
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", transform: `translateY(${titleUp}px) scale(${titleScale})` }}>
-        <KineticTitle text="Duas filosofias" size={150} delay={sec(28.32)} stagger={0.03} />
-        <KineticTitle
-          text="opostas de guerra"
-          size={150}
-          delay={sec(29.8)}
-          stagger={0.03}
-          charColor={(i, n) => (i < n / 2 ? C.de : C.ru)}
-        />
-      </AbsoluteFill>
-
-      {/* Frente a frente: divisor central + bandeiras */}
-      <svg width={1920} height={1080} style={{ position: "absolute", inset: 0 }}>
-        <line x1={960} y1={600 - 190 * split} x2={960} y2={600 + 190 * split} stroke={C.text} strokeWidth={3} opacity={split} />
-      </svg>
-      <div style={{ position: "absolute", left: 960 - 120 - 360 * face, top: 560, opacity: face, transform: `translateX(${(1 - face) * -200}px)` }}>
-        <FlagDE width={240} />
-        <div style={{ marginTop: 14 }}>
-          <Tag text="Alemanha" color={C.de} />
-        </div>
+      <div style={{ position: "absolute", left: leftX, top: 470 }}>
+        <Silhouette src="leo2a8_cut.webp" color="rgba(242,182,48,0.85)" width={860} />
       </div>
-      <div style={{ position: "absolute", left: 960 - 120 + 360 * face, top: 560, opacity: face, transform: `translateX(${(1 - face) * 200}px)` }}>
-        <FlagRU width={240} />
-        <div style={{ marginTop: 14 }}>
-          <Tag text="Rússia" color={C.ru} />
-        </div>
+      <div style={{ position: "absolute", left: rightX, top: 490 }}>
+        <Silhouette src="t14_cut.webp" color="rgba(226,54,43,0.85)" width={860} />
       </div>
-      <div
-        style={{
-          position: "absolute",
-          left: 0,
-          right: 0,
-          top: 860,
-          textAlign: "center",
-          fontFamily: FONT.mono,
-          fontSize: 26,
-          letterSpacing: 12,
-          color: C.text,
-          opacity: face,
-        }}
-      >
-        FRENTE A FRENTE
+      {/* identificação: bandeiras e países */}
+      <div style={{ position: "absolute", left: 360, top: 210, opacity: ids, transform: `translateY(${(1 - ids) * 20}px)`, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 14 }}>
+        <FlagDE width={170} />
+        <Tag text="Germany" color={C.de} />
+      </div>
+      <div style={{ position: "absolute", right: 360, top: 210, opacity: ids, transform: `translateY(${(1 - ids) * 20}px)`, display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 14 }}>
+        <FlagRU width={170} />
+        <Tag text="Russia" color={C.ru} />
       </div>
       <Flash at={dur - 3} length={6} peak={0.9} />
       <Grain opacity={0.06} />

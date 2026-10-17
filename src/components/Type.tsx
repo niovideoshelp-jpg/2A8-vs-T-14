@@ -91,28 +91,6 @@ export const KineticTitle: React.FC<{
   );
 };
 
-// Texto que "digita" caractere a caractere com cursor (leitura de terminal)
-export const TypeOn: React.FC<{
-  text: string;
-  startFrame?: number;
-  cps?: number; // caracteres por segundo
-  style?: React.CSSProperties;
-  cursor?: boolean;
-}> = ({ text, startFrame = 0, cps = 32, style, cursor = true }) => {
-  const frame = useCurrentFrame();
-  const n = Math.max(0, Math.floor(((frame - startFrame) / 30) * cps));
-  const shown = text.slice(0, n);
-  const done = n >= text.length;
-  return (
-    <span style={{ fontFamily: FONT.mono, whiteSpace: "pre", ...style }}>
-      {shown}
-      {cursor && (!done || Math.floor(frame / 12) % 2 === 0) ? (
-        <span style={{ opacity: frame >= startFrame ? 1 : 0 }}>▌</span>
-      ) : null}
-    </span>
-  );
-};
-
 // Texto com fatias deslocadas (glitch) nos primeiros frames e em "picos"
 export const GlitchText: React.FC<{
   text: string;

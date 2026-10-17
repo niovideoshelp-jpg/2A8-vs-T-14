@@ -261,10 +261,13 @@ const bars = (color, name) => {
 
 const palette = { gold: "#F2B630", red: "#E2362B", white: "#E9EEF1" };
 
-for (const [k, c] of Object.entries(palette)) {
-  fs.writeFileSync(path.join(OUT, `reticle-${k}.json`), JSON.stringify(reticle(c, `reticle-${k}`)));
-  fs.writeFileSync(path.join(OUT, `radar-${k}.json`), JSON.stringify(radar(c, `radar-${k}`)));
-  fs.writeFileSync(path.join(OUT, `pulse-${k}.json`), JSON.stringify(pulse(c, `pulse-${k}`)));
-  fs.writeFileSync(path.join(OUT, `bars-${k}.json`), JSON.stringify(bars(c, `bars-${k}`)));
-}
+// apenas as animações usadas no vídeo (radar() e bars() ficam disponíveis para outros capítulos)
+const outputs = [
+  ["reticle-white", reticle(palette.white, "reticle-white")],
+  ["reticle-red", reticle(palette.red, "reticle-red")],
+  ["pulse-gold", pulse(palette.gold, "pulse-gold")],
+  ["pulse-red", pulse(palette.red, "pulse-red")],
+];
+for (const f of fs.readdirSync(OUT)) fs.unlinkSync(path.join(OUT, f));
+for (const [name, data] of outputs) fs.writeFileSync(path.join(OUT, `${name}.json`), JSON.stringify(data));
 console.log(fs.readdirSync(OUT).join("\n"));

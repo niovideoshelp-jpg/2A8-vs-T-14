@@ -1,85 +1,8 @@
 import React from "react";
 import { AbsoluteFill, interpolate, useCurrentFrame, Easing } from "remotion";
-import { C, FONT, FPS } from "../theme";
+import { C, FONT } from "../theme";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
-
-// Cantoneiras do quadro + leitura de dados nas bordas (moldura de "câmera tática")
-export const HudFrame: React.FC<{
-  label?: string;
-  sub?: string;
-  color?: string;
-  inset?: number;
-  delay?: number;
-}> = ({ label, sub, color = C.hud, inset = 48, delay = 0 }) => {
-  const frame = useCurrentFrame() - delay;
-  const k = interpolate(frame, [0, 14], [0, 1], { ...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1) });
-  const L = 54 * k;
-  const corner = (pos: React.CSSProperties, bt: string, bl: string) => (
-    <div
-      style={{
-        position: "absolute",
-        width: L,
-        height: L,
-        borderTop: bt,
-        borderLeft: bl,
-        ...pos,
-      }}
-    />
-  );
-  const b = `2px solid ${color}`;
-  const secs = Math.max(0, frame) / FPS;
-  const tc = `${String(Math.floor(secs / 60)).padStart(2, "0")}:${String(Math.floor(secs % 60)).padStart(2, "0")}:${String(Math.floor((secs % 1) * FPS)).padStart(2, "0")}`;
-  return (
-    <AbsoluteFill style={{ pointerEvents: "none", opacity: k }}>
-      {corner({ top: inset, left: inset }, b, b)}
-      {corner({ top: inset, right: inset, transform: "scaleX(-1)" }, b, b)}
-      {corner({ bottom: inset, left: inset, transform: "scaleY(-1)" }, b, b)}
-      {corner({ bottom: inset, right: inset, transform: "scale(-1,-1)" }, b, b)}
-      {label ? (
-        <div
-          style={{
-            position: "absolute",
-            top: inset + 14,
-            left: inset + 74,
-            fontFamily: FONT.mono,
-            fontSize: 20,
-            letterSpacing: 3,
-            color,
-            display: "flex",
-            gap: 18,
-            alignItems: "center",
-          }}
-        >
-          <span
-            style={{
-              width: 10,
-              height: 10,
-              borderRadius: 5,
-              background: C.ru,
-              opacity: Math.floor(frame / 15) % 2 === 0 ? 1 : 0.25,
-            }}
-          />
-          <span>{label}</span>
-          {sub ? <span style={{ color: C.muted }}>{sub}</span> : null}
-        </div>
-      ) : null}
-      <div
-        style={{
-          position: "absolute",
-          bottom: inset + 14,
-          right: inset + 74,
-          fontFamily: FONT.mono,
-          fontSize: 18,
-          letterSpacing: 2,
-          color: C.muted,
-        }}
-      >
-        TC {tc}
-      </div>
-    </AbsoluteFill>
-  );
-};
 
 // Rótulo técnico com linha-guia apontando para um ponto (callout)
 export const Callout: React.FC<{
@@ -147,28 +70,3 @@ export const Callout: React.FC<{
   );
 };
 
-// Linha de varredura horizontal (scanner)
-export const ScanLine: React.FC<{ color?: string; period?: number; opacity?: number }> = ({
-  color = C.hud,
-  period = 90,
-  opacity = 0.35,
-}) => {
-  const frame = useCurrentFrame();
-  const y = ((frame % period) / period) * 1080;
-  return (
-    <AbsoluteFill style={{ pointerEvents: "none" }}>
-      <div
-        style={{
-          position: "absolute",
-          left: 0,
-          right: 0,
-          top: y - 60,
-          height: 60,
-          background: `linear-gradient(180deg, transparent, ${color})`,
-          opacity: opacity * 0.25,
-        }}
-      />
-      <div style={{ position: "absolute", left: 0, right: 0, top: y, height: 2, background: color, opacity }} />
-    </AbsoluteFill>
-  );
-};

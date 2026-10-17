@@ -35,28 +35,6 @@ export const Vignette: React.FC<{ strength?: number }> = ({ strength = 0.75 }) =
   />
 );
 
-// Grade técnica de fundo (linhas finas)
-export const TechGrid: React.FC<{ opacity?: number; size?: number; drift?: number }> = ({
-  opacity = 0.35,
-  size = 80,
-  drift = 0.25,
-}) => {
-  const frame = useCurrentFrame();
-  const off = (frame * drift) % size;
-  return (
-    <AbsoluteFill
-      style={{
-        opacity,
-        backgroundImage: `linear-gradient(${C.line} 1px, transparent 1px), linear-gradient(90deg, ${C.line} 1px, transparent 1px)`,
-        backgroundSize: `${size}px ${size}px`,
-        backgroundPosition: `${off}px ${off}px`,
-        maskImage: "radial-gradient(ellipse 70% 65% at 50% 50%, black 30%, transparent 100%)",
-        WebkitMaskImage: "radial-gradient(ellipse 70% 65% at 50% 50%, black 30%, transparent 100%)",
-      }}
-    />
-  );
-};
-
 // Fundo escuro com brilho de cor (usado nas cenas de estúdio/versus)
 export const DarkStage: React.FC<{ left?: string; right?: string; glow?: number }> = ({
   left = C.de,

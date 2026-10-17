@@ -1,3425 +1,2557 @@
 [
   {
-    "text": "No",
+    "text": "On",
     "startMs": 110,
-    "endMs": 110,
-    "timestampMs": 340,
-    "confidence": 0.389819
+    "endMs": 130,
+    "timestampMs": 200,
+    "confidence": 0.953839
   },
   {
-    "text": " campo",
-    "startMs": 110,
-    "endMs": 380,
-    "timestampMs": 340,
-    "confidence": 0.0627657
+    "text": " the",
+    "startMs": 130,
+    "endMs": 330,
+    "timestampMs": 320,
+    "confidence": 0.997428
   },
   {
-    "text": " de",
-    "startMs": 380,
-    "endMs": 490,
-    "timestampMs": 340,
-    "confidence": 0.402238
-  },
-  {
-    "text": " bat",
-    "startMs": 490,
-    "endMs": 720,
-    "timestampMs": 480,
-    "confidence": 0.273209
-  },
-  {
-    "text": "al",
-    "startMs": 720,
-    "endMs": 760,
-    "timestampMs": 620,
-    "confidence": 0.943392
-  },
-  {
-    "text": "h",
-    "startMs": 760,
-    "endMs": 810,
-    "timestampMs": 660,
-    "confidence": 0.281621
-  },
-  {
-    "text": "ão",
-    "startMs": 810,
-    "endMs": 960,
-    "timestampMs": 900,
-    "confidence": 0.357425
+    "text": " battlefield",
+    "startMs": 330,
+    "endMs": 1170,
+    "timestampMs": 720,
+    "confidence": 0.990924
   },
   {
     "text": ",",
-    "startMs": 960,
-    "endMs": 1160,
-    "timestampMs": 1040,
-    "confidence": 0.798591
+    "startMs": 1170,
+    "endMs": 1260,
+    "timestampMs": 1220,
+    "confidence": 0.926929
   },
   {
-    "text": " um",
-    "startMs": 1160,
+    "text": " a",
+    "startMs": 1260,
     "endMs": 1270,
     "timestampMs": 1400,
-    "confidence": 0.841699
+    "confidence": 0.959693
   },
   {
-    "text": " tan",
+    "text": " tank",
     "startMs": 1270,
-    "endMs": 1380,
+    "endMs": 1500,
     "timestampMs": 1560,
-    "confidence": 0.489137
+    "confidence": 0.998079
   },
   {
-    "text": "que",
-    "startMs": 1380,
-    "endMs": 1510,
-    "timestampMs": 1680,
-    "confidence": 0.921139
+    "text": " helps",
+    "startMs": 1500,
+    "endMs": 1800,
+    "timestampMs": 1880,
+    "confidence": 0.98785
   },
   {
-    "text": " ajuda",
-    "startMs": 1510,
-    "endMs": 1780,
-    "timestampMs": 1840,
-    "confidence": 0.219623
-  },
-  {
-    "text": " a",
-    "startMs": 1780,
-    "endMs": 1840,
-    "timestampMs": 2100,
-    "confidence": 0.969535
-  },
-  {
-    "text": " clar",
-    "startMs": 1840,
-    "endMs": 2050,
+    "text": " clear",
+    "startMs": 1800,
+    "endMs": 2110,
     "timestampMs": 2220,
-    "confidence": 0.0503296
+    "confidence": 0.988182
   },
   {
-    "text": "ir",
-    "startMs": 2050,
-    "endMs": 2160,
-    "timestampMs": 2320,
-    "confidence": 0.3453
-  },
-  {
-    "text": " o",
-    "startMs": 2160,
-    "endMs": 2210,
+    "text": " the",
+    "startMs": 2110,
+    "endMs": 2300,
     "timestampMs": 2380,
-    "confidence": 0.545108
+    "confidence": 0.984234
   },
   {
-    "text": " caminho",
-    "startMs": 2210,
-    "endMs": 2640,
+    "text": " way",
+    "startMs": 2300,
+    "endMs": 2500,
     "timestampMs": 2540,
-    "confidence": 0.730899
+    "confidence": 0.99646
   },
   {
-    "text": " para",
-    "startMs": 2640,
-    "endMs": 2810,
+    "text": " for",
+    "startMs": 2500,
+    "endMs": 2710,
     "timestampMs": 2700,
-    "confidence": 0.609245
+    "confidence": 0.98256
   },
   {
-    "text": " a",
-    "startMs": 2810,
-    "endMs": 2860,
-    "timestampMs": 2760,
-    "confidence": 0.8582
-  },
-  {
-    "text": " inf",
-    "startMs": 2860,
-    "endMs": 3020,
-    "timestampMs": 2920,
-    "confidence": 0.732953
-  },
-  {
-    "text": "ância",
-    "startMs": 3020,
-    "endMs": 3520,
-    "timestampMs": 3180,
-    "confidence": 0.162796
+    "text": " infantry",
+    "startMs": 2710,
+    "endMs": 3280,
+    "timestampMs": 3140,
+    "confidence": 0.997536
   },
   {
     "text": ",",
-    "startMs": 3520,
-    "endMs": 3520,
-    "timestampMs": 3500,
-    "confidence": 0.963578
+    "startMs": 3280,
+    "endMs": 3550,
+    "timestampMs": 3620,
+    "confidence": 0.983873
   },
   {
-    "text": " rom",
-    "startMs": 3520,
-    "endMs": 3700,
-    "timestampMs": 3780,
-    "confidence": 0.0392534
+    "text": " break",
+    "startMs": 3550,
+    "endMs": 3660,
+    "timestampMs": 3760,
+    "confidence": 0.637815
   },
   {
-    "text": "per",
-    "startMs": 3700,
-    "endMs": 3870,
-    "timestampMs": 3800,
-    "confidence": 0.915686
+    "text": " through",
+    "startMs": 3660,
+    "endMs": 3980,
+    "timestampMs": 3960,
+    "confidence": 0.951637
   },
   {
-    "text": " as",
-    "startMs": 3870,
-    "endMs": 3990,
-    "timestampMs": 4480,
-    "confidence": 0.326816
+    "text": " defensive",
+    "startMs": 3980,
+    "endMs": 4400,
+    "timestampMs": 4260,
+    "confidence": 0.980519
   },
   {
-    "text": " l",
-    "startMs": 3990,
-    "endMs": 4050,
-    "timestampMs": 4480,
-    "confidence": 0.612897
+    "text": " lines",
+    "startMs": 4400,
+    "endMs": 4900,
+    "timestampMs": 4720,
+    "confidence": 0.721043
   },
   {
-    "text": "inhas",
-    "startMs": 4050,
-    "endMs": 4340,
-    "timestampMs": 4780,
-    "confidence": 0.813242
+    "text": ",",
+    "startMs": 4900,
+    "endMs": 4960,
+    "timestampMs": 5060,
+    "confidence": 0.754966
   },
   {
-    "text": " defens",
-    "startMs": 4340,
-    "endMs": 4700,
-    "timestampMs": 4780,
-    "confidence": 0.836457
-  },
-  {
-    "text": "ivas",
-    "startMs": 4700,
-    "endMs": 5020,
-    "timestampMs": 4780,
-    "confidence": 0.925786
-  },
-  {
-    "text": " e",
-    "startMs": 5020,
-    "endMs": 5110,
+    "text": " and",
+    "startMs": 4960,
+    "endMs": 5160,
     "timestampMs": 5180,
-    "confidence": 0.632193
+    "confidence": 0.997459
   },
   {
-    "text": " tirar",
-    "startMs": 5110,
-    "endMs": 5400,
+    "text": " take",
+    "startMs": 5160,
+    "endMs": 5430,
     "timestampMs": 5400,
-    "confidence": 0.056989
+    "confidence": 0.995182
   },
   {
-    "text": " outros",
-    "startMs": 5400,
-    "endMs": 5840,
-    "timestampMs": 5840,
-    "confidence": 0.717618
+    "text": " on",
+    "startMs": 5430,
+    "endMs": 5560,
+    "timestampMs": 5580,
+    "confidence": 0.993138
+  },
+  {
+    "text": " other",
+    "startMs": 5560,
+    "endMs": 5890,
+    "timestampMs": 5900,
+    "confidence": 0.992021
+  },
+  {
+    "text": " armored",
+    "startMs": 5890,
+    "endMs": 6360,
+    "timestampMs": 6180,
+    "confidence": 0.906188
   },
   {
     "text": " vehicles",
-    "startMs": 5840,
-    "endMs": 6430,
-    "timestampMs": 6600,
-    "confidence": 0.0491579
-  },
-  {
-    "text": " arm",
-    "startMs": 6430,
-    "endMs": 6640,
-    "timestampMs": 6600,
-    "confidence": 0.760305
-  },
-  {
-    "text": "ados",
-    "startMs": 6640,
+    "startMs": 6360,
     "endMs": 7120,
-    "timestampMs": 6600,
-    "confidence": 0.374441
+    "timestampMs": 6680,
+    "confidence": 0.997877
   },
   {
     "text": ".",
     "startMs": 7120,
-    "endMs": 7120,
-    "timestampMs": 7140,
-    "confidence": 0.907002
+    "endMs": 7260,
+    "timestampMs": 7240,
+    "confidence": 0.982324
   },
   {
-    "text": " Ele",
-    "startMs": 7120,
-    "endMs": 7320,
-    "timestampMs": 7400,
-    "confidence": 0.208607
+    "text": " It",
+    "startMs": 7260,
+    "endMs": 7290,
+    "timestampMs": 7360,
+    "confidence": 0.788855
   },
   {
-    "text": " emp",
-    "startMs": 7320,
-    "endMs": 7520,
-    "timestampMs": 7500,
-    "confidence": 0.0218368
+    "text": " packs",
+    "startMs": 7290,
+    "endMs": 7610,
+    "timestampMs": 7580,
+    "confidence": 0.984639
   },
   {
-    "text": "ur",
-    "startMs": 7520,
-    "endMs": 7650,
-    "timestampMs": 7560,
-    "confidence": 0.243736
+    "text": " fire",
+    "startMs": 7610,
+    "endMs": 7890,
+    "timestampMs": 7940,
+    "confidence": 0.980258
   },
   {
-    "text": "ra",
-    "startMs": 7650,
-    "endMs": 7780,
-    "timestampMs": 7560,
-    "confidence": 0.853989
+    "text": "power",
+    "startMs": 7890,
+    "endMs": 8240,
+    "timestampMs": 8300,
+    "confidence": 0.976723
+  },
+  {
+    "text": ",",
+    "startMs": 8240,
+    "endMs": 8400,
+    "timestampMs": 8540,
+    "confidence": 0.993805
+  },
+  {
+    "text": " protection",
+    "startMs": 8400,
+    "endMs": 9120,
+    "timestampMs": 8880,
+    "confidence": 0.959024
+  },
+  {
+    "text": ",",
+    "startMs": 9120,
+    "endMs": 9240,
+    "timestampMs": 9240,
+    "confidence": 0.77815
+  },
+  {
+    "text": " and",
+    "startMs": 9240,
+    "endMs": 9420,
+    "timestampMs": 9400,
+    "confidence": 0.810545
+  },
+  {
+    "text": " mobility",
+    "startMs": 9420,
+    "endMs": 9920,
+    "timestampMs": 9840,
+    "confidence": 0.991439
+  },
+  {
+    "text": " into",
+    "startMs": 9920,
+    "endMs": 10240,
+    "timestampMs": 10200,
+    "confidence": 0.879875
   },
   {
     "text": " a",
-    "startMs": 7780,
-    "endMs": 7840,
-    "timestampMs": 7580,
-    "confidence": 0.323279
+    "startMs": 10240,
+    "endMs": 10400,
+    "timestampMs": 10400,
+    "confidence": 0.934976
   },
   {
-    "text": " energia",
-    "startMs": 7840,
-    "endMs": 8320,
-    "timestampMs": 8280,
-    "confidence": 0.10189
+    "text": " single",
+    "startMs": 10400,
+    "endMs": 10730,
+    "timestampMs": 10720,
+    "confidence": 0.993767
   },
   {
-    "text": ",",
-    "startMs": 8320,
-    "endMs": 8540,
-    "timestampMs": 8480,
-    "confidence": 0.983624
-  },
-  {
-    "text": " prote",
-    "startMs": 8540,
-    "endMs": 8790,
-    "timestampMs": 8760,
-    "confidence": 0.928497
-  },
-  {
-    "text": "ção",
-    "startMs": 8790,
-    "endMs": 9190,
-    "timestampMs": 9000,
-    "confidence": 0.933517
-  },
-  {
-    "text": " e",
-    "startMs": 9190,
-    "endMs": 9220,
-    "timestampMs": 9360,
-    "confidence": 0.884119
-  },
-  {
-    "text": " mobil",
-    "startMs": 9220,
-    "endMs": 9530,
-    "timestampMs": 9680,
-    "confidence": 0.923474
-  },
-  {
-    "text": "idade",
-    "startMs": 9530,
-    "endMs": 9960,
-    "timestampMs": 9980,
-    "confidence": 0.993259
-  },
-  {
-    "text": " em",
-    "startMs": 9960,
-    "endMs": 10140,
-    "timestampMs": 10140,
-    "confidence": 0.355413
-  },
-  {
-    "text": " um",
-    "startMs": 10140,
-    "endMs": 10320,
-    "timestampMs": 10360,
-    "confidence": 0.83512
-  },
-  {
-    "text": " único",
-    "startMs": 10320,
-    "endMs": 10860,
-    "timestampMs": 10760,
-    "confidence": 0.534455
-  },
-  {
-    "text": " carro",
-    "startMs": 10860,
-    "endMs": 11360,
-    "timestampMs": 11100,
-    "confidence": 0.34746
+    "text": " vehicle",
+    "startMs": 10730,
+    "endMs": 11120,
+    "timestampMs": 11200,
+    "confidence": 0.998045
   },
   {
     "text": ",",
-    "startMs": 11360,
-    "endMs": 11360,
-    "timestampMs": 11460,
-    "confidence": 0.861549
+    "startMs": 11120,
+    "endMs": 11230,
+    "timestampMs": 11480,
+    "confidence": 0.909788
   },
   {
-    "text": " emp",
-    "startMs": 11360,
-    "endMs": 11550,
+    "text": " backing",
+    "startMs": 11230,
+    "endMs": 11620,
     "timestampMs": 11720,
-    "confidence": 0.0629177
+    "confidence": 0.997487
   },
   {
-    "text": "ur",
-    "startMs": 11550,
-    "endMs": 11700,
-    "timestampMs": 11720,
-    "confidence": 0.867242
+    "text": " up",
+    "startMs": 11620,
+    "endMs": 11730,
+    "timestampMs": 11900,
+    "confidence": 0.992085
   },
   {
-    "text": "rando",
-    "startMs": 11700,
-    "endMs": 11990,
-    "timestampMs": 11740,
-    "confidence": 0.919689
-  },
-  {
-    "text": " os",
-    "startMs": 11990,
-    "endMs": 12110,
+    "text": " the",
+    "startMs": 11730,
+    "endMs": 11940,
     "timestampMs": 12020,
-    "confidence": 0.648172
+    "confidence": 0.966129
   },
   {
-    "text": " sold",
-    "startMs": 12110,
-    "endMs": 12360,
-    "timestampMs": 12220,
-    "confidence": 0.878187
+    "text": " soldiers",
+    "startMs": 11940,
+    "endMs": 12330,
+    "timestampMs": 12340,
+    "confidence": 0.946117
   },
   {
-    "text": "ados",
-    "startMs": 12360,
-    "endMs": 12610,
-    "timestampMs": 12360,
-    "confidence": 0.785558
+    "text": " advancing",
+    "startMs": 12330,
+    "endMs": 12830,
+    "timestampMs": 12800,
+    "confidence": 0.984346
   },
   {
-    "text": ",",
-    "startMs": 12610,
-    "endMs": 12730,
-    "timestampMs": 12460,
-    "confidence": 0.156202
+    "text": " on",
+    "startMs": 12830,
+    "endMs": 12940,
+    "timestampMs": 13060,
+    "confidence": 0.994757
   },
   {
-    "text": " av",
-    "startMs": 12730,
-    "endMs": 12850,
-    "timestampMs": 12600,
-    "confidence": 0.518582
-  },
-  {
-    "text": "anç",
-    "startMs": 12850,
+    "text": " foot",
+    "startMs": 12940,
     "endMs": 13190,
-    "timestampMs": 12760,
-    "confidence": 0.976809
+    "timestampMs": 13320,
+    "confidence": 0.995478
   },
   {
-    "text": "ando",
+    "text": ".",
     "startMs": 13190,
     "endMs": 13400,
-    "timestampMs": 12880,
-    "confidence": 0.998154
+    "timestampMs": 14060,
+    "confidence": 0.984834
   },
   {
-    "text": " no",
+    "text": " Germany",
     "startMs": 13400,
-    "endMs": 13660,
-    "timestampMs": 13040,
-    "confidence": 0.454742
+    "endMs": 14120,
+    "timestampMs": 14440,
+    "confidence": 0.86916
   },
   {
-    "text": " fog",
-    "startMs": 13660,
-    "endMs": 13660,
-    "timestampMs": 13340,
-    "confidence": 0.0156357
+    "text": " and",
+    "startMs": 14120,
+    "endMs": 14310,
+    "timestampMs": 14700,
+    "confidence": 0.995361
   },
   {
-    "text": "o",
-    "startMs": 13660,
-    "endMs": 14000,
-    "timestampMs": 13340,
-    "confidence": 0.98087
+    "text": " Russia",
+    "startMs": 14310,
+    "endMs": 14880,
+    "timestampMs": 14980,
+    "confidence": 0.998639
+  },
+  {
+    "text": " know",
+    "startMs": 14880,
+    "endMs": 15280,
+    "timestampMs": 15280,
+    "confidence": 0.987961
+  },
+  {
+    "text": " this",
+    "startMs": 15280,
+    "endMs": 15440,
+    "timestampMs": 15460,
+    "confidence": 0.969451
+  },
+  {
+    "text": " subject",
+    "startMs": 15440,
+    "endMs": 15920,
+    "timestampMs": 15760,
+    "confidence": 0.95636
+  },
+  {
+    "text": " well",
+    "startMs": 15920,
+    "endMs": 16560,
+    "timestampMs": 16120,
+    "confidence": 0.710772
   },
   {
     "text": ".",
-    "startMs": 14000,
-    "endMs": 14000,
-    "timestampMs": 13600,
-    "confidence": 0.966584
+    "startMs": 16560,
+    "endMs": 16560,
+    "timestampMs": 16620,
+    "confidence": 0.943518
   },
   {
-    "text": " A",
-    "startMs": 14000,
-    "endMs": 14120,
-    "timestampMs": 14320,
-    "confidence": 0.349306
+    "text": " Both",
+    "startMs": 16560,
+    "endMs": 16810,
+    "timestampMs": 16860,
+    "confidence": 0.99838
   },
   {
-    "text": " Europa",
-    "startMs": 14120,
-    "endMs": 14570,
-    "timestampMs": 14400,
-    "confidence": 0.057559
+    "text": " countries",
+    "startMs": 16810,
+    "endMs": 17390,
+    "timestampMs": 17180,
+    "confidence": 0.997208
   },
   {
-    "text": " e",
-    "startMs": 14570,
-    "endMs": 14650,
-    "timestampMs": 14700,
-    "confidence": 0.975669
+    "text": " have",
+    "startMs": 17390,
+    "endMs": 17640,
+    "timestampMs": 17440,
+    "confidence": 0.998045
   },
   {
     "text": " a",
-    "startMs": 14650,
-    "endMs": 14730,
-    "timestampMs": 14700,
-    "confidence": 0.745986
-  },
-  {
-    "text": " R",
-    "startMs": 14730,
-    "endMs": 14810,
-    "timestampMs": 14840,
-    "confidence": 0.697107
-  },
-  {
-    "text": "ú",
-    "startMs": 14810,
-    "endMs": 14960,
-    "timestampMs": 14900,
-    "confidence": 0.604787
-  },
-  {
-    "text": "ss",
-    "startMs": 14960,
-    "endMs": 15130,
-    "timestampMs": 15000,
-    "confidence": 0.908162
-  },
-  {
-    "text": "ia",
-    "startMs": 15130,
-    "endMs": 15290,
-    "timestampMs": 15100,
-    "confidence": 0.988872
-  },
-  {
-    "text": " sabem",
-    "startMs": 15290,
-    "endMs": 15700,
-    "timestampMs": 15260,
-    "confidence": 0.677472
-  },
-  {
-    "text": " isso",
-    "startMs": 15700,
-    "endMs": 16030,
-    "timestampMs": 15480,
-    "confidence": 0.12915
-  },
-  {
-    "text": " bem",
-    "startMs": 16030,
-    "endMs": 16560,
-    "timestampMs": 16020,
-    "confidence": 0.886242
-  },
-  {
-    "text": ".",
-    "startMs": 16560,
-    "endMs": 16560,
-    "timestampMs": 16480,
-    "confidence": 0.780039
-  },
-  {
-    "text": " Todos",
-    "startMs": 16560,
-    "endMs": 16820,
-    "timestampMs": 16860,
-    "confidence": 0.0988426
-  },
-  {
-    "text": " os",
-    "startMs": 16820,
-    "endMs": 16930,
-    "timestampMs": 16960,
-    "confidence": 0.933328
-  },
-  {
-    "text": " países",
-    "startMs": 16930,
-    "endMs": 17280,
-    "timestampMs": 17180,
-    "confidence": 0.95585
-  },
-  {
-    "text": " têm",
-    "startMs": 17280,
-    "endMs": 17490,
-    "timestampMs": 17460,
-    "confidence": 0.661009
-  },
-  {
-    "text": " uma",
-    "startMs": 17490,
-    "endMs": 17640,
-    "timestampMs": 17520,
-    "confidence": 0.949907
+    "startMs": 17640,
+    "endMs": 17700,
+    "timestampMs": 17540,
+    "confidence": 0.995137
   },
   {
     "text": " long",
-    "startMs": 17640,
-    "endMs": 17850,
-    "timestampMs": 17880,
-    "confidence": 0.694319
+    "startMs": 17700,
+    "endMs": 17950,
+    "timestampMs": 17900,
+    "confidence": 0.996846
   },
   {
-    "text": "a",
-    "startMs": 17850,
-    "endMs": 17890,
-    "timestampMs": 18060,
-    "confidence": 0.937993
-  },
-  {
-    "text": " história",
-    "startMs": 17890,
+    "text": " history",
+    "startMs": 17950,
     "endMs": 18400,
     "timestampMs": 18300,
-    "confidence": 0.928486
+    "confidence": 0.999302
   },
   {
-    "text": " de",
+    "text": " of",
     "startMs": 18400,
     "endMs": 18580,
-    "timestampMs": 18520,
-    "confidence": 0.8566
+    "timestampMs": 18500,
+    "confidence": 0.99798
   },
   {
-    "text": " construir",
+    "text": " building",
     "startMs": 18580,
-    "endMs": 18950,
+    "endMs": 19020,
     "timestampMs": 18800,
-    "confidence": 0.549152
+    "confidence": 0.999093
   },
   {
-    "text": " esses",
-    "startMs": 18950,
-    "endMs": 19240,
-    "timestampMs": 19020,
-    "confidence": 0.71222
-  },
-  {
-    "text": " mon",
-    "startMs": 19240,
+    "text": " these",
+    "startMs": 19020,
     "endMs": 19350,
-    "timestampMs": 19580,
-    "confidence": 0.38891
+    "timestampMs": 19040,
+    "confidence": 0.976399
   },
   {
-    "text": "st",
+    "text": " steel",
     "startMs": 19350,
-    "endMs": 19450,
-    "timestampMs": 19760,
-    "confidence": 0.922067
+    "endMs": 19660,
+    "timestampMs": 19380,
+    "confidence": 0.954476
   },
   {
-    "text": "ros",
-    "startMs": 19450,
-    "endMs": 19600,
-    "timestampMs": 19900,
-    "confidence": 0.97207
-  },
-  {
-    "text": " de",
-    "startMs": 19600,
-    "endMs": 19700,
-    "timestampMs": 19900,
-    "confidence": 0.353342
-  },
-  {
-    "text": " sil",
-    "startMs": 19700,
-    "endMs": 19850,
-    "timestampMs": 19900,
-    "confidence": 0.0265912
-  },
-  {
-    "text": "ên",
-    "startMs": 19850,
-    "endMs": 20050,
-    "timestampMs": 19900,
-    "confidence": 0.875072
-  },
-  {
-    "text": "cio",
-    "startMs": 20050,
-    "endMs": 20140,
-    "timestampMs": 19900,
-    "confidence": 0.84098
+    "text": " monsters",
+    "startMs": 19660,
+    "endMs": 20300,
+    "timestampMs": 19800,
+    "confidence": 0.996166
   },
   {
     "text": ",",
-    "startMs": 20140,
-    "endMs": 20160,
-    "timestampMs": 19980,
-    "confidence": 0.59186
-  },
-  {
-    "text": " e",
-    "startMs": 20160,
+    "startMs": 20300,
     "endMs": 20350,
-    "timestampMs": 20440,
-    "confidence": 0.947214
+    "timestampMs": 20160,
+    "confidence": 0.87793
   },
   {
-    "text": " dois",
+    "text": " and",
     "startMs": 20350,
-    "endMs": 20390,
-    "timestampMs": 20660,
-    "confidence": 0.0877116
+    "endMs": 20400,
+    "timestampMs": 20440,
+    "confidence": 0.50167
   },
   {
-    "text": " segu",
-    "startMs": 20390,
-    "endMs": 20580,
+    "text": " both",
+    "startMs": 20400,
+    "endMs": 20710,
+    "timestampMs": 20680,
+    "confidence": 0.975033
+  },
+  {
+    "text": " keep",
+    "startMs": 20710,
+    "endMs": 20880,
     "timestampMs": 20900,
-    "confidence": 0.233845
+    "confidence": 0.867389
   },
   {
-    "text": "em",
-    "startMs": 20580,
-    "endMs": 20670,
-    "timestampMs": 20920,
-    "confidence": 0.968941
+    "text": " adding",
+    "startMs": 20880,
+    "endMs": 21200,
+    "timestampMs": 21180,
+    "confidence": 0.985633
   },
   {
-    "text": " ad",
-    "startMs": 20670,
-    "endMs": 20840,
-    "timestampMs": 21120,
-    "confidence": 0.0799715
+    "text": " new",
+    "startMs": 21200,
+    "endMs": 21390,
+    "timestampMs": 21420,
+    "confidence": 0.998121
   },
   {
-    "text": "icion",
-    "startMs": 20840,
-    "endMs": 20990,
-    "timestampMs": 21240,
-    "confidence": 0.401668
+    "text": " technology",
+    "startMs": 21390,
+    "endMs": 22020,
+    "timestampMs": 21980,
+    "confidence": 0.996687
   },
   {
-    "text": "ando",
-    "startMs": 20990,
-    "endMs": 21180,
-    "timestampMs": 21240,
-    "confidence": 0.656412
+    "text": " to",
+    "startMs": 22020,
+    "endMs": 22140,
+    "timestampMs": 22200,
+    "confidence": 0.99728
   },
   {
-    "text": " uma",
-    "startMs": 21180,
-    "endMs": 21320,
-    "timestampMs": 21320,
-    "confidence": 0.156709
+    "text": " their",
+    "startMs": 22140,
+    "endMs": 22450,
+    "timestampMs": 22340,
+    "confidence": 0.996474
   },
   {
-    "text": " nova",
-    "startMs": 21320,
-    "endMs": 21510,
-    "timestampMs": 21440,
-    "confidence": 0.961206
-  },
-  {
-    "text": " tecnologia",
-    "startMs": 21510,
-    "endMs": 21980,
-    "timestampMs": 21960,
-    "confidence": 0.986971
-  },
-  {
-    "text": " para",
-    "startMs": 21980,
-    "endMs": 22170,
-    "timestampMs": 22160,
-    "confidence": 0.810352
-  },
-  {
-    "text": " o",
-    "startMs": 22170,
-    "endMs": 22210,
-    "timestampMs": 22180,
-    "confidence": 0.383599
-  },
-  {
-    "text": " seu",
-    "startMs": 22210,
-    "endMs": 22350,
-    "timestampMs": 22360,
-    "confidence": 0.649749
-  },
-  {
-    "text": " arm",
-    "startMs": 22350,
-    "endMs": 22490,
-    "timestampMs": 22560,
-    "confidence": 0.599128
-  },
-  {
-    "text": "ário",
-    "startMs": 22490,
-    "endMs": 22800,
-    "timestampMs": 22680,
-    "confidence": 0.64374
+    "text": " armor",
+    "startMs": 22450,
+    "endMs": 22880,
+    "timestampMs": 22620,
+    "confidence": 0.995057
   },
   {
     "text": ",",
-    "startMs": 22800,
-    "endMs": 22800,
-    "timestampMs": 22980,
-    "confidence": 0.87154
+    "startMs": 22880,
+    "endMs": 22930,
+    "timestampMs": 22880,
+    "confidence": 0.858798
   },
   {
-    "text": " cada",
-    "startMs": 22800,
-    "endMs": 22980,
+    "text": " each",
+    "startMs": 22930,
+    "endMs": 23130,
     "timestampMs": 23140,
-    "confidence": 0.486713
+    "confidence": 0.998491
   },
   {
-    "text": " em",
-    "startMs": 22980,
-    "endMs": 23100,
-    "timestampMs": 23260,
-    "confidence": 0.419819
+    "text": " in",
+    "startMs": 23130,
+    "endMs": 23250,
+    "timestampMs": 23240,
+    "confidence": 0.99467
   },
   {
-    "text": " seu",
-    "startMs": 23100,
-    "endMs": 23200,
+    "text": " its",
+    "startMs": 23250,
+    "endMs": 23440,
     "timestampMs": 23380,
-    "confidence": 0.457767
+    "confidence": 0.934117
   },
   {
-    "text": " próprio",
-    "startMs": 23200,
-    "endMs": 23560,
+    "text": " own",
+    "startMs": 23440,
+    "endMs": 23630,
     "timestampMs": 23540,
-    "confidence": 0.669337
+    "confidence": 0.996896
   },
   {
-    "text": " caminho",
-    "startMs": 23560,
-    "endMs": 23880,
+    "text": " way",
+    "startMs": 23630,
+    "endMs": 23820,
     "timestampMs": 23820,
-    "confidence": 0.424831
+    "confidence": 0.992653
   },
   {
     "text": ",",
-    "startMs": 23880,
-    "endMs": 24200,
-    "timestampMs": 24160,
-    "confidence": 0.850421
+    "startMs": 23820,
+    "endMs": 24060,
+    "timestampMs": 24120,
+    "confidence": 0.896466
   },
   {
-    "text": " para",
+    "text": " to",
+    "startMs": 24060,
+    "endMs": 24200,
+    "timestampMs": 24260,
+    "confidence": 0.994806
+  },
+  {
+    "text": " get",
     "startMs": 24200,
     "endMs": 24250,
-    "timestampMs": 24280,
-    "confidence": 0.831217
+    "timestampMs": 24400,
+    "confidence": 0.997794
   },
   {
-    "text": " ter",
+    "text": " more",
     "startMs": 24250,
-    "endMs": 24450,
-    "timestampMs": 24380,
-    "confidence": 0.121593
+    "endMs": 24500,
+    "timestampMs": 24720,
+    "confidence": 0.996295
   },
   {
-    "text": " mais",
-    "startMs": 24450,
+    "text": " out",
+    "startMs": 24500,
     "endMs": 24690,
-    "timestampMs": 24700,
-    "confidence": 0.969041
+    "timestampMs": 24960,
+    "confidence": 0.982842
   },
   {
-    "text": " dessas",
+    "text": " of",
     "startMs": 24690,
-    "endMs": 25070,
-    "timestampMs": 25100,
-    "confidence": 0.250244
+    "endMs": 24810,
+    "timestampMs": 25080,
+    "confidence": 0.996029
   },
   {
-    "text": " máqu",
-    "startMs": 25070,
-    "endMs": 25390,
-    "timestampMs": 25480,
-    "confidence": 0.444371
+    "text": " these",
+    "startMs": 24810,
+    "endMs": 25200,
+    "timestampMs": 25180,
+    "confidence": 0.967497
   },
   {
-    "text": "inas",
-    "startMs": 25390,
-    "endMs": 25640,
+    "text": " machines",
+    "startMs": 25200,
+    "endMs": 25600,
     "timestampMs": 25640,
-    "confidence": 0.990596
+    "confidence": 0.972746
   },
   {
-    "text": " em",
-    "startMs": 25640,
+    "text": " on",
+    "startMs": 25600,
     "endMs": 25760,
-    "timestampMs": 25760,
-    "confidence": 0.0890026
+    "timestampMs": 25820,
+    "confidence": 0.853484
   },
   {
-    "text": " l",
+    "text": " the",
     "startMs": 25760,
-    "endMs": 25820,
-    "timestampMs": 25900,
-    "confidence": 0.00619209
+    "endMs": 25840,
+    "timestampMs": 25820,
+    "confidence": 0.978017
   },
   {
-    "text": "iga",
-    "startMs": 25820,
-    "endMs": 26010,
-    "timestampMs": 25900,
-    "confidence": 0.177821
-  },
-  {
-    "text": " de",
-    "startMs": 26010,
-    "endMs": 26130,
-    "timestampMs": 26060,
-    "confidence": 0.28603
-  },
-  {
-    "text": " bat",
-    "startMs": 26130,
-    "endMs": 26320,
-    "timestampMs": 26060,
-    "confidence": 0.921959
-  },
-  {
-    "text": "al",
-    "startMs": 26320,
-    "endMs": 26440,
-    "timestampMs": 26160,
-    "confidence": 0.998717
-  },
-  {
-    "text": "h",
-    "startMs": 26440,
-    "endMs": 26490,
-    "timestampMs": 26240,
-    "confidence": 0.733453
-  },
-  {
-    "text": "ão",
-    "startMs": 26490,
-    "endMs": 26570,
-    "timestampMs": 26460,
-    "confidence": 0.997887
+    "text": " battlefield",
+    "startMs": 25840,
+    "endMs": 26580,
+    "timestampMs": 26200,
+    "confidence": 0.998224
   },
   {
     "text": ".",
-    "startMs": 26570,
-    "endMs": 26960,
+    "startMs": 26580,
+    "endMs": 27110,
     "timestampMs": 26900,
-    "confidence": 0.991654
+    "confidence": 0.978028
   },
   {
-    "text": " Agora",
+    "text": " Now",
+    "startMs": 27110,
+    "endMs": 27120,
+    "timestampMs": 27220,
+    "confidence": 0.982643
+  },
+  {
+    "text": " picture",
     "startMs": 27120,
-    "endMs": 27320,
-    "timestampMs": 27260,
-    "confidence": 0.692144
+    "endMs": 27640,
+    "timestampMs": 27500,
+    "confidence": 0.814922
   },
   {
-    "text": " imag",
-    "startMs": 27320,
-    "endMs": 27520,
-    "timestampMs": 27440,
-    "confidence": 0.0240954
-  },
-  {
-    "text": "ina",
-    "startMs": 27520,
-    "endMs": 27700,
-    "timestampMs": 27580,
-    "confidence": 0.949872
-  },
-  {
-    "text": " isso",
-    "startMs": 27700,
-    "endMs": 27950,
-    "timestampMs": 27800,
-    "confidence": 0.603577
+    "text": " this",
+    "startMs": 27640,
+    "endMs": 27940,
+    "timestampMs": 27900,
+    "confidence": 0.997482
   },
   {
     "text": ",",
-    "startMs": 27950,
-    "endMs": 28320,
-    "timestampMs": 28160,
-    "confidence": 0.20641
+    "startMs": 27940,
+    "endMs": 28310,
+    "timestampMs": 28380,
+    "confidence": 0.367823
   },
   {
-    "text": " dois",
-    "startMs": 28320,
+    "text": " two",
+    "startMs": 28310,
     "endMs": 28450,
     "timestampMs": 28620,
-    "confidence": 0.324279
+    "confidence": 0.971677
   },
   {
-    "text": " filos",
+    "text": " completely",
     "startMs": 28450,
-    "endMs": 28630,
-    "timestampMs": 29260,
-    "confidence": 0.272612
+    "endMs": 29060,
+    "timestampMs": 29200,
+    "confidence": 0.994438
   },
   {
-    "text": "ó",
-    "startMs": 28630,
-    "endMs": 28750,
-    "timestampMs": 29260,
-    "confidence": 0.555356
+    "text": " opposite",
+    "startMs": 29060,
+    "endMs": 29690,
+    "timestampMs": 29760,
+    "confidence": 0.993284
   },
   {
-    "text": "fic",
-    "startMs": 28750,
-    "endMs": 28930,
-    "timestampMs": 29260,
-    "confidence": 0.750861
+    "text": " philosoph",
+    "startMs": 29690,
+    "endMs": 30330,
+    "timestampMs": 30180,
+    "confidence": 0.995826
   },
   {
-    "text": "os",
-    "startMs": 28930,
-    "endMs": 29050,
-    "timestampMs": 29260,
-    "confidence": 0.983057
+    "text": "ies",
+    "startMs": 30330,
+    "endMs": 30560,
+    "timestampMs": 30480,
+    "confidence": 0.999825
   },
   {
-    "text": " completamente",
-    "startMs": 29050,
-    "endMs": 29860,
-    "timestampMs": 29260,
-    "confidence": 0.55302
+    "text": " of",
+    "startMs": 30560,
+    "endMs": 30710,
+    "timestampMs": 30660,
+    "confidence": 0.998711
   },
   {
-    "text": " oppos",
-    "startMs": 29860,
-    "endMs": 30170,
-    "timestampMs": 29700,
-    "confidence": 0.194067
+    "text": " war",
+    "startMs": 30710,
+    "endMs": 30930,
+    "timestampMs": 30920,
+    "confidence": 0.996402
   },
   {
-    "text": "itos",
-    "startMs": 30170,
-    "endMs": 30410,
-    "timestampMs": 29900,
-    "confidence": 0.692192
-  },
-  {
-    "text": " da",
-    "startMs": 30410,
-    "endMs": 30530,
-    "timestampMs": 30060,
-    "confidence": 0.277258
-  },
-  {
-    "text": " guerra",
-    "startMs": 30530,
-    "endMs": 30970,
-    "timestampMs": 30900,
-    "confidence": 0.860382
-  },
-  {
-    "text": ",",
-    "startMs": 30970,
-    "endMs": 31210,
-    "timestampMs": 31120,
-    "confidence": 0.627455
-  },
-  {
-    "text": " indo",
-    "startMs": 31210,
-    "endMs": 31570,
+    "text": " going",
+    "startMs": 30930,
+    "endMs": 31300,
     "timestampMs": 31380,
-    "confidence": 0.402362
+    "confidence": 0.510912
   },
   {
-    "text": " de",
-    "startMs": 31570,
-    "endMs": 31690,
-    "timestampMs": 31700,
-    "confidence": 0.116328
+    "text": " head",
+    "startMs": 31300,
+    "endMs": 31600,
+    "timestampMs": 31720,
+    "confidence": 0.991348
   },
   {
-    "text": " lado",
-    "startMs": 31690,
-    "endMs": 32070,
-    "timestampMs": 31740,
-    "confidence": 0.206273
+    "text": " to",
+    "startMs": 31600,
+    "endMs": 31840,
+    "timestampMs": 31880,
+    "confidence": 0.773837
   },
   {
-    "text": " a",
-    "startMs": 32070,
-    "endMs": 32120,
-    "timestampMs": 31860,
-    "confidence": 0.930069
-  },
-  {
-    "text": " lado",
-    "startMs": 32120,
-    "endMs": 32200,
-    "timestampMs": 32120,
-    "confidence": 0.644151
+    "text": " head",
+    "startMs": 31840,
+    "endMs": 32190,
+    "timestampMs": 32160,
+    "confidence": 0.908878
   },
   {
     "text": ".",
-    "startMs": 32200,
+    "startMs": 32190,
     "endMs": 32560,
-    "timestampMs": 32660,
-    "confidence": 0.844624
+    "timestampMs": 32680,
+    "confidence": 0.883012
   },
   {
-    "text": " Em",
+    "text": " On",
     "startMs": 32560,
     "endMs": 32730,
-    "timestampMs": 32840,
-    "confidence": 0.191048
+    "timestampMs": 32820,
+    "confidence": 0.997143
   },
   {
-    "text": " um",
+    "text": " one",
     "startMs": 32730,
-    "endMs": 32900,
-    "timestampMs": 33020,
-    "confidence": 0.464525
+    "endMs": 32920,
+    "timestampMs": 33040,
+    "confidence": 0.996413
   },
   {
-    "text": " lado",
-    "startMs": 32900,
-    "endMs": 33250,
-    "timestampMs": 33320,
-    "confidence": 0.933125
+    "text": " side",
+    "startMs": 32920,
+    "endMs": 33210,
+    "timestampMs": 33400,
+    "confidence": 0.998399
   },
   {
     "text": ",",
-    "startMs": 33250,
-    "endMs": 33420,
-    "timestampMs": 33580,
-    "confidence": 0.897998
+    "startMs": 33210,
+    "endMs": 33350,
+    "timestampMs": 33680,
+    "confidence": 0.903221
   },
   {
-    "text": " a",
-    "startMs": 33420,
+    "text": " the",
+    "startMs": 33350,
     "endMs": 33650,
     "timestampMs": 33720,
-    "confidence": 0.745266
+    "confidence": 0.991318
   },
   {
     "text": " Le",
     "startMs": 33650,
-    "endMs": 33670,
-    "timestampMs": 33880,
-    "confidence": 0.650426
+    "endMs": 33710,
+    "timestampMs": 33900,
+    "confidence": 0.875616
   },
   {
     "text": "opard",
-    "startMs": 33670,
-    "endMs": 34160,
+    "startMs": 33710,
+    "endMs": 34070,
     "timestampMs": 34040,
-    "confidence": 0.901586
+    "confidence": 0.962656
   },
   {
     "text": " 2",
-    "startMs": 34160,
-    "endMs": 34370,
+    "startMs": 34070,
+    "endMs": 34290,
     "timestampMs": 34360,
-    "confidence": 0.97787
+    "confidence": 0.97265
   },
   {
     "text": "A",
-    "startMs": 34370,
-    "endMs": 34450,
+    "startMs": 34290,
+    "endMs": 34360,
     "timestampMs": 34520,
-    "confidence": 0.836673
+    "confidence": 0.932088
   },
   {
     "text": "8",
-    "startMs": 34450,
-    "endMs": 34700,
-    "timestampMs": 34880,
-    "confidence": 0.875494
+    "startMs": 34360,
+    "endMs": 34590,
+    "timestampMs": 34820,
+    "confidence": 0.65083
   },
   {
     "text": ",",
+    "startMs": 34590,
+    "endMs": 34700,
+    "timestampMs": 35100,
+    "confidence": 0.828122
+  },
+  {
+    "text": " the",
     "startMs": 34700,
-    "endMs": 34960,
-    "timestampMs": 35060,
-    "confidence": 0.826519
-  },
-  {
-    "text": " o",
-    "startMs": 34960,
     "endMs": 35120,
-    "timestampMs": 35260,
-    "confidence": 0.712483
+    "timestampMs": 35220,
+    "confidence": 0.99423
   },
   {
-    "text": " ped",
+    "text": " peak",
     "startMs": 35120,
-    "endMs": 35200,
-    "timestampMs": 35500,
-    "confidence": 0.0337599
-  },
-  {
-    "text": "a",
-    "startMs": 35200,
     "endMs": 35310,
-    "timestampMs": 35500,
-    "confidence": 0.248891
+    "timestampMs": 35560,
+    "confidence": 0.981948
   },
   {
-    "text": "ço",
+    "text": " of",
     "startMs": 35310,
-    "endMs": 35440,
-    "timestampMs": 35700,
-    "confidence": 0.954037
+    "endMs": 35360,
+    "timestampMs": 35780,
+    "confidence": 0.998582
   },
   {
-    "text": " de",
-    "startMs": 35440,
-    "endMs": 35640,
-    "timestampMs": 35820,
-    "confidence": 0.774545
+    "text": " more",
+    "startMs": 35360,
+    "endMs": 35650,
+    "timestampMs": 35940,
+    "confidence": 0.991836
   },
   {
-    "text": " mais",
-    "startMs": 35640,
-    "endMs": 35810,
-    "timestampMs": 35900,
-    "confidence": 0.917536
+    "text": " than",
+    "startMs": 35650,
+    "endMs": 35940,
+    "timestampMs": 36100,
+    "confidence": 0.996877
   },
   {
-    "text": " de",
-    "startMs": 35810,
-    "endMs": 35930,
-    "timestampMs": 36080,
-    "confidence": 0.774391
-  },
-  {
-    "text": " quatro",
-    "startMs": 35930,
+    "text": " four",
+    "startMs": 35940,
     "endMs": 36300,
-    "timestampMs": 36460,
-    "confidence": 0.694497
+    "timestampMs": 36440,
+    "confidence": 0.786393
   },
   {
-    "text": " déc",
+    "text": " decades",
     "startMs": 36300,
-    "endMs": 36550,
-    "timestampMs": 36700,
-    "confidence": 0.493143
+    "endMs": 36750,
+    "timestampMs": 36840,
+    "confidence": 0.996137
   },
   {
-    "text": "adas",
-    "startMs": 36550,
-    "endMs": 36800,
-    "timestampMs": 36940,
-    "confidence": 0.905783
+    "text": " of",
+    "startMs": 36750,
+    "endMs": 36960,
+    "timestampMs": 37040,
+    "confidence": 0.99398
   },
   {
-    "text": " de",
-    "startMs": 36800,
-    "endMs": 36920,
-    "timestampMs": 37060,
-    "confidence": 0.677914
+    "text": " continuous",
+    "startMs": 36960,
+    "endMs": 37600,
+    "timestampMs": 37560,
+    "confidence": 0.975508
   },
   {
-    "text": " eng",
-    "startMs": 36920,
-    "endMs": 37120,
-    "timestampMs": 38140,
-    "confidence": 0.810405
+    "text": " German",
+    "startMs": 37600,
+    "endMs": 38000,
+    "timestampMs": 37960,
+    "confidence": 0.965537
   },
   {
-    "text": "en",
-    "startMs": 37120,
-    "endMs": 37260,
-    "timestampMs": 38260,
-    "confidence": 0.982675
-  },
-  {
-    "text": "har",
-    "startMs": 37260,
-    "endMs": 37400,
-    "timestampMs": 38460,
-    "confidence": 0.583729
-  },
-  {
-    "text": "ia",
-    "startMs": 37400,
-    "endMs": 37520,
-    "timestampMs": 38580,
-    "confidence": 0.805739
-  },
-  {
-    "text": " germ",
-    "startMs": 37520,
-    "endMs": 37770,
-    "timestampMs": 38580,
-    "confidence": 0.194781
-  },
-  {
-    "text": "ân",
-    "startMs": 37770,
-    "endMs": 37950,
-    "timestampMs": 38580,
-    "confidence": 0.50831
-  },
-  {
-    "text": "ica",
-    "startMs": 37950,
-    "endMs": 38240,
-    "timestampMs": 38580,
-    "confidence": 0.946126
+    "text": " engineering",
+    "startMs": 38000,
+    "endMs": 38880,
+    "timestampMs": 38440,
+    "confidence": 0.923928
   },
   {
     "text": ".",
-    "startMs": 38240,
+    "startMs": 38880,
     "endMs": 38880,
-    "timestampMs": 38700,
-    "confidence": 0.353114
+    "timestampMs": 38960,
+    "confidence": 0.790534
   },
   {
-    "text": " É",
+    "text": " It",
     "startMs": 38880,
     "endMs": 39080,
-    "timestampMs": 39200,
-    "confidence": 0.837968
-  },
-  {
-    "text": " um",
-    "startMs": 39080,
-    "endMs": 39140,
-    "timestampMs": 39320,
-    "confidence": 0.466695
-  },
-  {
-    "text": " b",
-    "startMs": 39140,
-    "endMs": 39200,
-    "timestampMs": 39340,
-    "confidence": 0.0655942
-  },
-  {
-    "text": "icho",
-    "startMs": 39200,
-    "endMs": 39460,
-    "timestampMs": 39340,
-    "confidence": 0.116341
-  },
-  {
-    "text": " de",
-    "startMs": 39460,
-    "endMs": 39590,
-    "timestampMs": 39340,
-    "confidence": 0.870916
-  },
-  {
-    "text": " cerca",
-    "startMs": 39590,
-    "endMs": 39920,
-    "timestampMs": 39420,
-    "confidence": 0.475867
-  },
-  {
-    "text": " de",
-    "startMs": 39920,
-    "endMs": 40050,
-    "timestampMs": 39540,
-    "confidence": 0.942038
-  },
-  {
-    "text": " 70",
-    "startMs": 40050,
-    "endMs": 40450,
-    "timestampMs": 40080,
-    "confidence": 0.906587
-  },
-  {
-    "text": " ton",
-    "startMs": 40450,
-    "endMs": 40650,
-    "timestampMs": 40360,
-    "confidence": 0.546927
-  },
-  {
-    "text": "el",
-    "startMs": 40650,
-    "endMs": 40780,
-    "timestampMs": 40580,
-    "confidence": 0.460338
-  },
-  {
-    "text": "as",
-    "startMs": 40780,
-    "endMs": 40960,
-    "timestampMs": 40820,
-    "confidence": 0.361165
-  },
-  {
-    "text": ",",
-    "startMs": 40960,
-    "endMs": 40960,
-    "timestampMs": 41060,
-    "confidence": 0.784384
-  },
-  {
-    "text": " onde",
-    "startMs": 40960,
-    "endMs": 41180,
-    "timestampMs": 41260,
-    "confidence": 0.880615
-  },
-  {
-    "text": " cada",
-    "startMs": 41180,
-    "endMs": 41400,
-    "timestampMs": 41620,
-    "confidence": 0.393136
-  },
-  {
-    "text": " em",
-    "startMs": 41400,
-    "endMs": 41510,
-    "timestampMs": 41900,
-    "confidence": 0.1649
-  },
-  {
-    "text": "bal",
-    "startMs": 41510,
-    "endMs": 41670,
-    "timestampMs": 41900,
-    "confidence": 0.824822
-  },
-  {
-    "text": "agem",
-    "startMs": 41670,
-    "endMs": 41890,
-    "timestampMs": 41980,
-    "confidence": 0.588532
-  },
-  {
-    "text": " foi",
-    "startMs": 41890,
-    "endMs": 42050,
-    "timestampMs": 42120,
-    "confidence": 0.748464
-  },
-  {
-    "text": " design",
-    "startMs": 42050,
-    "endMs": 42380,
-    "timestampMs": 42340,
-    "confidence": 0.0984946
-  },
-  {
-    "text": "ado",
-    "startMs": 42380,
-    "endMs": 42540,
-    "timestampMs": 42560,
-    "confidence": 0.666578
-  },
-  {
-    "text": " para",
-    "startMs": 42540,
-    "endMs": 42760,
-    "timestampMs": 42640,
-    "confidence": 0.898424
-  },
-  {
-    "text": " continuar",
-    "startMs": 42760,
-    "endMs": 43250,
-    "timestampMs": 42860,
-    "confidence": 0.805942
-  },
-  {
-    "text": " trabal",
-    "startMs": 43250,
-    "endMs": 43580,
-    "timestampMs": 43100,
-    "confidence": 0.501593
-  },
-  {
-    "text": "hando",
-    "startMs": 43580,
-    "endMs": 43960,
-    "timestampMs": 43300,
-    "confidence": 0.997234
-  },
-  {
-    "text": " em",
-    "startMs": 43960,
-    "endMs": 43960,
-    "timestampMs": 43460,
-    "confidence": 0.347685
-  },
-  {
-    "text": " um",
-    "startMs": 43960,
-    "endMs": 44070,
-    "timestampMs": 43520,
-    "confidence": 0.108637
-  },
-  {
-    "text": " fog",
-    "startMs": 44070,
-    "endMs": 44220,
-    "timestampMs": 44160,
-    "confidence": 0.3156
-  },
-  {
-    "text": "o",
-    "startMs": 44220,
-    "endMs": 44280,
-    "timestampMs": 44200,
-    "confidence": 0.997236
-  },
-  {
-    "text": " real",
-    "startMs": 44280,
-    "endMs": 44310,
-    "timestampMs": 44220,
-    "confidence": 0.745356
-  },
-  {
-    "text": ".",
-    "startMs": 44310,
-    "endMs": 44720,
-    "timestampMs": 44400,
-    "confidence": 0.988623
-  },
-  {
-    "text": " Em",
-    "startMs": 44720,
-    "endMs": 44900,
-    "timestampMs": 44980,
-    "confidence": 0.495139
-  },
-  {
-    "text": " outro",
-    "startMs": 44900,
-    "endMs": 45360,
-    "timestampMs": 45240,
-    "confidence": 0.51504
-  },
-  {
-    "text": " lado",
-    "startMs": 45360,
-    "endMs": 45910,
-    "timestampMs": 45560,
-    "confidence": 0.976382
-  },
-  {
-    "text": ",",
-    "startMs": 45910,
-    "endMs": 45920,
-    "timestampMs": 45860,
-    "confidence": 0.981616
-  },
-  {
-    "text": " a",
-    "startMs": 45920,
-    "endMs": 46040,
-    "timestampMs": 45980,
-    "confidence": 0.693027
-  },
-  {
-    "text": " T",
-    "startMs": 46040,
-    "endMs": 46090,
-    "timestampMs": 46200,
-    "confidence": 0.682237
-  },
-  {
-    "text": "-",
-    "startMs": 46090,
-    "endMs": 46180,
-    "timestampMs": 46320,
-    "confidence": 0.425241
-  },
-  {
-    "text": "14",
-    "startMs": 46180,
-    "endMs": 46730,
-    "timestampMs": 46600,
-    "confidence": 0.994529
-  },
-  {
-    "text": " Arm",
-    "startMs": 46730,
-    "endMs": 47010,
-    "timestampMs": 47000,
-    "confidence": 0.634377
-  },
-  {
-    "text": "ada",
-    "startMs": 47010,
-    "endMs": 47260,
-    "timestampMs": 47260,
-    "confidence": 0.940638
-  },
-  {
-    "text": ",",
-    "startMs": 47260,
-    "endMs": 47590,
-    "timestampMs": 47540,
-    "confidence": 0.921549
-  },
-  {
-    "text": " R",
-    "startMs": 47590,
-    "endMs": 47620,
-    "timestampMs": 47780,
-    "confidence": 0.0915737
-  },
-  {
-    "text": "ú",
-    "startMs": 47620,
-    "endMs": 47730,
-    "timestampMs": 47820,
-    "confidence": 0.928835
-  },
-  {
-    "text": "ss",
-    "startMs": 47730,
-    "endMs": 47870,
-    "timestampMs": 47900,
-    "confidence": 0.999218
-  },
-  {
-    "text": "ia",
-    "startMs": 47870,
-    "endMs": 48010,
-    "timestampMs": 48000,
-    "confidence": 0.998024
+    "timestampMs": 39160,
+    "confidence": 0.993161
   },
   {
     "text": "'s",
-    "startMs": 48010,
-    "endMs": 48210,
-    "timestampMs": 48100,
-    "confidence": 0.926768
-  },
-  {
-    "text": " \"",
-    "startMs": 48210,
-    "endMs": 48220,
-    "timestampMs": 48120,
-    "confidence": 0.0927557
-  },
-  {
-    "text": "Big",
-    "startMs": 48220,
-    "endMs": 48420,
-    "timestampMs": 48340,
-    "confidence": 0.36282
-  },
-  {
-    "text": " Bet",
-    "startMs": 48420,
-    "endMs": 48660,
-    "timestampMs": 48620,
-    "confidence": 0.800561
-  },
-  {
-    "text": "\",",
-    "startMs": 48660,
-    "endMs": 48880,
-    "timestampMs": 49000,
-    "confidence": 0.824382
-  },
-  {
-    "text": " que",
-    "startMs": 48880,
-    "endMs": 49030,
-    "timestampMs": 49140,
-    "confidence": 0.796179
-  },
-  {
-    "text": " promet",
-    "startMs": 49030,
-    "endMs": 49310,
-    "timestampMs": 49420,
-    "confidence": 0.669075
-  },
-  {
-    "text": "eu",
-    "startMs": 49310,
-    "endMs": 49400,
-    "timestampMs": 49560,
-    "confidence": 0.445302
-  },
-  {
-    "text": " reinvent",
-    "startMs": 49400,
-    "endMs": 49790,
-    "timestampMs": 50100,
-    "confidence": 0.750582
-  },
-  {
-    "text": "ar",
-    "startMs": 49790,
-    "endMs": 49880,
-    "timestampMs": 50220,
-    "confidence": 0.993834
-  },
-  {
-    "text": " o",
-    "startMs": 49880,
-    "endMs": 49920,
-    "timestampMs": 50340,
-    "confidence": 0.752676
-  },
-  {
-    "text": " tan",
-    "startMs": 49920,
-    "endMs": 50060,
-    "timestampMs": 50520,
-    "confidence": 0.424446
-  },
-  {
-    "text": "que",
-    "startMs": 50060,
-    "endMs": 50270,
-    "timestampMs": 50520,
-    "confidence": 0.976606
-  },
-  {
-    "text": " de",
-    "startMs": 50270,
-    "endMs": 50290,
-    "timestampMs": 50520,
-    "confidence": 0.767763
-  },
-  {
-    "text": " bat",
-    "startMs": 50290,
-    "endMs": 50430,
-    "timestampMs": 50520,
-    "confidence": 0.971638
-  },
-  {
-    "text": "al",
-    "startMs": 50430,
-    "endMs": 50520,
-    "timestampMs": 50640,
-    "confidence": 0.981894
-  },
-  {
-    "text": "h",
-    "startMs": 50520,
-    "endMs": 50560,
-    "timestampMs": 50920,
-    "confidence": 0.664496
-  },
-  {
-    "text": "ão",
-    "startMs": 50560,
-    "endMs": 50800,
-    "timestampMs": 50920,
-    "confidence": 0.997046
-  },
-  {
-    "text": " de",
-    "startMs": 50800,
-    "endMs": 50920,
-    "timestampMs": 50980,
-    "confidence": 0.327543
-  },
-  {
-    "text": " um",
-    "startMs": 50920,
-    "endMs": 51000,
-    "timestampMs": 51360,
-    "confidence": 0.145207
-  },
-  {
-    "text": " em",
-    "startMs": 51000,
-    "endMs": 51100,
-    "timestampMs": 51380,
-    "confidence": 0.00486025
-  },
-  {
-    "text": "bal",
-    "startMs": 51100,
-    "endMs": 51240,
-    "timestampMs": 51380,
-    "confidence": 0.879873
-  },
-  {
-    "text": "amento",
-    "startMs": 51240,
-    "endMs": 51600,
-    "timestampMs": 51460,
-    "confidence": 0.608309
-  },
-  {
-    "text": " pelo",
-    "startMs": 51600,
-    "endMs": 52090,
-    "timestampMs": 51880,
-    "confidence": 0.209489
-  },
-  {
-    "text": " pu",
-    "startMs": 52090,
-    "endMs": 52330,
-    "timestampMs": 52000,
-    "confidence": 0.0459133
-  },
-  {
-    "text": "ro",
-    "startMs": 52330,
-    "endMs": 52680,
-    "timestampMs": 52120,
-    "confidence": 0.776712
-  },
-  {
-    "text": " da",
-    "startMs": 52680,
-    "endMs": 52810,
-    "timestampMs": 52780,
-    "confidence": 0.160139
-  },
-  {
-    "text": " tur",
-    "startMs": 52810,
-    "endMs": 53170,
-    "timestampMs": 53220,
-    "confidence": 0.0769399
-  },
-  {
-    "text": "ra",
-    "startMs": 53170,
-    "endMs": 53510,
-    "timestampMs": 53360,
-    "confidence": 0.686584
-  },
-  {
-    "text": " e",
-    "startMs": 53510,
-    "endMs": 53600,
-    "timestampMs": 53680,
-    "confidence": 0.673861
-  },
-  {
-    "text": " coloc",
-    "startMs": 53600,
-    "endMs": 53890,
-    "timestampMs": 53800,
-    "confidence": 0.278526
-  },
-  {
-    "text": "ando",
-    "startMs": 53890,
-    "endMs": 54190,
-    "timestampMs": 53940,
-    "confidence": 0.955203
-  },
-  {
-    "text": " todo",
-    "startMs": 54190,
-    "endMs": 54480,
-    "timestampMs": 54220,
-    "confidence": 0.479901
-  },
-  {
-    "text": " mundo",
-    "startMs": 54480,
-    "endMs": 54870,
-    "timestampMs": 54420,
-    "confidence": 0.783667
-  },
-  {
-    "text": " em",
-    "startMs": 54870,
-    "endMs": 55020,
-    "timestampMs": 54620,
-    "confidence": 0.801649
-  },
-  {
-    "text": " um",
-    "startMs": 55020,
-    "endMs": 55170,
-    "timestampMs": 54740,
-    "confidence": 0.649756
-  },
-  {
-    "text": " ca",
-    "startMs": 55170,
-    "endMs": 55320,
-    "timestampMs": 55300,
-    "confidence": 0.0829813
-  },
-  {
-    "text": "ixa",
-    "startMs": 55320,
-    "endMs": 55540,
-    "timestampMs": 55580,
-    "confidence": 0.203257
-  },
-  {
-    "text": " de",
-    "startMs": 55540,
-    "endMs": 55690,
-    "timestampMs": 55620,
-    "confidence": 0.373455
-  },
-  {
-    "text": " arm",
-    "startMs": 55690,
-    "endMs": 55910,
-    "timestampMs": 55620,
-    "confidence": 0.806485
-  },
-  {
-    "text": "ário",
-    "startMs": 55910,
-    "endMs": 56560,
-    "timestampMs": 55620,
-    "confidence": 0.159323
-  },
-  {
-    "text": ".",
-    "startMs": 56560,
-    "endMs": 56560,
-    "timestampMs": 55760,
-    "confidence": 0.193491
-  },
-  {
-    "text": " Se",
-    "startMs": 56640,
-    "endMs": 56650,
-    "timestampMs": 56800,
-    "confidence": 0.956082
-  },
-  {
-    "text": " você",
-    "startMs": 56650,
-    "endMs": 56890,
-    "timestampMs": 56800,
-    "confidence": 0.785106
-  },
-  {
-    "text": " apenas",
-    "startMs": 56890,
-    "endMs": 57170,
-    "timestampMs": 57100,
-    "confidence": 0.139247
-  },
-  {
-    "text": " ol",
-    "startMs": 57170,
-    "endMs": 57300,
-    "timestampMs": 57260,
-    "confidence": 0.158921
-  },
-  {
-    "text": "hou",
-    "startMs": 57300,
-    "endMs": 57420,
-    "timestampMs": 57320,
-    "confidence": 0.175729
-  },
-  {
-    "text": " em",
-    "startMs": 57420,
-    "endMs": 57490,
-    "timestampMs": 57360,
-    "confidence": 0.0991796
-  },
-  {
-    "text": " broch",
-    "startMs": 57490,
-    "endMs": 57730,
-    "timestampMs": 58120,
-    "confidence": 0.124175
-  },
-  {
-    "text": "ures",
-    "startMs": 57730,
-    "endMs": 57920,
-    "timestampMs": 58400,
-    "confidence": 0.837662
-  },
-  {
-    "text": " prom",
-    "startMs": 57920,
-    "endMs": 58110,
-    "timestampMs": 58400,
-    "confidence": 0.365469
-  },
-  {
-    "text": "oc",
-    "startMs": 58110,
-    "endMs": 58200,
-    "timestampMs": 58400,
-    "confidence": 0.644121
-  },
-  {
-    "text": "ional",
-    "startMs": 58200,
-    "endMs": 58480,
-    "timestampMs": 58400,
-    "confidence": 0.881683
-  },
-  {
-    "text": " ou",
-    "startMs": 58480,
-    "endMs": 58600,
-    "timestampMs": 58660,
-    "confidence": 0.715818
-  },
-  {
-    "text": " forums",
-    "startMs": 58600,
-    "endMs": 58970,
-    "timestampMs": 60000,
-    "confidence": 0.447989
-  },
-  {
-    "text": " online",
-    "startMs": 58970,
-    "endMs": 59390,
-    "timestampMs": 60000,
-    "confidence": 0.182452
-  },
-  {
-    "text": " de",
-    "startMs": 59390,
-    "endMs": 59460,
-    "timestampMs": 60340,
-    "confidence": 0.436629
-  },
-  {
-    "text": " jogo",
-    "startMs": 59460,
-    "endMs": 59710,
-    "timestampMs": 60340,
-    "confidence": 0.0563948
-  },
-  {
-    "text": " de",
-    "startMs": 59710,
-    "endMs": 59830,
-    "timestampMs": 60340,
-    "confidence": 0.755063
-  },
-  {
-    "text": " guerra",
-    "startMs": 59830,
-    "endMs": 60240,
-    "timestampMs": 60340,
-    "confidence": 0.451523
-  },
-  {
-    "text": ",",
-    "startMs": 60240,
-    "endMs": 60240,
-    "timestampMs": 60340,
-    "confidence": 0.965963
+    "startMs": 39080,
+    "endMs": 39140,
+    "timestampMs": 39240,
+    "confidence": 0.97657
   },
   {
     "text": " a",
-    "startMs": 60240,
-    "endMs": 60440,
-    "timestampMs": 60560,
-    "confidence": 0.317468
+    "startMs": 39140,
+    "endMs": 39200,
+    "timestampMs": 39320,
+    "confidence": 0.994981
   },
   {
-    "text": " lig",
-    "startMs": 60440,
-    "endMs": 60500,
-    "timestampMs": 60680,
-    "confidence": 0.0308073
+    "text": " nearly",
+    "startMs": 39200,
+    "endMs": 39600,
+    "timestampMs": 39480,
+    "confidence": 0.999131
   },
   {
-    "text": "ação",
-    "startMs": 60500,
-    "endMs": 60910,
-    "timestampMs": 60780,
-    "confidence": 0.94664
-  },
-  {
-    "text": " parece",
-    "startMs": 60910,
-    "endMs": 61300,
-    "timestampMs": 61060,
-    "confidence": 0.755644
-  },
-  {
-    "text": " quase",
-    "startMs": 61300,
-    "endMs": 61640,
-    "timestampMs": 61520,
-    "confidence": 0.948167
-  },
-  {
-    "text": " incom",
-    "startMs": 61640,
-    "endMs": 61980,
-    "timestampMs": 61920,
-    "confidence": 0.0313801
-  },
-  {
-    "text": "od",
-    "startMs": 61980,
-    "endMs": 62110,
-    "timestampMs": 62020,
-    "confidence": 0.180774
-  },
-  {
-    "text": "ada",
-    "startMs": 62110,
-    "endMs": 62560,
-    "timestampMs": 62020,
-    "confidence": 0.380528
-  },
-  {
-    "text": ".",
-    "startMs": 62560,
-    "endMs": 62560,
-    "timestampMs": 62620,
-    "confidence": 0.908963
-  },
-  {
-    "text": " Um",
-    "startMs": 62560,
-    "endMs": 62710,
-    "timestampMs": 62820,
-    "confidence": 0.907206
-  },
-  {
-    "text": " tan",
-    "startMs": 62710,
-    "endMs": 62830,
-    "timestampMs": 63420,
-    "confidence": 0.832506
-  },
-  {
-    "text": "que",
-    "startMs": 62830,
-    "endMs": 62990,
-    "timestampMs": 63540,
-    "confidence": 0.961071
-  },
-  {
-    "text": " esquer",
-    "startMs": 62990,
-    "endMs": 63320,
-    "timestampMs": 63540,
-    "confidence": 0.0109084
-  },
-  {
-    "text": "do",
-    "startMs": 63320,
-    "endMs": 63430,
-    "timestampMs": 63540,
-    "confidence": 0.976256
-  },
-  {
-    "text": " evol",
-    "startMs": 63430,
-    "endMs": 63680,
-    "timestampMs": 63740,
-    "confidence": 0.515041
-  },
-  {
-    "text": "ui",
-    "startMs": 63680,
-    "endMs": 63760,
-    "timestampMs": 63900,
-    "confidence": 0.331649
-  },
-  {
-    "text": "u",
-    "startMs": 63760,
-    "endMs": 63810,
-    "timestampMs": 63900,
-    "confidence": 0.941876
-  },
-  {
-    "text": " de",
-    "startMs": 63810,
-    "endMs": 63930,
-    "timestampMs": 64040,
-    "confidence": 0.496708
-  },
-  {
-    "text": " um",
-    "startMs": 63930,
-    "endMs": 64030,
-    "timestampMs": 64220,
-    "confidence": 0.834225
-  },
-  {
-    "text": " design",
-    "startMs": 64030,
-    "endMs": 64360,
-    "timestampMs": 64280,
-    "confidence": 0.205809
-  },
-  {
-    "text": " de",
-    "startMs": 64360,
-    "endMs": 64470,
-    "timestampMs": 64280,
-    "confidence": 0.663781
-  },
-  {
-    "text": " guerra",
-    "startMs": 64470,
-    "endMs": 64800,
-    "timestampMs": 64280,
-    "confidence": 0.207394
-  },
-  {
-    "text": " cold",
-    "startMs": 64800,
-    "endMs": 65010,
-    "timestampMs": 64420,
-    "confidence": 0.239408
-  },
-  {
-    "text": ",",
-    "startMs": 65010,
-    "endMs": 65200,
-    "timestampMs": 65320,
-    "confidence": 0.132564
-  },
-  {
-    "text": " contra",
-    "startMs": 65200,
-    "endMs": 65670,
-    "timestampMs": 65500,
-    "confidence": 0.790574
-  },
-  {
-    "text": " um",
-    "startMs": 65670,
-    "endMs": 65940,
-    "timestampMs": 65800,
-    "confidence": 0.583136
-  },
-  {
-    "text": " tan",
-    "startMs": 65940,
-    "endMs": 66070,
-    "timestampMs": 66040,
-    "confidence": 0.729787
-  },
-  {
-    "text": "que",
-    "startMs": 66070,
-    "endMs": 66300,
-    "timestampMs": 66040,
-    "confidence": 0.981152
-  },
-  {
-    "text": " rus",
-    "startMs": 66300,
-    "endMs": 66540,
-    "timestampMs": 66040,
-    "confidence": 0.0311954
-  },
-  {
-    "text": "so",
-    "startMs": 66540,
-    "endMs": 66690,
-    "timestampMs": 66040,
-    "confidence": 0.95329
-  },
-  {
-    "text": " de",
-    "startMs": 66690,
-    "endMs": 66850,
-    "timestampMs": 66040,
-    "confidence": 0.201095
-  },
-  {
-    "text": " 4",
-    "startMs": 66850,
-    "endMs": 67090,
-    "timestampMs": 66040,
-    "confidence": 0.109325
-  },
-  {
-    "text": "�",
-    "startMs": 67090,
-    "endMs": 67160,
-    "timestampMs": 66200,
-    "confidence": 0.309721
-  },
-  {
-    "text": "�",
-    "startMs": 67160,
-    "endMs": 67230,
-    "timestampMs": 66200,
-    "confidence": 0.995038
-  },
-  {
-    "text": " gera",
-    "startMs": 67230,
-    "endMs": 67550,
-    "timestampMs": 66380,
-    "confidence": 0.520173
-  },
-  {
-    "text": "ção",
-    "startMs": 67550,
-    "endMs": 67990,
-    "timestampMs": 66760,
-    "confidence": 0.998241
-  },
-  {
-    "text": " super",
-    "startMs": 67990,
-    "endMs": 68040,
-    "timestampMs": 67500,
-    "confidence": 0.15565
+    "text": " 70",
+    "startMs": 39600,
+    "endMs": 40000,
+    "timestampMs": 40060,
+    "confidence": 0.940372
   },
   {
     "text": "-",
-    "startMs": 68040,
-    "endMs": 68040,
-    "timestampMs": 67760,
-    "confidence": 0.36232
+    "startMs": 40000,
+    "endMs": 40060,
+    "timestampMs": 40060,
+    "confidence": 0.517907
   },
   {
-    "text": "t",
-    "startMs": 68040,
-    "endMs": 68080,
-    "timestampMs": 67760,
-    "confidence": 0.433654
+    "text": "ton",
+    "startMs": 40060,
+    "endMs": 40260,
+    "timestampMs": 40340,
+    "confidence": 0.992597
   },
   {
-    "text": "ank",
-    "startMs": 68080,
-    "endMs": 68120,
-    "timestampMs": 67820,
-    "confidence": 0.785952
+    "text": " beast",
+    "startMs": 40260,
+    "endMs": 40590,
+    "timestampMs": 40840,
+    "confidence": 0.882416
   },
   {
-    "text": " load",
-    "startMs": 68120,
-    "endMs": 68320,
-    "timestampMs": 68380,
-    "confidence": 0.0140103
+    "text": " where",
+    "startMs": 40590,
+    "endMs": 40910,
+    "timestampMs": 41220,
+    "confidence": 0.791165
   },
   {
-    "text": "ado",
-    "startMs": 68320,
-    "endMs": 68490,
-    "timestampMs": 68640,
-    "confidence": 0.773032
+    "text": " every",
+    "startMs": 40910,
+    "endMs": 41370,
+    "timestampMs": 41660,
+    "confidence": 0.998133
   },
   {
-    "text": " com",
-    "startMs": 68490,
-    "endMs": 68670,
-    "timestampMs": 68660,
-    "confidence": 0.806048
+    "text": " bolt",
+    "startMs": 41370,
+    "endMs": 41580,
+    "timestampMs": 41940,
+    "confidence": 0.991425
   },
   {
-    "text": " prom",
-    "startMs": 68670,
-    "endMs": 68920,
-    "timestampMs": 68780,
-    "confidence": 0.737523
+    "text": " was",
+    "startMs": 41580,
+    "endMs": 41710,
+    "timestampMs": 42100,
+    "confidence": 0.994507
   },
   {
-    "text": "ess",
-    "startMs": 68920,
-    "endMs": 69080,
-    "timestampMs": 68780,
-    "confidence": 0.402808
+    "text": " designed",
+    "startMs": 41710,
+    "endMs": 42240,
+    "timestampMs": 42440,
+    "confidence": 0.998213
   },
   {
-    "text": "ores",
-    "startMs": 69080,
-    "endMs": 69330,
-    "timestampMs": 68780,
-    "confidence": 0.363665
+    "text": " to",
+    "startMs": 42240,
+    "endMs": 42370,
+    "timestampMs": 42620,
+    "confidence": 0.996177
   },
   {
-    "text": " fut",
-    "startMs": 69330,
-    "endMs": 69490,
-    "timestampMs": 68860,
-    "confidence": 0.408346
+    "text": " keep",
+    "startMs": 42370,
+    "endMs": 42670,
+    "timestampMs": 42840,
+    "confidence": 0.990735
   },
   {
-    "text": "ur",
-    "startMs": 69490,
-    "endMs": 69590,
-    "timestampMs": 69060,
-    "confidence": 0.741932
+    "text": " working",
+    "startMs": 42670,
+    "endMs": 43170,
+    "timestampMs": 43180,
+    "confidence": 0.989481
   },
   {
-    "text": "ist",
-    "startMs": 69590,
-    "endMs": 69780,
-    "timestampMs": 69180,
-    "confidence": 0.356581
-  },
-  {
-    "text": "icos",
-    "startMs": 69780,
-    "endMs": 70240,
-    "timestampMs": 69300,
-    "confidence": 0.625657
-  },
-  {
-    "text": ".",
-    "startMs": 70240,
-    "endMs": 70240,
-    "timestampMs": 70300,
-    "confidence": 0.803982
-  },
-  {
-    "text": " Mas",
-    "startMs": 70240,
-    "endMs": 70520,
-    "timestampMs": 70580,
-    "confidence": 0.942022
-  },
-  {
-    "text": " em",
-    "startMs": 70520,
-    "endMs": 70700,
-    "timestampMs": 70680,
-    "confidence": 0.557606
-  },
-  {
-    "text": " um",
-    "startMs": 70700,
-    "endMs": 70880,
-    "timestampMs": 70820,
-    "confidence": 0.959691
-  },
-  {
-    "text": " fog",
-    "startMs": 70880,
-    "endMs": 71160,
-    "timestampMs": 71480,
-    "confidence": 0.339247
-  },
-  {
-    "text": "o",
-    "startMs": 71160,
-    "endMs": 71250,
-    "timestampMs": 71580,
-    "confidence": 0.997149
+    "text": " under",
+    "startMs": 43170,
+    "endMs": 43520,
+    "timestampMs": 43480,
+    "confidence": 0.99459
   },
   {
     "text": " real",
-    "startMs": 71250,
-    "endMs": 71580,
-    "timestampMs": 71580,
-    "confidence": 0.933529
+    "startMs": 43520,
+    "endMs": 43960,
+    "timestampMs": 43820,
+    "confidence": 0.978202
   },
   {
-    "text": ",",
-    "startMs": 71580,
-    "endMs": 71900,
-    "timestampMs": 71760,
-    "confidence": 0.882277
-  },
-  {
-    "text": " o",
-    "startMs": 71900,
-    "endMs": 72020,
-    "timestampMs": 72100,
-    "confidence": 0.685422
-  },
-  {
-    "text": " papel",
-    "startMs": 72020,
-    "endMs": 72200,
-    "timestampMs": 72280,
-    "confidence": 0.303377
-  },
-  {
-    "text": " não",
-    "startMs": 72200,
-    "endMs": 72470,
-    "timestampMs": 72680,
-    "confidence": 0.965705
-  },
-  {
-    "text": " arr",
-    "startMs": 72470,
-    "endMs": 72620,
-    "timestampMs": 73060,
-    "confidence": 0.0324145
-  },
-  {
-    "text": "um",
-    "startMs": 72620,
-    "endMs": 72740,
-    "timestampMs": 73060,
-    "confidence": 0.678266
-  },
-  {
-    "text": "ou",
-    "startMs": 72740,
-    "endMs": 72890,
-    "timestampMs": 73060,
-    "confidence": 0.532036
-  },
-  {
-    "text": " um",
-    "startMs": 72890,
-    "endMs": 72980,
-    "timestampMs": 73200,
-    "confidence": 0.482278
-  },
-  {
-    "text": " par",
-    "startMs": 72980,
-    "endMs": 73160,
-    "timestampMs": 73380,
-    "confidence": 0.0156629
-  },
-  {
-    "text": "que",
-    "startMs": 73160,
-    "endMs": 73340,
-    "timestampMs": 73380,
-    "confidence": 0.0833457
-  },
-  {
-    "text": " de",
-    "startMs": 73340,
-    "endMs": 73460,
-    "timestampMs": 73380,
-    "confidence": 0.692729
-  },
-  {
-    "text": " arm",
-    "startMs": 73460,
-    "endMs": 73640,
-    "timestampMs": 73400,
-    "confidence": 0.88381
-  },
-  {
-    "text": "ário",
-    "startMs": 73640,
-    "endMs": 73940,
-    "timestampMs": 73540,
-    "confidence": 0.844845
+    "text": " fire",
+    "startMs": 43960,
+    "endMs": 44720,
+    "timestampMs": 44180,
+    "confidence": 0.994226
   },
   {
     "text": ".",
-    "startMs": 73940,
-    "endMs": 74160,
-    "timestampMs": 74400,
-    "confidence": 0.938595
+    "startMs": 44720,
+    "endMs": 44720,
+    "timestampMs": 44800,
+    "confidence": 0.985274
   },
   {
-    "text": " Então",
-    "startMs": 74160,
-    "endMs": 74320,
-    "timestampMs": 75320,
-    "confidence": 0.941207
+    "text": " On",
+    "startMs": 44720,
+    "endMs": 44880,
+    "timestampMs": 44960,
+    "confidence": 0.998913
+  },
+  {
+    "text": " the",
+    "startMs": 44880,
+    "endMs": 45120,
+    "timestampMs": 45080,
+    "confidence": 0.999436
+  },
+  {
+    "text": " other",
+    "startMs": 45120,
+    "endMs": 45520,
+    "timestampMs": 45220,
+    "confidence": 0.999634
+  },
+  {
+    "text": " side",
+    "startMs": 45520,
+    "endMs": 45920,
+    "timestampMs": 45620,
+    "confidence": 0.995968
   },
   {
     "text": ",",
-    "startMs": 74320,
-    "endMs": 75160,
-    "timestampMs": 75400,
-    "confidence": 0.686956
+    "startMs": 45920,
+    "endMs": 46040,
+    "timestampMs": 45960,
+    "confidence": 0.968291
   },
   {
-    "text": " neste",
-    "startMs": 75160,
-    "endMs": 75170,
-    "timestampMs": 75520,
-    "confidence": 0.211642
+    "text": " the",
+    "startMs": 46040,
+    "endMs": 46230,
+    "timestampMs": 45980,
+    "confidence": 0.992953
   },
   {
-    "text": " vídeo",
-    "startMs": 75170,
-    "endMs": 75620,
-    "timestampMs": 75880,
-    "confidence": 0.959796
+    "text": " T",
+    "startMs": 46230,
+    "endMs": 46350,
+    "timestampMs": 46220,
+    "confidence": 0.995241
+  },
+  {
+    "text": "-",
+    "startMs": 46350,
+    "endMs": 46380,
+    "timestampMs": 46320,
+    "confidence": 0.778747
+  },
+  {
+    "text": "14",
+    "startMs": 46380,
+    "endMs": 46850,
+    "timestampMs": 46640,
+    "confidence": 0.997019
+  },
+  {
+    "text": " Arm",
+    "startMs": 46850,
+    "endMs": 47090,
+    "timestampMs": 46980,
+    "confidence": 0.86947
+  },
+  {
+    "text": "ada",
+    "startMs": 47090,
+    "endMs": 47320,
+    "timestampMs": 47300,
+    "confidence": 0.806554
   },
   {
     "text": ",",
-    "startMs": 75620,
-    "endMs": 75770,
-    "timestampMs": 76240,
-    "confidence": 0.753406
+    "startMs": 47320,
+    "endMs": 47620,
+    "timestampMs": 47640,
+    "confidence": 0.925025
   },
   {
-    "text": " vou",
-    "startMs": 75770,
-    "endMs": 76000,
-    "timestampMs": 76420,
-    "confidence": 0.571249
+    "text": " Russia",
+    "startMs": 47620,
+    "endMs": 47940,
+    "timestampMs": 47900,
+    "confidence": 0.988042
   },
   {
-    "text": " tentar",
-    "startMs": 76000,
-    "endMs": 76460,
-    "timestampMs": 76820,
-    "confidence": 0.90784
+    "text": "'s",
+    "startMs": 47940,
+    "endMs": 48090,
+    "timestampMs": 48080,
+    "confidence": 0.999714
   },
   {
-    "text": " responder",
-    "startMs": 76460,
-    "endMs": 77160,
-    "timestampMs": 77180,
-    "confidence": 0.683899
+    "text": " Big",
+    "startMs": 48090,
+    "endMs": 48330,
+    "timestampMs": 48380,
+    "confidence": 0.54954
   },
   {
-    "text": " isso",
-    "startMs": 77160,
-    "endMs": 77440,
-    "timestampMs": 77420,
-    "confidence": 0.443025
+    "text": " Bet",
+    "startMs": 48330,
+    "endMs": 48570,
+    "timestampMs": 48620,
+    "confidence": 0.738235
+  },
+  {
+    "text": ",",
+    "startMs": 48570,
+    "endMs": 49030,
+    "timestampMs": 48980,
+    "confidence": 0.939664
+  },
+  {
+    "text": " which",
+    "startMs": 49030,
+    "endMs": 49040,
+    "timestampMs": 49120,
+    "confidence": 0.964163
+  },
+  {
+    "text": " promised",
+    "startMs": 49040,
+    "endMs": 49440,
+    "timestampMs": 49440,
+    "confidence": 0.972433
+  },
+  {
+    "text": " to",
+    "startMs": 49440,
+    "endMs": 49580,
+    "timestampMs": 49740,
+    "confidence": 0.984301
+  },
+  {
+    "text": " reinvent",
+    "startMs": 49580,
+    "endMs": 50050,
+    "timestampMs": 50060,
+    "confidence": 0.983939
+  },
+  {
+    "text": " the",
+    "startMs": 50050,
+    "endMs": 50270,
+    "timestampMs": 50340,
+    "confidence": 0.991533
+  },
+  {
+    "text": " battle",
+    "startMs": 50270,
+    "endMs": 50560,
+    "timestampMs": 50560,
+    "confidence": 0.947413
+  },
+  {
+    "text": " tank",
+    "startMs": 50560,
+    "endMs": 50800,
+    "timestampMs": 50820,
+    "confidence": 0.996573
+  },
+  {
+    "text": " from",
+    "startMs": 50800,
+    "endMs": 51040,
+    "timestampMs": 50980,
+    "confidence": 0.998917
+  },
+  {
+    "text": " scratch",
+    "startMs": 51040,
+    "endMs": 51460,
+    "timestampMs": 51380,
+    "confidence": 0.997111
+  },
+  {
+    "text": " by",
+    "startMs": 51460,
+    "endMs": 51810,
+    "timestampMs": 51880,
+    "confidence": 0.987212
+  },
+  {
+    "text": " pulling",
+    "startMs": 51810,
+    "endMs": 52020,
+    "timestampMs": 52120,
+    "confidence": 0.998635
+  },
+  {
+    "text": " the",
+    "startMs": 52020,
+    "endMs": 52180,
+    "timestampMs": 52340,
+    "confidence": 0.9983
+  },
+  {
+    "text": " crew",
+    "startMs": 52180,
+    "endMs": 52420,
+    "timestampMs": 52500,
+    "confidence": 0.998538
+  },
+  {
+    "text": " out",
+    "startMs": 52420,
+    "endMs": 52680,
+    "timestampMs": 52820,
+    "confidence": 0.997642
+  },
+  {
+    "text": " of",
+    "startMs": 52680,
+    "endMs": 52720,
+    "timestampMs": 52940,
+    "confidence": 0.9956
+  },
+  {
+    "text": " the",
+    "startMs": 52720,
+    "endMs": 52960,
+    "timestampMs": 53040,
+    "confidence": 0.997113
+  },
+  {
+    "text": " turret",
+    "startMs": 52960,
+    "endMs": 53260,
+    "timestampMs": 53300,
+    "confidence": 0.995497
+  },
+  {
+    "text": " and",
+    "startMs": 53260,
+    "endMs": 53600,
+    "timestampMs": 53680,
+    "confidence": 0.952098
+  },
+  {
+    "text": " putting",
+    "startMs": 53600,
+    "endMs": 53860,
+    "timestampMs": 53840,
+    "confidence": 0.996797
+  },
+  {
+    "text": " everyone",
+    "startMs": 53860,
+    "endMs": 54400,
+    "timestampMs": 54380,
+    "confidence": 0.985838
+  },
+  {
+    "text": " in",
+    "startMs": 54400,
+    "endMs": 54550,
+    "timestampMs": 54620,
+    "confidence": 0.972607
+  },
+  {
+    "text": " an",
+    "startMs": 54550,
+    "endMs": 54720,
+    "timestampMs": 54740,
+    "confidence": 0.980492
+  },
+  {
+    "text": " armored",
+    "startMs": 54720,
+    "endMs": 55170,
+    "timestampMs": 55020,
+    "confidence": 0.786348
+  },
+  {
+    "text": " capsule",
+    "startMs": 55170,
+    "endMs": 55520,
+    "timestampMs": 55500,
+    "confidence": 0.644172
+  },
+  {
+    "text": " in",
+    "startMs": 55520,
+    "endMs": 55650,
+    "timestampMs": 55720,
+    "confidence": 0.998986
+  },
+  {
+    "text": " the",
+    "startMs": 55650,
+    "endMs": 55900,
+    "timestampMs": 55820,
+    "confidence": 0.991707
+  },
+  {
+    "text": " hull",
+    "startMs": 55900,
+    "endMs": 56100,
+    "timestampMs": 56080,
+    "confidence": 0.993229
   },
   {
     "text": ".",
-    "startMs": 77440,
-    "endMs": 77760,
-    "timestampMs": 77660,
-    "confidence": 0.951653
+    "startMs": 56100,
+    "endMs": 56140,
+    "timestampMs": 56580,
+    "confidence": 0.991223
   },
   {
-    "text": " Nós",
-    "startMs": 77760,
-    "endMs": 78010,
-    "timestampMs": 78040,
-    "confidence": 0.208739
+    "text": " If",
+    "startMs": 56140,
+    "endMs": 56640,
+    "timestampMs": 56740,
+    "confidence": 0.997253
   },
   {
-    "text": " separ",
-    "startMs": 78010,
-    "endMs": 78370,
-    "timestampMs": 78360,
-    "confidence": 0.870794
+    "text": " you",
+    "startMs": 56640,
+    "endMs": 56640,
+    "timestampMs": 56840,
+    "confidence": 0.998662
   },
   {
-    "text": "aremos",
-    "startMs": 78370,
-    "endMs": 78710,
-    "timestampMs": 78560,
-    "confidence": 0.610604
+    "text": " only",
+    "startMs": 56640,
+    "endMs": 56900,
+    "timestampMs": 57100,
+    "confidence": 0.989308
   },
   {
-    "text": " marketing",
-    "startMs": 78710,
-    "endMs": 79290,
-    "timestampMs": 78680,
-    "confidence": 0.678189
-  },
-  {
-    "text": " militar",
-    "startMs": 79290,
-    "endMs": 79740,
-    "timestampMs": 78820,
-    "confidence": 0.916039
-  },
-  {
-    "text": " do",
-    "startMs": 79740,
-    "endMs": 79860,
-    "timestampMs": 79780,
-    "confidence": 0.270357
-  },
-  {
-    "text": " fís",
-    "startMs": 79860,
-    "endMs": 80110,
-    "timestampMs": 80620,
-    "confidence": 0.156626
-  },
-  {
-    "text": "ico",
-    "startMs": 80110,
-    "endMs": 80300,
-    "timestampMs": 80980,
-    "confidence": 0.988783
-  },
-  {
-    "text": " real",
-    "startMs": 80300,
-    "endMs": 80550,
-    "timestampMs": 80980,
-    "confidence": 0.569927
-  },
-  {
-    "text": " mundo",
-    "startMs": 80550,
-    "endMs": 80870,
-    "timestampMs": 80980,
-    "confidence": 0.324704
-  },
-  {
-    "text": ".",
-    "startMs": 80870,
-    "endMs": 81120,
-    "timestampMs": 81140,
-    "confidence": 0.874473
-  },
-  {
-    "text": " Vamos",
-    "startMs": 81120,
-    "endMs": 81350,
-    "timestampMs": 81400,
-    "confidence": 0.136871
-  },
-  {
-    "text": " compar",
-    "startMs": 81350,
-    "endMs": 81620,
-    "timestampMs": 81560,
-    "confidence": 0.954871
-  },
-  {
-    "text": "ar",
-    "startMs": 81620,
-    "endMs": 81750,
-    "timestampMs": 81700,
-    "confidence": 0.981644
-  },
-  {
-    "text": " o",
-    "startMs": 81750,
-    "endMs": 81820,
-    "timestampMs": 81900,
-    "confidence": 0.136738
-  },
-  {
-    "text": " fog",
-    "startMs": 81820,
-    "endMs": 81880,
-    "timestampMs": 81920,
-    "confidence": 0.0933091
-  },
-  {
-    "text": "o",
-    "startMs": 81880,
-    "endMs": 81920,
-    "timestampMs": 81920,
-    "confidence": 0.994803
-  },
-  {
-    "text": " de",
-    "startMs": 81920,
-    "endMs": 82010,
-    "timestampMs": 82140,
-    "confidence": 0.722423
-  },
-  {
-    "text": " bat",
-    "startMs": 82010,
-    "endMs": 82140,
-    "timestampMs": 82140,
-    "confidence": 0.567172
-  },
-  {
-    "text": "al",
-    "startMs": 82140,
-    "endMs": 82230,
-    "timestampMs": 82140,
-    "confidence": 0.996118
-  },
-  {
-    "text": "h",
-    "startMs": 82230,
-    "endMs": 82270,
-    "timestampMs": 82140,
-    "confidence": 0.672692
-  },
-  {
-    "text": "ão",
-    "startMs": 82270,
-    "endMs": 82400,
-    "timestampMs": 82380,
-    "confidence": 0.995537
-  },
-  {
-    "text": ",",
-    "startMs": 82400,
-    "endMs": 82660,
-    "timestampMs": 82540,
-    "confidence": 0.987441
-  },
-  {
-    "text": " arm",
-    "startMs": 82660,
-    "endMs": 82750,
-    "timestampMs": 82860,
-    "confidence": 0.898985
-  },
-  {
-    "text": "ário",
-    "startMs": 82750,
-    "endMs": 83060,
-    "timestampMs": 82980,
-    "confidence": 0.875962
-  },
-  {
-    "text": ",",
-    "startMs": 83060,
-    "endMs": 83330,
-    "timestampMs": 83300,
-    "confidence": 0.980741
-  },
-  {
-    "text": " sistemas",
-    "startMs": 83330,
-    "endMs": 83670,
-    "timestampMs": 83620,
-    "confidence": 0.610196
-  },
-  {
-    "text": " de",
-    "startMs": 83670,
-    "endMs": 83780,
-    "timestampMs": 83620,
-    "confidence": 0.897613
-  },
-  {
-    "text": " prote",
-    "startMs": 83780,
-    "endMs": 84040,
-    "timestampMs": 83820,
-    "confidence": 0.966757
-  },
-  {
-    "text": "ção",
-    "startMs": 84040,
-    "endMs": 84360,
-    "timestampMs": 84080,
-    "confidence": 0.935189
+    "text": " look",
+    "startMs": 56900,
+    "endMs": 57160,
+    "timestampMs": 57280,
+    "confidence": 0.99647
   },
   {
     "text": " at",
-    "startMs": 84360,
-    "endMs": 84430,
-    "timestampMs": 84360,
-    "confidence": 0.42592
+    "startMs": 57160,
+    "endMs": 57300,
+    "timestampMs": 57380,
+    "confidence": 0.998186
   },
   {
-    "text": "ivo",
-    "startMs": 84430,
-    "endMs": 84590,
-    "timestampMs": 84360,
-    "confidence": 0.219049
+    "text": " promotional",
+    "startMs": 57300,
+    "endMs": 58030,
+    "timestampMs": 57720,
+    "confidence": 0.998485
   },
   {
-    "text": ",",
-    "startMs": 84590,
-    "endMs": 84720,
-    "timestampMs": 84700,
-    "confidence": 0.989917
+    "text": " broch",
+    "startMs": 58030,
+    "endMs": 58360,
+    "timestampMs": 58160,
+    "confidence": 0.996805
   },
   {
-    "text": " elekt",
-    "startMs": 84720,
-    "endMs": 85030,
-    "timestampMs": 84840,
-    "confidence": 0.1582
+    "text": "ures",
+    "startMs": 58360,
+    "endMs": 58620,
+    "timestampMs": 58440,
+    "confidence": 0.99934
   },
   {
-    "text": "ron",
-    "startMs": 85030,
-    "endMs": 85180,
-    "timestampMs": 85160,
-    "confidence": 0.608331
+    "text": " or",
+    "startMs": 58620,
+    "endMs": 58750,
+    "timestampMs": 58680,
+    "confidence": 0.95632
   },
   {
-    "text": "icas",
-    "startMs": 85180,
-    "endMs": 85400,
-    "timestampMs": 85340,
-    "confidence": 0.401783
+    "text": " war",
+    "startMs": 58750,
+    "endMs": 58950,
+    "timestampMs": 59000,
+    "confidence": 0.934894
   },
   {
-    "text": ",",
-    "startMs": 85400,
-    "endMs": 85520,
-    "timestampMs": 85540,
-    "confidence": 0.972259
+    "text": "game",
+    "startMs": 58950,
+    "endMs": 59210,
+    "timestampMs": 59260,
+    "confidence": 0.536734
   },
   {
-    "text": " mobil",
-    "startMs": 85520,
-    "endMs": 85810,
-    "timestampMs": 85700,
-    "confidence": 0.915863
+    "text": " forums",
+    "startMs": 59210,
+    "endMs": 59610,
+    "timestampMs": 59540,
+    "confidence": 0.998015
   },
   {
-    "text": "idade",
-    "startMs": 85810,
-    "endMs": 86240,
-    "timestampMs": 86000,
-    "confidence": 0.869593
-  },
-  {
-    "text": ",",
-    "startMs": 86240,
-    "endMs": 86380,
-    "timestampMs": 86280,
-    "confidence": 0.411818
-  },
-  {
-    "text": " e",
-    "startMs": 86380,
-    "endMs": 86520,
-    "timestampMs": 86560,
-    "confidence": 0.894508
+    "text": " online",
+    "startMs": 59610,
+    "endMs": 60010,
+    "timestampMs": 60040,
+    "confidence": 0.989704
   },
   {
     "text": ",",
-    "startMs": 86520,
-    "endMs": 87120,
-    "timestampMs": 86800,
-    "confidence": 0.451266
+    "startMs": 60010,
+    "endMs": 60400,
+    "timestampMs": 60460,
+    "confidence": 0.979215
   },
   {
-    "text": " o",
-    "startMs": 87120,
-    "endMs": 87150,
-    "timestampMs": 87200,
-    "confidence": 0.365866
+    "text": " the",
+    "startMs": 60400,
+    "endMs": 60440,
+    "timestampMs": 60500,
+    "confidence": 0.917529
   },
   {
-    "text": " facto",
-    "startMs": 87150,
-    "endMs": 87440,
-    "timestampMs": 87380,
-    "confidence": 0.395858
+    "text": " match",
+    "startMs": 60440,
+    "endMs": 60720,
+    "timestampMs": 60760,
+    "confidence": 0.949526
   },
   {
-    "text": " que",
-    "startMs": 87440,
-    "endMs": 87580,
-    "timestampMs": 87860,
-    "confidence": 0.622286
+    "text": "up",
+    "startMs": 60720,
+    "endMs": 60800,
+    "timestampMs": 60880,
+    "confidence": 0.646762
   },
   {
-    "text": " muitas",
-    "startMs": 87580,
-    "endMs": 87980,
-    "timestampMs": 87860,
-    "confidence": 0.373569
+    "text": " looks",
+    "startMs": 60800,
+    "endMs": 61220,
+    "timestampMs": 61100,
+    "confidence": 0.994822
   },
   {
-    "text": " pessoas",
-    "startMs": 87980,
-    "endMs": 88290,
-    "timestampMs": 88100,
-    "confidence": 0.955374
+    "text": " almost",
+    "startMs": 61220,
+    "endMs": 61620,
+    "timestampMs": 61520,
+    "confidence": 0.994124
   },
   {
-    "text": " esque",
-    "startMs": 88290,
-    "endMs": 88550,
-    "timestampMs": 88500,
-    "confidence": 0.81687
+    "text": " unfair",
+    "startMs": 61620,
+    "endMs": 62020,
+    "timestampMs": 62060,
+    "confidence": 0.99693
   },
   {
-    "text": "cem",
-    "startMs": 88550,
-    "endMs": 88880,
-    "timestampMs": 88500,
-    "confidence": 0.740403
+    "text": ".",
+    "startMs": 62020,
+    "endMs": 62220,
+    "timestampMs": 62660,
+    "confidence": 0.890729
   },
   {
-    "text": ",",
-    "startMs": 88880,
-    "endMs": 88880,
-    "timestampMs": 88980,
-    "confidence": 0.946918
+    "text": " A",
+    "startMs": 62220,
+    "endMs": 62710,
+    "timestampMs": 62800,
+    "confidence": 0.996067
+  },
+  {
+    "text": " western",
+    "startMs": 62710,
+    "endMs": 62810,
+    "timestampMs": 63080,
+    "confidence": 0.506959
+  },
+  {
+    "text": " tank",
+    "startMs": 62810,
+    "endMs": 63100,
+    "timestampMs": 63500,
+    "confidence": 0.996174
+  },
+  {
+    "text": " evolved",
+    "startMs": 63100,
+    "endMs": 63610,
+    "timestampMs": 63820,
+    "confidence": 0.985148
+  },
+  {
+    "text": " from",
+    "startMs": 63610,
+    "endMs": 63930,
+    "timestampMs": 64040,
+    "confidence": 0.997558
   },
   {
     "text": " a",
-    "startMs": 88880,
-    "endMs": 89070,
-    "timestampMs": 89140,
-    "confidence": 0.928582
+    "startMs": 63930,
+    "endMs": 63980,
+    "timestampMs": 64160,
+    "confidence": 0.985744
   },
   {
-    "text": " realidade",
-    "startMs": 89070,
-    "endMs": 89550,
-    "timestampMs": 89580,
-    "confidence": 0.884529
+    "text": " Cold",
+    "startMs": 63980,
+    "endMs": 64300,
+    "timestampMs": 64440,
+    "confidence": 0.670881
+  },
+  {
+    "text": " War",
+    "startMs": 64300,
+    "endMs": 64470,
+    "timestampMs": 64640,
+    "confidence": 0.993199
+  },
+  {
+    "text": " design",
+    "startMs": 64470,
+    "endMs": 64900,
+    "timestampMs": 65060,
+    "confidence": 0.98177
+  },
+  {
+    "text": " against",
+    "startMs": 64900,
+    "endMs": 65410,
+    "timestampMs": 65520,
+    "confidence": 0.976075
+  },
+  {
+    "text": " a",
+    "startMs": 65410,
+    "endMs": 65480,
+    "timestampMs": 65780,
+    "confidence": 0.994131
+  },
+  {
+    "text": " fourth",
+    "startMs": 65480,
+    "endMs": 65940,
+    "timestampMs": 66100,
+    "confidence": 0.818602
+  },
+  {
+    "text": " generation",
+    "startMs": 65940,
+    "endMs": 66720,
+    "timestampMs": 66520,
+    "confidence": 0.506303
+  },
+  {
+    "text": " Russian",
+    "startMs": 66720,
+    "endMs": 67230,
+    "timestampMs": 67060,
+    "confidence": 0.994389
+  },
+  {
+    "text": " super",
+    "startMs": 67230,
+    "endMs": 67600,
+    "timestampMs": 67520,
+    "confidence": 0.795907
+  },
+  {
+    "text": " tank",
+    "startMs": 67600,
+    "endMs": 68110,
+    "timestampMs": 67860,
+    "confidence": 0.793068
+  },
+  {
+    "text": " loaded",
+    "startMs": 68110,
+    "endMs": 68330,
+    "timestampMs": 68460,
+    "confidence": 0.966239
+  },
+  {
+    "text": " with",
+    "startMs": 68330,
+    "endMs": 68620,
+    "timestampMs": 68660,
+    "confidence": 0.999005
+  },
+  {
+    "text": " futuristic",
+    "startMs": 68620,
+    "endMs": 69370,
+    "timestampMs": 69060,
+    "confidence": 0.992538
+  },
+  {
+    "text": " promises",
+    "startMs": 69370,
+    "endMs": 70170,
+    "timestampMs": 69680,
+    "confidence": 0.997284
+  },
+  {
+    "text": ".",
+    "startMs": 70170,
+    "endMs": 70390,
+    "timestampMs": 70340,
+    "confidence": 0.784786
+  },
+  {
+    "text": " But",
+    "startMs": 70390,
+    "endMs": 70500,
+    "timestampMs": 70560,
+    "confidence": 0.976719
+  },
+  {
+    "text": " on",
+    "startMs": 70500,
+    "endMs": 70530,
+    "timestampMs": 70680,
+    "confidence": 0.988237
+  },
+  {
+    "text": " a",
+    "startMs": 70530,
+    "endMs": 70600,
+    "timestampMs": 70800,
+    "confidence": 0.991166
+  },
+  {
+    "text": " real",
+    "startMs": 70600,
+    "endMs": 70890,
+    "timestampMs": 70980,
+    "confidence": 0.998498
+  },
+  {
+    "text": " battlefield",
+    "startMs": 70890,
+    "endMs": 71920,
+    "timestampMs": 71440,
+    "confidence": 0.981523
+  },
+  {
+    "text": ",",
+    "startMs": 71920,
+    "endMs": 72020,
+    "timestampMs": 71900,
+    "confidence": 0.976481
+  },
+  {
+    "text": " paper",
+    "startMs": 72020,
+    "endMs": 72320,
+    "timestampMs": 72280,
+    "confidence": 0.797175
+  },
+  {
+    "text": " doesn",
+    "startMs": 72320,
+    "endMs": 72610,
+    "timestampMs": 72640,
+    "confidence": 0.702862
+  },
+  {
+    "text": "'t",
+    "startMs": 72610,
+    "endMs": 72710,
+    "timestampMs": 72740,
+    "confidence": 0.999763
+  },
+  {
+    "text": " stop",
+    "startMs": 72710,
+    "endMs": 72960,
+    "timestampMs": 73040,
+    "confidence": 0.938677
+  },
+  {
+    "text": " an",
+    "startMs": 72960,
+    "endMs": 73200,
+    "timestampMs": 73220,
+    "confidence": 0.913609
+  },
+  {
+    "text": " armor",
+    "startMs": 73200,
+    "endMs": 73580,
+    "timestampMs": 73460,
+    "confidence": 0.940925
+  },
+  {
+    "text": "-",
+    "startMs": 73580,
+    "endMs": 73640,
+    "timestampMs": 73620,
+    "confidence": 0.639727
+  },
+  {
+    "text": "pier",
+    "startMs": 73640,
+    "endMs": 73900,
+    "timestampMs": 73700,
+    "confidence": 0.992411
+  },
+  {
+    "text": "cing",
+    "startMs": 73900,
+    "endMs": 74180,
+    "timestampMs": 73900,
+    "confidence": 0.999947
+  },
+  {
+    "text": " round",
+    "startMs": 74180,
+    "endMs": 74320,
+    "timestampMs": 74180,
+    "confidence": 0.99593
+  },
+  {
+    "text": ".",
+    "startMs": 74320,
+    "endMs": 74740,
+    "timestampMs": 74960,
+    "confidence": 0.9765
+  },
+  {
+    "text": " So",
+    "startMs": 74740,
+    "endMs": 74880,
+    "timestampMs": 75320,
+    "confidence": 0.978857
+  },
+  {
+    "text": " in",
+    "startMs": 74880,
+    "endMs": 75170,
+    "timestampMs": 75460,
+    "confidence": 0.868302
+  },
+  {
+    "text": " this",
+    "startMs": 75170,
+    "endMs": 75300,
+    "timestampMs": 75620,
+    "confidence": 0.998864
+  },
+  {
+    "text": " video",
+    "startMs": 75300,
+    "endMs": 75680,
+    "timestampMs": 75920,
+    "confidence": 0.99851
+  },
+  {
+    "text": ",",
+    "startMs": 75680,
+    "endMs": 75790,
+    "timestampMs": 76260,
+    "confidence": 0.931679
+  },
+  {
+    "text": " I",
+    "startMs": 75790,
+    "endMs": 75860,
+    "timestampMs": 76380,
+    "confidence": 0.988025
+  },
+  {
+    "text": "'m",
+    "startMs": 75860,
+    "endMs": 76000,
+    "timestampMs": 76420,
+    "confidence": 0.969588
+  },
+  {
+    "text": " going",
+    "startMs": 76000,
+    "endMs": 76350,
+    "timestampMs": 76540,
+    "confidence": 0.987268
+  },
+  {
+    "text": " to",
+    "startMs": 76350,
+    "endMs": 76490,
+    "timestampMs": 76680,
+    "confidence": 0.996288
+  },
+  {
+    "text": " try",
+    "startMs": 76490,
+    "endMs": 76700,
+    "timestampMs": 76820,
+    "confidence": 0.997105
+  },
+  {
+    "text": " to",
+    "startMs": 76700,
+    "endMs": 76840,
+    "timestampMs": 76940,
+    "confidence": 0.893581
+  },
+  {
+    "text": " answer",
+    "startMs": 76840,
+    "endMs": 77260,
+    "timestampMs": 77200,
+    "confidence": 0.999577
+  },
+  {
+    "text": " that",
+    "startMs": 77260,
+    "endMs": 77520,
+    "timestampMs": 77460,
+    "confidence": 0.996573
+  },
+  {
+    "text": ".",
+    "startMs": 77520,
+    "endMs": 77880,
+    "timestampMs": 77880,
+    "confidence": 0.959163
+  },
+  {
+    "text": " We",
+    "startMs": 77880,
+    "endMs": 77960,
+    "timestampMs": 78040,
+    "confidence": 0.963312
+  },
+  {
+    "text": "'ll",
+    "startMs": 77960,
+    "endMs": 78060,
+    "timestampMs": 78120,
+    "confidence": 0.985071
+  },
+  {
+    "text": " separate",
+    "startMs": 78060,
+    "endMs": 78600,
+    "timestampMs": 78440,
+    "confidence": 0.988959
+  },
+  {
+    "text": " military",
+    "startMs": 78600,
+    "endMs": 79040,
+    "timestampMs": 79000,
+    "confidence": 0.674989
+  },
+  {
+    "text": " marketing",
+    "startMs": 79040,
+    "endMs": 79600,
+    "timestampMs": 79460,
+    "confidence": 0.907895
+  },
+  {
+    "text": " from",
+    "startMs": 79600,
+    "endMs": 79850,
+    "timestampMs": 79800,
+    "confidence": 0.998037
+  },
+  {
+    "text": " real",
+    "startMs": 79850,
+    "endMs": 80100,
+    "timestampMs": 80100,
+    "confidence": 0.993369
+  },
+  {
+    "text": "-",
+    "startMs": 80100,
+    "endMs": 80160,
+    "timestampMs": 80300,
+    "confidence": 0.820118
+  },
+  {
+    "text": "world",
+    "startMs": 80160,
+    "endMs": 80500,
+    "timestampMs": 80320,
+    "confidence": 0.999173
+  },
+  {
+    "text": " physics",
+    "startMs": 80500,
+    "endMs": 80900,
+    "timestampMs": 80740,
+    "confidence": 0.999093
+  },
+  {
+    "text": ".",
+    "startMs": 80900,
+    "endMs": 81200,
+    "timestampMs": 81200,
+    "confidence": 0.967261
+  },
+  {
+    "text": " We",
+    "startMs": 81200,
+    "endMs": 81310,
+    "timestampMs": 81360,
+    "confidence": 0.998224
+  },
+  {
+    "text": "'ll",
+    "startMs": 81310,
+    "endMs": 81380,
+    "timestampMs": 81400,
+    "confidence": 0.99587
+  },
+  {
+    "text": " compare",
+    "startMs": 81380,
+    "endMs": 81820,
+    "timestampMs": 81640,
+    "confidence": 0.997052
+  },
+  {
+    "text": " fire",
+    "startMs": 81820,
+    "endMs": 82080,
+    "timestampMs": 81960,
+    "confidence": 0.991643
+  },
+  {
+    "text": "power",
+    "startMs": 82080,
+    "endMs": 82370,
+    "timestampMs": 82320,
+    "confidence": 0.987716
+  },
+  {
+    "text": ",",
+    "startMs": 82370,
+    "endMs": 82490,
+    "timestampMs": 82680,
+    "confidence": 0.997798
+  },
+  {
+    "text": " armor",
+    "startMs": 82490,
+    "endMs": 82800,
+    "timestampMs": 82900,
+    "confidence": 0.989268
+  },
+  {
+    "text": ",",
+    "startMs": 82800,
+    "endMs": 82920,
+    "timestampMs": 83300,
+    "confidence": 0.99862
+  },
+  {
+    "text": " active",
+    "startMs": 82920,
+    "endMs": 83330,
+    "timestampMs": 83560,
+    "confidence": 0.992784
+  },
+  {
+    "text": " protection",
+    "startMs": 83330,
+    "endMs": 84000,
+    "timestampMs": 83940,
+    "confidence": 0.972463
+  },
+  {
+    "text": " systems",
+    "startMs": 84000,
+    "endMs": 84430,
+    "timestampMs": 84540,
+    "confidence": 0.961549
+  },
+  {
+    "text": ",",
+    "startMs": 84430,
+    "endMs": 84560,
+    "timestampMs": 84540,
+    "confidence": 0.997851
+  },
+  {
+    "text": " electronics",
+    "startMs": 84560,
+    "endMs": 85390,
+    "timestampMs": 85140,
+    "confidence": 0.995395
+  },
+  {
+    "text": ",",
+    "startMs": 85390,
+    "endMs": 85540,
+    "timestampMs": 85540,
+    "confidence": 0.984391
+  },
+  {
+    "text": " mobility",
+    "startMs": 85540,
+    "endMs": 86290,
+    "timestampMs": 85760,
+    "confidence": 0.996787
+  },
+  {
+    "text": ",",
+    "startMs": 86290,
+    "endMs": 86380,
+    "timestampMs": 86640,
+    "confidence": 0.672488
+  },
+  {
+    "text": " and",
+    "startMs": 86380,
+    "endMs": 86510,
+    "timestampMs": 86640,
+    "confidence": 0.982411
+  },
+  {
+    "text": ",",
+    "startMs": 86510,
+    "endMs": 86660,
+    "timestampMs": 86920,
+    "confidence": 0.402041
+  },
+  {
+    "text": " the",
+    "startMs": 86660,
+    "endMs": 87120,
+    "timestampMs": 87180,
+    "confidence": 0.956955
+  },
+  {
+    "text": " factor",
+    "startMs": 87120,
+    "endMs": 87330,
+    "timestampMs": 87440,
+    "confidence": 0.88343
+  },
+  {
+    "text": " a",
+    "startMs": 87330,
+    "endMs": 87440,
+    "timestampMs": 87660,
+    "confidence": 0.906227
+  },
+  {
+    "text": " lot",
+    "startMs": 87440,
+    "endMs": 87620,
+    "timestampMs": 87820,
+    "confidence": 0.998902
+  },
+  {
+    "text": " of",
+    "startMs": 87620,
+    "endMs": 87760,
+    "timestampMs": 87940,
+    "confidence": 0.989738
+  },
+  {
+    "text": " people",
+    "startMs": 87760,
+    "endMs": 88290,
+    "timestampMs": 88140,
+    "confidence": 0.998803
+  },
+  {
+    "text": " forget",
+    "startMs": 88290,
+    "endMs": 88630,
+    "timestampMs": 88500,
+    "confidence": 0.994366
+  },
+  {
+    "text": ",",
+    "startMs": 88630,
+    "endMs": 89060,
+    "timestampMs": 89000,
+    "confidence": 0.782407
+  },
+  {
+    "text": " the",
+    "startMs": 89060,
+    "endMs": 89070,
+    "timestampMs": 89120,
+    "confidence": 0.928139
   },
   {
     "text": " industrial",
-    "startMs": 89550,
-    "endMs": 90200,
-    "timestampMs": 89600,
-    "confidence": 0.827554
+    "startMs": 89070,
+    "endMs": 89680,
+    "timestampMs": 89660,
+    "confidence": 0.983892
   },
   {
-    "text": " e",
-    "startMs": 90200,
-    "endMs": 90260,
-    "timestampMs": 89900,
-    "confidence": 0.993466
+    "text": " and",
+    "startMs": 89680,
+    "endMs": 89840,
+    "timestampMs": 89880,
+    "confidence": 0.976665
   },
   {
     "text": " log",
-    "startMs": 90260,
-    "endMs": 90460,
+    "startMs": 89840,
+    "endMs": 90030,
     "timestampMs": 90080,
-    "confidence": 0.890294
+    "confidence": 0.779449
   },
   {
-    "text": "íst",
-    "startMs": 90460,
-    "endMs": 90720,
-    "timestampMs": 90320,
-    "confidence": 0.987626
+    "text": "istical",
+    "startMs": 90030,
+    "endMs": 90480,
+    "timestampMs": 90460,
+    "confidence": 0.998771
   },
   {
-    "text": "ica",
-    "startMs": 90720,
-    "endMs": 90920,
-    "timestampMs": 90480,
-    "confidence": 0.967726
+    "text": " reality",
+    "startMs": 90480,
+    "endMs": 90970,
+    "timestampMs": 90940,
+    "confidence": 0.999169
   },
   {
     "text": " behind",
-    "startMs": 90920,
-    "endMs": 91360,
-    "timestampMs": 91280,
-    "confidence": 0.152754
+    "startMs": 90970,
+    "endMs": 91390,
+    "timestampMs": 91340,
+    "confidence": 0.998643
   },
   {
     "text": " each",
-    "startMs": 91360,
-    "endMs": 91690,
-    "timestampMs": 91640,
-    "confidence": 0.274207
+    "startMs": 91390,
+    "endMs": 91670,
+    "timestampMs": 91660,
+    "confidence": 0.992203
   },
   {
     "text": " machine",
-    "startMs": 91690,
-    "endMs": 92310,
+    "startMs": 91670,
+    "endMs": 92150,
     "timestampMs": 92080,
-    "confidence": 0.992067
+    "confidence": 0.998837
   },
   {
     "text": ",",
-    "startMs": 92310,
-    "endMs": 92320,
-    "timestampMs": 92480,
-    "confidence": 0.8237
+    "startMs": 92150,
+    "endMs": 92450,
+    "timestampMs": 92400,
+    "confidence": 0.574122
   },
   {
-    "text": " usando",
-    "startMs": 92320,
-    "endMs": 92860,
-    "timestampMs": 92660,
-    "confidence": 0.922909
+    "text": " using",
+    "startMs": 92450,
+    "endMs": 92650,
+    "timestampMs": 92640,
+    "confidence": 0.997002
+  },
+  {
+    "text": " official",
+    "startMs": 92650,
+    "endMs": 93210,
+    "timestampMs": 93020,
+    "confidence": 0.989659
   },
   {
     "text": " data",
-    "startMs": 92860,
-    "endMs": 93030,
-    "timestampMs": 93240,
-    "confidence": 0.523987
+    "startMs": 93210,
+    "endMs": 93500,
+    "timestampMs": 93320,
+    "confidence": 0.999161
   },
   {
-    "text": " oficial",
-    "startMs": 93030,
-    "endMs": 93530,
-    "timestampMs": 93240,
-    "confidence": 0.827407
-  },
-  {
-    "text": " e",
-    "startMs": 93530,
-    "endMs": 93600,
+    "text": " and",
+    "startMs": 93500,
+    "endMs": 93730,
     "timestampMs": 93600,
-    "confidence": 0.975723
+    "confidence": 0.99582
   },
   {
-    "text": " anál",
-    "startMs": 93600,
-    "endMs": 93990,
-    "timestampMs": 94240,
-    "confidence": 0.793268
+    "text": " technical",
+    "startMs": 93730,
+    "endMs": 94330,
+    "timestampMs": 93980,
+    "confidence": 0.994958
   },
   {
-    "text": "ises",
-    "startMs": 93990,
-    "endMs": 94230,
-    "timestampMs": 94740,
-    "confidence": 0.802014
-  },
-  {
-    "text": " téc",
-    "startMs": 94230,
-    "endMs": 94500,
-    "timestampMs": 94740,
-    "confidence": 0.587848
-  },
-  {
-    "text": "nicas",
-    "startMs": 94500,
+    "text": " analyses",
+    "startMs": 94330,
     "endMs": 95120,
-    "timestampMs": 94740,
-    "confidence": 0.957602
+    "timestampMs": 94560,
+    "confidence": 0.708003
   },
   {
     "text": ".",
     "startMs": 95120,
-    "endMs": 95120,
-    "timestampMs": 94860,
-    "confidence": 0.959444
+    "endMs": 95250,
+    "timestampMs": 95220,
+    "confidence": 0.993544
   },
   {
-    "text": " Todos",
-    "startMs": 95120,
-    "endMs": 95330,
-    "timestampMs": 95400,
-    "confidence": 0.305492
+    "text": " All",
+    "startMs": 95250,
+    "endMs": 95260,
+    "timestampMs": 95380,
+    "confidence": 0.849682
   },
   {
-    "text": " os",
-    "startMs": 95330,
+    "text": " the",
+    "startMs": 95260,
     "endMs": 95430,
-    "timestampMs": 95500,
-    "confidence": 0.987091
+    "timestampMs": 95520,
+    "confidence": 0.960316
   },
   {
-    "text": " recursos",
+    "text": " sources",
     "startMs": 95430,
-    "endMs": 95750,
-    "timestampMs": 95780,
-    "confidence": 0.12856
+    "endMs": 95760,
+    "timestampMs": 95760,
+    "confidence": 0.992534
   },
   {
-    "text": " que",
-    "startMs": 95750,
-    "endMs": 95870,
-    "timestampMs": 96000,
-    "confidence": 0.81635
+    "text": " I",
+    "startMs": 95760,
+    "endMs": 95920,
+    "timestampMs": 95980,
+    "confidence": 0.718737
   },
   {
-    "text": " eu",
-    "startMs": 95870,
-    "endMs": 95950,
-    "timestampMs": 96000,
-    "confidence": 0.45891
-  },
-  {
-    "text": " uso",
-    "startMs": 95950,
-    "endMs": 96070,
+    "text": " used",
+    "startMs": 95920,
+    "endMs": 96080,
     "timestampMs": 96160,
-    "confidence": 0.230922
+    "confidence": 0.863934
   },
   {
-    "text": " para",
-    "startMs": 96070,
-    "endMs": 96250,
+    "text": " for",
+    "startMs": 96080,
+    "endMs": 96260,
     "timestampMs": 96320,
-    "confidence": 0.321971
+    "confidence": 0.997661
   },
   {
-    "text": " este",
-    "startMs": 96250,
-    "endMs": 96410,
+    "text": " this",
+    "startMs": 96260,
+    "endMs": 96440,
     "timestampMs": 96460,
-    "confidence": 0.712311
+    "confidence": 0.993445
   },
   {
-    "text": " vídeo",
-    "startMs": 96410,
-    "endMs": 96720,
+    "text": " video",
+    "startMs": 96440,
+    "endMs": 96700,
     "timestampMs": 96740,
-    "confidence": 0.991442
+    "confidence": 0.995668
   },
   {
-    "text": " vão",
-    "startMs": 96720,
-    "endMs": 96930,
+    "text": " will",
+    "startMs": 96700,
+    "endMs": 96910,
     "timestampMs": 96940,
-    "confidence": 0.263346
+    "confidence": 0.987227
   },
   {
-    "text": " estar",
-    "startMs": 96930,
-    "endMs": 97200,
+    "text": " be",
+    "startMs": 96910,
+    "endMs": 97010,
     "timestampMs": 97080,
-    "confidence": 0.698007
+    "confidence": 0.997219
   },
   {
-    "text": " no",
-    "startMs": 97200,
-    "endMs": 97300,
-    "timestampMs": 97160,
-    "confidence": 0.481914
+    "text": " in",
+    "startMs": 97010,
+    "endMs": 97110,
+    "timestampMs": 97180,
+    "confidence": 0.993138
   },
   {
-    "text": " descrição",
-    "startMs": 97300,
-    "endMs": 97920,
-    "timestampMs": 97700,
-    "confidence": 0.654468
+    "text": " the",
+    "startMs": 97110,
+    "endMs": 97250,
+    "timestampMs": 97260,
+    "confidence": 0.997432
+  },
+  {
+    "text": " description",
+    "startMs": 97250,
+    "endMs": 97820,
+    "timestampMs": 97660,
+    "confidence": 0.995391
   },
   {
     "text": ",",
-    "startMs": 97920,
-    "endMs": 97920,
-    "timestampMs": 97840,
-    "confidence": 0.451218
-  },
-  {
-    "text": " e",
-    "startMs": 97920,
+    "startMs": 97820,
     "endMs": 98010,
-    "timestampMs": 98220,
-    "confidence": 0.946205
+    "timestampMs": 98000,
+    "confidence": 0.499534
   },
   {
-    "text": " eu",
+    "text": " and",
     "startMs": 98010,
-    "endMs": 98070,
-    "timestampMs": 98340,
-    "confidence": 0.858632
+    "endMs": 98080,
+    "timestampMs": 98200,
+    "confidence": 0.988082
   },
   {
-    "text": " recom",
-    "startMs": 98070,
-    "endMs": 98330,
-    "timestampMs": 98500,
-    "confidence": 0.785077
+    "text": " I",
+    "startMs": 98080,
+    "endMs": 98130,
+    "timestampMs": 98320,
+    "confidence": 0.983427
   },
   {
-    "text": "endo",
-    "startMs": 98330,
-    "endMs": 98540,
-    "timestampMs": 98700,
-    "confidence": 0.950757
+    "text": " recommend",
+    "startMs": 98130,
+    "endMs": 98600,
+    "timestampMs": 98600,
+    "confidence": 0.990883
   },
   {
-    "text": " que",
-    "startMs": 98540,
-    "endMs": 98700,
-    "timestampMs": 98780,
-    "confidence": 0.245965
+    "text": " you",
+    "startMs": 98600,
+    "endMs": 98750,
+    "timestampMs": 98820,
+    "confidence": 0.987875
   },
   {
-    "text": " vocês",
-    "startMs": 98700,
+    "text": " check",
+    "startMs": 98750,
     "endMs": 99050,
-    "timestampMs": 98880,
-    "confidence": 0.678144
+    "timestampMs": 98960,
+    "confidence": 0.978931
   },
   {
-    "text": " ve",
+    "text": " them",
     "startMs": 99050,
-    "endMs": 99110,
-    "timestampMs": 99020,
-    "confidence": 0.141603
+    "endMs": 99220,
+    "timestampMs": 99120,
+    "confidence": 0.996014
   },
   {
-    "text": "jam",
-    "startMs": 99110,
-    "endMs": 99260,
-    "timestampMs": 99020,
-    "confidence": 0.812595
-  },
-  {
-    "text": " eles",
-    "startMs": 99260,
-    "endMs": 99680,
-    "timestampMs": 99160,
-    "confidence": 0.3235
+    "text": " out",
+    "startMs": 99220,
+    "endMs": 99340,
+    "timestampMs": 99340,
+    "confidence": 0.998772
   },
   {
     "text": ".",
-    "startMs": 99680,
-    "endMs": 99680,
-    "timestampMs": 99480,
-    "confidence": 0.80507
-  },
-  {
-    "text": " E",
-    "startMs": 99680,
+    "startMs": 99340,
     "endMs": 99780,
-    "timestampMs": 99940,
-    "confidence": 0.909108
+    "timestampMs": 99740,
+    "confidence": 0.899714
   },
   {
-    "text": " se",
+    "text": " And",
     "startMs": 99780,
     "endMs": 99840,
-    "timestampMs": 100100,
-    "confidence": 0.826561
+    "timestampMs": 99940,
+    "confidence": 0.903566
   },
   {
-    "text": " você",
+    "text": " if",
     "startMs": 99840,
-    "endMs": 100140,
+    "endMs": 100000,
+    "timestampMs": 100100,
+    "confidence": 0.934655
+  },
+  {
+    "text": " you",
+    "startMs": 100000,
+    "endMs": 100160,
     "timestampMs": 100200,
-    "confidence": 0.52788
+    "confidence": 0.932375
   },
   {
-    "text": " gost",
-    "startMs": 100140,
-    "endMs": 100340,
-    "timestampMs": 100380,
-    "confidence": 0.808165
+    "text": " enjoy",
+    "startMs": 100160,
+    "endMs": 100400,
+    "timestampMs": 100480,
+    "confidence": 0.905878
   },
   {
-    "text": "ou",
-    "startMs": 100340,
-    "endMs": 100450,
-    "timestampMs": 100460,
-    "confidence": 0.768643
-  },
-  {
-    "text": " do",
-    "startMs": 100450,
-    "endMs": 100560,
+    "text": " the",
+    "startMs": 100400,
+    "endMs": 100570,
     "timestampMs": 100600,
-    "confidence": 0.750119
+    "confidence": 0.956904
   },
   {
-    "text": " vídeo",
-    "startMs": 100560,
-    "endMs": 100890,
-    "timestampMs": 100860,
-    "confidence": 0.984853
+    "text": " video",
+    "startMs": 100570,
+    "endMs": 100860,
+    "timestampMs": 100900,
+    "confidence": 0.998692
   },
   {
     "text": ",",
-    "startMs": 100890,
-    "endMs": 101180,
-    "timestampMs": 101180,
-    "confidence": 0.965803
+    "startMs": 100860,
+    "endMs": 100970,
+    "timestampMs": 101160,
+    "confidence": 0.910382
   },
   {
-    "text": " por",
-    "startMs": 101180,
-    "endMs": 101230,
-    "timestampMs": 101280,
-    "confidence": 0.538264
+    "text": " please",
+    "startMs": 100970,
+    "endMs": 101320,
+    "timestampMs": 101320,
+    "confidence": 0.988331
   },
   {
-    "text": " favor",
-    "startMs": 101230,
-    "endMs": 101410,
-    "timestampMs": 101400,
-    "confidence": 0.947986
+    "text": " leave",
+    "startMs": 101320,
+    "endMs": 101610,
+    "timestampMs": 101500,
+    "confidence": 0.990905
   },
   {
-    "text": " deix",
-    "startMs": 101410,
-    "endMs": 101590,
-    "timestampMs": 101480,
-    "confidence": 0.338945
-  },
-  {
-    "text": "e",
-    "startMs": 101590,
-    "endMs": 101630,
-    "timestampMs": 101480,
-    "confidence": 0.913553
-  },
-  {
-    "text": " um",
-    "startMs": 101630,
-    "endMs": 101720,
-    "timestampMs": 101560,
-    "confidence": 0.76545
+    "text": " a",
+    "startMs": 101610,
+    "endMs": 101660,
+    "timestampMs": 101620,
+    "confidence": 0.994666
   },
   {
     "text": " like",
-    "startMs": 101720,
-    "endMs": 101840,
-    "timestampMs": 101840,
-    "confidence": 0.710422
+    "startMs": 101660,
+    "endMs": 101830,
+    "timestampMs": 101800,
+    "confidence": 0.973244
   },
   {
     "text": ".",
-    "startMs": 101840,
-    "endMs": 102080,
-    "timestampMs": 102020,
-    "confidence": 0.48091
+    "startMs": 101830,
+    "endMs": 102170,
+    "timestampMs": 102160,
+    "confidence": 0.633878
   },
   {
-    "text": " Isso",
-    "startMs": 102080,
-    "endMs": 102260,
-    "timestampMs": 102320,
-    "confidence": 0.625853
+    "text": " It",
+    "startMs": 102170,
+    "endMs": 102210,
+    "timestampMs": 102300,
+    "confidence": 0.995854
   },
   {
-    "text": " realmente",
-    "startMs": 102260,
-    "endMs": 102680,
-    "timestampMs": 102680,
-    "confidence": 0.949114
+    "text": " really",
+    "startMs": 102210,
+    "endMs": 102520,
+    "timestampMs": 102620,
+    "confidence": 0.987954
   },
   {
-    "text": " ajuda",
-    "startMs": 102680,
-    "endMs": 102900,
+    "text": " helps",
+    "startMs": 102520,
+    "endMs": 102810,
     "timestampMs": 102880,
-    "confidence": 0.522833
+    "confidence": 0.998056
   },
   {
-    "text": " o",
-    "startMs": 102900,
-    "endMs": 102990,
-    "timestampMs": 103040,
-    "confidence": 0.966881
+    "text": " the",
+    "startMs": 102810,
+    "endMs": 102980,
+    "timestampMs": 103060,
+    "confidence": 0.988949
   },
   {
-    "text": " canal",
-    "startMs": 102990,
-    "endMs": 103180,
+    "text": " channel",
+    "startMs": 102980,
+    "endMs": 103520,
     "timestampMs": 103340,
-    "confidence": 0.962135
+    "confidence": 0.99739
   },
   {
     "text": ".",
-    "startMs": 103180,
-    "endMs": 103360,
-    "timestampMs": 103340,
-    "confidence": 0.78904
+    "startMs": 103520,
+    "endMs": 103520,
+    "timestampMs": 103500,
+    "confidence": 0.674073
   }
 ]

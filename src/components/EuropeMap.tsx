@@ -52,7 +52,6 @@ export const EuropeMap: React.FC<{
   const my = Math.min(berlin[1], moscow[1]) - 170;
   const arcD = `M ${berlin[0]} ${berlin[1]} Q ${mx} ${my} ${moscow[0]} ${moscow[1]}`;
   const arcLen = 1200;
-  const dist = Math.round(1610 * arc);
 
   return (
     <AbsoluteFill>
@@ -95,8 +94,8 @@ export const EuropeMap: React.FC<{
         <path d={arcD} fill="none" stroke={C.text} strokeWidth={1} strokeDasharray="6 10" opacity={0.35 * arc} />
       </svg>
       {[
-        { p: berlin, name: "BERLIM", color: C.de, lottie: "pulse-gold", side: -1 },
-        { p: moscow, name: "MOSCOU", color: C.ru, lottie: "pulse-red", side: 1 },
+        { p: berlin, name: "BERLIN", color: C.de, lottie: "pulse-gold", side: -1 },
+        { p: moscow, name: "MOSCOW", color: C.ru, lottie: "pulse-red", side: 1 },
       ].map(({ p, name, color, lottie, side }) => (
         <React.Fragment key={name}>
           <div style={{ position: "absolute", left: p[0] - 90, top: p[1] - 90, width: 180, height: 180, opacity: hl }}>
@@ -120,22 +119,6 @@ export const EuropeMap: React.FC<{
           </div>
         </React.Fragment>
       ))}
-      <div
-        style={{
-          position: "absolute",
-          left: mx - 160,
-          width: 320,
-          top: my + 30,
-          textAlign: "center",
-          fontFamily: FONT.mono,
-          fontSize: 26,
-          color: C.text,
-          letterSpacing: 3,
-          opacity: arc,
-        }}
-      >
-        {dist.toLocaleString("pt-BR")} KM
-      </div>
     </AbsoluteFill>
   );
 };
