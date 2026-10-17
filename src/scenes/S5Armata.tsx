@@ -22,7 +22,7 @@ const Reveal: React.FC = () => {
   const ref = useGsapTimeline<HTMLDivElement>(({ timeline, selector }) => {
     timeline
       .from(selector(".tank"), { x: 1500, skewX: -8, filter: "blur(16px)", duration: 0.75, ease: "expo.out" }, 0.05)
-      .from(selector(".flag"), { opacity: 0, x: -40, duration: 0.6, ease: "expo.out" }, L(46.05) / 30 + 0.25)
+      .from(selector(".id"), { opacity: 0, y: -20, duration: 0.6, ease: "expo.out" }, L(46.05) / 30)
       // "Russia's big bet": leve avanço de câmera sobre o tanque
       .to(selector(".tank"), { scale: 1.06, duration: 1.4, ease: "power2.inOut" }, L(47.6) / 30);
   });
@@ -30,16 +30,16 @@ const Reveal: React.FC = () => {
     <AbsoluteFill>
       <DarkStage left={C.ru} right={C.ru} glow={0.2} />
       <div ref={ref} style={{ position: "absolute", inset: 0 }}>
-        <div className="tank" style={{ position: "absolute", left: 830, top: 360, width: 1060, transform: handheld(frame, 3, "t14"), transformOrigin: "50% 60%" }}>
-          <Cutout src="t14_cut.webp" width={1060} glow={hexA(C.ru, 0.25)} />
+        <div className="tank" style={{ position: "absolute", left: 820, top: 400, width: 1080, transform: handheld(frame, 3, "t14"), transformOrigin: "50% 60%" }}>
+          <Cutout src="t14_cut.webp" width={1080} glow={hexA(C.ru, 0.25)} />
         </div>
-        <div style={{ position: "absolute", left: 130, top: 330, width: 760 }}>
-          <KineticTitle text="T-14" size={190} color={C.ru} delay={L(46.05) / 30} stagger={0.06} />
-          <KineticTitle text="Armata" size={150} color={C.text} delay={L(46.75) / 30} stagger={0.03} style={{ marginTop: -10 }} />
-          <div className="flag" style={{ display: "flex", alignItems: "center", gap: 18, marginTop: 18 }}>
-            <FlagRU width={96} />
-            <Tag text="Russia" color={C.ru} />
+        <div style={{ position: "absolute", left: 120, top: 300, width: 720 }}>
+          <div className="id" style={{ display: "flex", alignItems: "center", gap: 24, marginBottom: 22 }}>
+            <FlagRU width={110} />
+            <Tag text="Russia" color={C.ru} size={64} />
           </div>
+          <KineticTitle text="T-14" size={200} color={C.ru} delay={L(46.05) / 30} stagger={0.06} />
+          <KineticTitle text="Armata" size={160} color={C.text} delay={L(46.75) / 30} stagger={0.03} style={{ marginTop: -14 }} />
         </div>
       </div>
     </AbsoluteFill>
@@ -55,8 +55,8 @@ const Turret: React.FC = () => {
   const W = 1500;
   const ox = 210;
   const oy = 260;
-  const H = W * (1114 / 2400);
-  const turret = [ox + 0.6 * W, oy + 0.22 * H] as const;
+  const H = W * (1098 / 2400);
+  const turret = [ox + 0.57 * W, oy + 0.27 * H] as const;
   return (
     <AbsoluteFill>
       <DarkStage left={C.ru} right={C.ru} glow={0.16} />
@@ -69,7 +69,7 @@ const Turret: React.FC = () => {
             <LottieAsset name="reticle-red" />
           </div>
         </Sequence>
-        <Callout x={turret[0]} y={turret[1]} dx={160} dy={-150} title="Unmanned turret" color={C.ru} delay={l(52.85)} />
+        <Callout x={turret[0]} y={turret[1]} dx={150} dy={-170} title="Unmanned turret" color={C.ru} delay={l(52.85)} align="right" />
       </AbsoluteFill>
     </AbsoluteFill>
   );
@@ -93,8 +93,8 @@ const Capsule: React.FC<{ dur: number }> = ({ dur }) => {
   const turretIn = interpolate(frame, [4, 14], [0, 1], { ...clamp, easing: E });
   const crewIn = interpolate(frame, [l(54.7), l(55.1)], [0, 1], { ...clamp, easing: E });
   const pulse = 0.5 + 0.5 * Math.sin(frame * 0.25);
-  const label = (text: string, color: string) => (
-    <div style={{ position: "absolute", left: 0, top: -50, fontFamily: FONT.display, fontWeight: 700, fontSize: 36, letterSpacing: 2, color: "#fff", background: hexA("#07090B", 0.8), borderLeft: `5px solid ${color}`, padding: "2px 14px", textTransform: "uppercase", whiteSpace: "nowrap" }}>
+  const label = (text: string) => (
+    <div style={{ position: "absolute", right: 0, top: -84, fontFamily: FONT.display, fontWeight: 700, fontSize: 60, lineHeight: 1.1, letterSpacing: 2, color: "#fff", background: hexA("#07090B", 0.82), padding: "4px 18px", textTransform: "uppercase", whiteSpace: "nowrap" }}>
       {text}
     </div>
   );
@@ -118,7 +118,7 @@ const Capsule: React.FC<{ dur: number }> = ({ dur }) => {
             transform: `scale(${0.9 + 0.1 * crewIn})`,
           }}
         >
-          {label("Armored crew capsule", C.ru)}
+          {label("Armored crew capsule")}
         </div>
       </AbsoluteFill>
     </AbsoluteFill>

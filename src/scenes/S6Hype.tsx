@@ -3,7 +3,7 @@ import { AbsoluteFill, Easing, Img, interpolate, random, Sequence, spring, stati
 import { DarkStage, Grain, Vignette, hexA } from "../components/Atmosphere";
 import { Brochure, ForumCard } from "../components/Cards";
 import { Enter } from "../components/Motion";
-import { Photo } from "../components/Photo";
+import { Cutout, Photo } from "../components/Photo";
 import { GlitchText, KineticTitle } from "../components/Type";
 import { C, FONT } from "../theme";
 import { N, SCENES } from "../timeline";
@@ -13,37 +13,20 @@ const S0 = SCENES.hype.from;
 const L = (t: number) => N(t) - S0;
 const E = Easing.bezier(0.16, 1, 0.3, 1);
 
-// Balança: no papel, o T-14 "pesa" mais ("the matchup looks almost unfair")
-const Balance: React.FC<{ at: number; tipAt: number }> = ({ at, tipAt }) => {
+// "the matchup looks almost unfair": no papel, o T-14 cresce e o Leopard encolhe
+const Unfair: React.FC<{ at: number; peakAt: number }> = ({ at, peakAt }) => {
   const frame = useCurrentFrame();
   const appear = interpolate(frame, [at, at + 10], [0, 1], { ...clamp, easing: E });
-  const tilt = spring({ frame: frame - tipAt, fps: 30, config: { damping: 9, stiffness: 70, mass: 1.1 } }) * 12;
-  const r = (tilt * Math.PI) / 180;
-  const cx = 960;
-  const cy = 470;
-  const half = 430;
-  const lx = cx - half * Math.cos(r);
-  const ly = cy - half * Math.sin(r);
-  const rx = cx + half * Math.cos(r);
-  const ry = cy + half * Math.sin(r);
-  const pan = (x: number, y: number, color: string, label: string) => (
-    <g>
-      <line x1={x} y1={y} x2={x - 90} y2={y + 150} stroke={C.muted} strokeWidth={2} />
-      <line x1={x} y1={y} x2={x + 90} y2={y + 150} stroke={C.muted} strokeWidth={2} />
-      <path d={`M ${x - 120} ${y + 150} Q ${x} ${y + 215} ${x + 120} ${y + 150} Z`} fill={hexA(color, 0.25)} stroke={color} strokeWidth={3} />
-      <text x={x} y={y + 192} textAnchor="middle" fill={color} style={{ fontFamily: FONT.display, fontWeight: 700, fontSize: 40 }}>
-        {label}
-      </text>
-    </g>
-  );
+  const grow = spring({ frame: frame - (at + 6), fps: 30, durationInFrames: peakAt - at, config: { damping: 14, stiffness: 60 } });
   return (
-    <svg width={1920} height={1080} style={{ position: "absolute", inset: 0, opacity: appear }}>
-      <polygon points={`${cx},${cy} ${cx - 80},${cy + 420} ${cx + 80},${cy + 420}`} fill={C.steel} stroke={C.muted} strokeWidth={2} />
-      <line x1={lx} y1={ly} x2={rx} y2={ry} stroke={C.text} strokeWidth={6} strokeLinecap="round" />
-      <circle cx={cx} cy={cy} r={14} fill={C.text} />
-      {pan(lx, ly, C.de, "2A8")}
-      {pan(rx, ry, C.ru, "T-14")}
-    </svg>
+    <AbsoluteFill style={{ opacity: appear }}>
+      <div style={{ position: "absolute", left: 150, bottom: 170, width: 760, transformOrigin: "50% 100%", transform: `scale(${1 - 0.42 * grow})`, filter: `brightness(${1 - 0.45 * grow})` }}>
+        <Cutout src="leo2a8_cut.webp" width={760} glow={hexA(C.de, 0.18)} style={{ position: "relative" }} />
+      </div>
+      <div style={{ position: "absolute", right: 120, bottom: 170, width: 760, transformOrigin: "60% 100%", transform: `scale(${1 + 0.62 * grow})` }}>
+        <Cutout src="t14_cut.webp" width={760} glow={hexA(C.ru, 0.2 + 0.35 * grow)} style={{ position: "relative" }} />
+      </div>
+    </AbsoluteFill>
   );
 };
 
@@ -67,7 +50,7 @@ const OnPaper: React.FC<{ dur: number }> = ({ dur }) => {
         </div>
       </AbsoluteFill>
       <AbsoluteFill style={{ background: `rgba(7,9,11,${0.5 * back})` }} />
-      <Balance at={l(60.35)} tipAt={l(61.5)} />
+      <Unfair at={l(60.35)} peakAt={l(61.7)} />
     </AbsoluteFill>
   );
 };
@@ -91,9 +74,9 @@ const ColdWar: React.FC<{ dur: number }> = ({ dur }) => {
         <div key={i} style={{ position: "absolute", left: s.x, top: 0, bottom: 0, width: 2, background: "#fff", opacity: s.o }} />
       ))}
       <Vignette strength={0.9} />
-      <div style={{ position: "absolute", left: 150, bottom: 150, display: "flex", alignItems: "baseline", gap: 24 }}>
+      <div style={{ position: "absolute", left: 150, bottom: 140, display: "flex", alignItems: "baseline", gap: 40 }}>
         <KineticTitle text="Leopard 2" size={120} delay={0.2} stagger={0.03} />
-        <span style={{ fontFamily: FONT.mono, fontSize: 56, color: C.de, opacity: interpolate(frame, [14, 24], [0, 1], clamp) }}>1979</span>
+        <span style={{ fontFamily: FONT.display, fontWeight: 700, fontSize: 120, lineHeight: 1, color: C.de, opacity: interpolate(frame, [14, 24], [0, 1], clamp) }}>1979</span>
       </div>
       <Grain opacity={0.22} />
     </AbsoluteFill>
@@ -118,12 +101,9 @@ const Futurist: React.FC = () => {
           style={{ width: "100%", position: "absolute", filter: "grayscale(1) brightness(1.4) sepia(1) hue-rotate(-50deg) saturate(4)", opacity: 0.35 + 0.15 * holo, mixBlendMode: "screen", transform: "translateX(-8px)" }}
         />
         <Img src={staticFile("img/t14_cut.webp")} style={{ width: "100%", position: "relative", filter: "contrast(1.1) saturate(0.7) brightness(0.9)", opacity: 0.92 }} />
-        <AbsoluteFill style={{ backgroundImage: "repeating-linear-gradient(0deg, rgba(226,54,43,0.12) 0px, rgba(226,54,43,0.12) 2px, transparent 2px, transparent 6px)", mixBlendMode: "screen" }} />
       </div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 170, textAlign: "center", opacity: k, transform: `translateY(${(1 - k) * 20}px)` }}>
-        <div style={{ display: "inline-block", border: `2px solid ${C.ru}`, background: hexA(C.ru, 0.12), padding: "12px 30px" }}>
-          <GlitchText text="4th generation" size={72} start={l(65.45)} color={C.text} intensity={0.8} />
-        </div>
+        <GlitchText text="4th generation" size={110} start={l(65.45)} color={C.text} intensity={0.8} style={{ display: "inline-block", textShadow: `0 0 30px ${hexA(C.ru, 0.8)}` }} />
       </div>
     </AbsoluteFill>
   );

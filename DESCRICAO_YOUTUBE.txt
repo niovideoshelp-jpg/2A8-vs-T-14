@@ -1,4 +1,5 @@
 IMAGE CREDITS (Wikimedia Commons)
+• Leopard 2A8 with Trophy system.jpg — Defensie (Netherlands Ministry of Defence) (CC BY-SA 4.0) https://commons.wikimedia.org/wiki/File:Leopard_2A8_with_Trophy_system.jpg
 • LEOPARD 2A8 (Edited).png — Meumeu03 (CC BY-SA 4.0) https://commons.wikimedia.org/wiki/File:LEOPARD_2A8_(Edited).png
 • LEOPARD 2A8.jpg — Meumeu03 (CC BY 4.0) https://commons.wikimedia.org/wiki/File:LEOPARD_2A8.jpg
 • T-14 Armata (27053434067).jpg — Dmitriy Fomin from Moscow, Russia (CC BY 2.0) https://commons.wikimedia.org/wiki/File:T-14_Armata_(27053434067).jpg
@@ -23,3 +24,4 @@ IMAGE CREDITS (Wikimedia Commons)
 
 Music and sound effects: AI-generated with Magnific.
 Map data: Natural Earth (public domain).
+Font: Oswald (Google Fonts, SIL Open Font License).

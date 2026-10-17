@@ -8,7 +8,7 @@ descrição do vídeo.
 
 | Arquivo no projeto | Original (Wikimedia Commons) | Autor | Licença | Observação |
 |---|---|---|---|---|
-| `leo2a8_cut.webp` | [LEOPARD 2A8 (Edited).png](https://commons.wikimedia.org/wiki/File:LEOPARD_2A8_(Edited).png) | Meumeu03 | CC BY-SA 4.0 | recorte (fundo removido) e espelhado |
+| `leo2a8_cut.webp` | [Leopard 2A8 with Trophy system.jpg](https://commons.wikimedia.org/wiki/File:Leopard_2A8_with_Trophy_system.jpg) | Defensie (Ministério da Defesa dos Países Baixos) | CC BY-SA 4.0 | ampliado 4× (Magnific), recortado e espelhado |
 | `leo2a8_side.jpg` | [LEOPARD 2A8 (Edited).png](https://commons.wikimedia.org/wiki/File:LEOPARD_2A8_(Edited).png) | Meumeu03 | CC BY-SA 4.0 |  |
 | `leo2a8_expo.jpg` | [LEOPARD 2A8.jpg](https://commons.wikimedia.org/wiki/File:LEOPARD_2A8.jpg) | Meumeu03 | CC BY 4.0 |  |
 | `t14_cut.webp` | [T-14 Armata (27053434067).jpg](https://commons.wikimedia.org/wiki/File:T-14_Armata_(27053434067).jpg) | Dmitriy Fomin from Moscow, Russia | CC BY 2.0 | recorte (fundo removido) |
@@ -41,9 +41,9 @@ O folheto promocional e o cartão de fórum da cena "no papel" são ilustraçõe
 - Trilha (3 cues) e efeitos sonoros: gerados com IA na **Magnific** (modelos ElevenLabs Music v2 e
   ElevenLabs SFX), conforme os termos de uso da plataforma.
 
-## Fontes tipográficas (SIL Open Font License)
+## Fonte tipográfica (SIL Open Font License, Google Fonts)
 
-Oswald (Vernon Adams), Barlow Condensed (Jeremy Tribby), JetBrains Mono (JetBrains).
+Oswald (Vernon Adams).
 
 ## Mapa
 

@@ -16,14 +16,14 @@ const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const topo = world as unknown as Topology<{ countries: GeometryCollection }>;
 const countries = (feature(topo, topo.objects.countries) as FeatureCollection<Geometry>).features;
 
-// Mapa da Europa: países em linha fina, Alemanha e Rússia destacadas, arco Berlim ↔ Moscou
+// Mapa da Europa: países em linha fina, Alemanha e Rússia destacadas, capitais marcadas
 export const EuropeMap: React.FC<{
   width?: number;
   height?: number;
   revealAt?: number;
-  highlightAt?: number;
-  arcAt?: number;
-}> = ({ width = 1920, height = 1080, revealAt = 0, highlightAt = 20, arcAt = 45 }) => {
+  deAt?: number;
+  ruAt?: number;
+}> = ({ width = 1920, height = 1080, revealAt = 0, deAt = 20, ruAt = 30 }) => {
   const frame = useCurrentFrame();
 
   const { paths, berlin, moscow } = useMemo(() => {
@@ -45,13 +45,8 @@ export const EuropeMap: React.FC<{
   }, [width, height]);
 
   const reveal = interpolate(frame, [revealAt, revealAt + 30], [0, 1], { ...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1) });
-  const hl = interpolate(frame, [highlightAt, highlightAt + 18], [0, 1], { ...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1) });
-  const arc = interpolate(frame, [arcAt, arcAt + 40], [0, 1], { ...clamp, easing: Easing.bezier(0.65, 0, 0.35, 1) });
-
-  const mx = (berlin[0] + moscow[0]) / 2;
-  const my = Math.min(berlin[1], moscow[1]) - 170;
-  const arcD = `M ${berlin[0]} ${berlin[1]} Q ${mx} ${my} ${moscow[0]} ${moscow[1]}`;
-  const arcLen = 1200;
+  const hlDe = interpolate(frame, [deAt, deAt + 14], [0, 1], { ...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1) });
+  const hlRu = interpolate(frame, [ruAt, ruAt + 14], [0, 1], { ...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1) });
 
   return (
     <AbsoluteFill>
@@ -70,49 +65,44 @@ export const EuropeMap: React.FC<{
             const isDe = p.id === DE;
             const isRu = p.id === RU;
             const accent = isDe ? C.de : isRu ? C.ru : null;
+            const hl = isDe ? hlDe : isRu ? hlRu : 0;
             return (
               <path
                 key={p.id + p.d.length}
                 d={p.d}
-                fill={accent ? hexA(accent, 0.12 + 0.38 * hl) : "rgba(233,238,241,0.035)"}
-                stroke={accent ? hexA(accent, 0.35 + 0.65 * hl) : "rgba(233,238,241,0.22)"}
-                strokeWidth={accent ? 1.4 + 1.4 * hl : 0.8}
+                fill={accent ? hexA(accent, 0.1 + 0.45 * hl) : "rgba(233,238,241,0.035)"}
+                stroke={accent ? hexA(accent, 0.3 + 0.7 * hl) : "rgba(233,238,241,0.22)"}
+                strokeWidth={accent ? 1.4 + 1.6 * hl : 0.8}
                 filter={accent && hl > 0.5 ? "url(#glow)" : undefined}
               />
             );
           })}
         </g>
-        <path
-          d={arcD}
-          fill="none"
-          stroke={C.text}
-          strokeWidth={3}
-          strokeDasharray={`${arcLen}`}
-          strokeDashoffset={arcLen * (1 - arc)}
-          opacity={0.9}
-        />
-        <path d={arcD} fill="none" stroke={C.text} strokeWidth={1} strokeDasharray="6 10" opacity={0.35 * arc} />
       </svg>
       {[
-        { p: berlin, name: "BERLIN", color: C.de, lottie: "pulse-gold", side: -1 },
-        { p: moscow, name: "MOSCOW", color: C.ru, lottie: "pulse-red", side: 1 },
-      ].map(({ p, name, color, lottie, side }) => (
+        { p: berlin, name: "Berlin", color: C.de, lottie: "pulse-gold", k: hlDe, dx: -40, align: "right" as const },
+        { p: moscow, name: "Moscow", color: C.ru, lottie: "pulse-red", k: hlRu, dx: 40, align: "left" as const },
+      ].map(({ p, name, color, lottie, k, dx, align }) => (
         <React.Fragment key={name}>
-          <div style={{ position: "absolute", left: p[0] - 90, top: p[1] - 90, width: 180, height: 180, opacity: hl }}>
+          <div style={{ position: "absolute", left: p[0] - 90, top: p[1] - 90, width: 180, height: 180, opacity: k }}>
             <LottieAsset name={lottie} loop />
           </div>
           <div
             style={{
               position: "absolute",
-              left: side < 0 ? p[0] - 260 : p[0] + 40,
-              width: 220,
-              textAlign: side < 0 ? "right" : "left",
-              top: p[1] + 18,
-              fontFamily: FONT.mono,
-              fontSize: 24,
-              letterSpacing: 4,
-              color,
-              opacity: hl,
+              top: p[1] - 40,
+              left: align === "left" ? p[0] + dx : undefined,
+              right: align === "right" ? width - p[0] - dx : undefined,
+              fontFamily: FONT.display,
+              fontWeight: 700,
+              fontSize: 64,
+              lineHeight: 1.2,
+              textTransform: "uppercase",
+              letterSpacing: 2,
+              color: "#fff",
+              textShadow: `0 0 24px ${hexA(color, 0.9)}, 0 4px 18px rgba(0,0,0,0.9)`,
+              opacity: k,
+              transform: `translateY(${(1 - k) * 14}px)`,
             }}
           >
             {name}

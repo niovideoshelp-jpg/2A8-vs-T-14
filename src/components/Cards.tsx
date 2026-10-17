@@ -26,7 +26,7 @@ export const Brochure: React.FC<{ style?: React.CSSProperties }> = ({ style }) =
   >
     <div style={{ height: 360, position: "relative" }}>
       <Img src={staticFile("img/t14_expo.jpg")} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "saturate(1.15) contrast(1.05)" }} />
-      <div style={{ position: "absolute", left: 0, top: 26, background: C.ru, color: "#fff", fontFamily: FONT.display, fontWeight: 700, fontSize: 38, padding: "6px 24px", letterSpacing: 2 }}>
+      <div style={{ position: "absolute", left: 0, top: 26, background: C.ru, color: "#fff", fontFamily: FONT.display, fontWeight: 700, fontSize: 60, lineHeight: 1.1, padding: "6px 26px", letterSpacing: 2 }}>
         T-14 ARMATA
       </div>
     </div>
@@ -35,7 +35,7 @@ export const Brochure: React.FC<{ style?: React.CSSProperties }> = ({ style }) =
       <div style={{ marginTop: 34, display: "flex", flexDirection: "column", gap: 20 }}>
         {[70, 58, 76, 52, 64].map((w, i) => (
           <div key={i} style={{ display: "flex", alignItems: "center", gap: 16 }}>
-            <span style={{ width: 26, height: 26, background: C.ru, color: "#fff", fontSize: 20, display: "flex", alignItems: "center", justifyContent: "center" }}>✓</span>
+            <span style={{ width: 34, height: 34, background: C.ru, color: "#fff", fontSize: 26, display: "flex", alignItems: "center", justifyContent: "center" }}>✓</span>
             <div style={{ width: `${w}%`, height: 12, background: "#9a958c", borderRadius: 2 }} />
           </div>
         ))}
@@ -60,7 +60,7 @@ export const ForumCard: React.FC<{ style?: React.CSSProperties }> = ({ style }) 
         <div style={{ flex: 1 }}>
           <Lines widths={[a, b]} color="rgba(233,238,241,0.35)" h={12} gap={10} />
         </div>
-        <div style={{ fontFamily: FONT.display, fontSize: 34, color: C.ru, lineHeight: 1 }}>▲</div>
+        <div style={{ fontFamily: FONT.display, fontSize: 48, color: C.ru, lineHeight: 1 }}>▲</div>
       </div>
     ))}
   </div>

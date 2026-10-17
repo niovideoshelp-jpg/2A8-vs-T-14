@@ -46,13 +46,13 @@ export const S3Philosophies: React.FC = () => {
         <Silhouette src="t14_cut.webp" color="rgba(226,54,43,0.85)" width={860} />
       </div>
       {/* identificação: bandeiras e países */}
-      <div style={{ position: "absolute", left: 360, top: 210, opacity: ids, transform: `translateY(${(1 - ids) * 20}px)`, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 14 }}>
+      <div style={{ position: "absolute", left: 420 - 200, width: 400, top: 200, opacity: ids, transform: `translateY(${(1 - ids) * 20}px)`, display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
         <FlagDE width={170} />
-        <Tag text="Germany" color={C.de} />
+        <Tag text="Germany" color={C.de} size={64} />
       </div>
-      <div style={{ position: "absolute", right: 360, top: 210, opacity: ids, transform: `translateY(${(1 - ids) * 20}px)`, display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 14 }}>
+      <div style={{ position: "absolute", left: 1500 - 200, width: 400, top: 200, opacity: ids, transform: `translateY(${(1 - ids) * 20}px)`, display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
         <FlagRU width={170} />
-        <Tag text="Russia" color={C.ru} />
+        <Tag text="Russia" color={C.ru} size={64} />
       </div>
       <Flash at={dur - 3} length={6} peak={0.9} />
       <Grain opacity={0.06} />

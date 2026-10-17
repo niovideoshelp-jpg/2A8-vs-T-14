@@ -1,7 +1,7 @@
 import React from "react";
 import { useGsapTimeline } from "@remotion/gsap";
 import { interpolate, random, useCurrentFrame } from "remotion";
-import { C, FONT } from "../theme";
+import { C, FONT, MIN_TEXT } from "../theme";
 
 const splitChars = (text: string, charColor?: (i: number, n: number) => string) =>
   text.split("").map((ch, i, all) => (
@@ -132,26 +132,27 @@ export const GlitchText: React.FC<{
   );
 };
 
-// Etiqueta pequena tipo "tag" militar
-export const Tag: React.FC<{ text: string; color?: string; style?: React.CSSProperties }> = ({
+// Rótulo de identificação (país, lugar): grosso, sem traços nem sublinhados
+export const Tag: React.FC<{ text: string; color?: string; size?: number; style?: React.CSSProperties }> = ({
   text,
   color = C.text,
+  size = MIN_TEXT,
   style,
 }) => (
   <div
     style={{
-      display: "inline-flex",
-      alignItems: "center",
-      gap: 12,
-      fontFamily: FONT.mono,
-      fontSize: 22,
-      letterSpacing: 4,
+      fontFamily: FONT.display,
+      fontWeight: 700,
+      fontSize: Math.max(MIN_TEXT, size),
+      lineHeight: 1,
+      letterSpacing: 2,
       color,
       textTransform: "uppercase",
+      whiteSpace: "nowrap",
+      textShadow: "0 4px 24px rgba(0,0,0,0.75)",
       ...style,
     }}
   >
-    <span style={{ width: 28, height: 2, background: color }} />
     {text}
   </div>
 );

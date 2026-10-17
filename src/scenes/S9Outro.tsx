@@ -66,7 +66,7 @@ export const S9Outro: React.FC = () => {
 
         {/* Fontes na descrição */}
         <div style={{ position: "absolute", left: 0, right: 0, top: 240, display: "flex", justifyContent: "center", opacity: src * srcOut, transform: `translateY(${(1 - src) * 40}px)` }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 30, background: hexA("#0E1418", 0.85), border: `1px solid ${C.line}`, borderLeft: `6px solid ${C.de}`, padding: "28px 44px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 30, background: hexA("#0E1418", 0.85), border: `2px solid ${hexA(C.de, 0.6)}`, padding: "30px 48px" }}>
             <DocIcon color={C.de} />
             <div style={{ fontFamily: FONT.display, fontWeight: 700, fontSize: 68, color: C.text, textTransform: "uppercase", lineHeight: 1.05 }}>Sources in the description</div>
             <div style={{ fontFamily: FONT.display, fontSize: 80, color: C.de, transform: `translateY(${arrow}px)` }}>↓</div>

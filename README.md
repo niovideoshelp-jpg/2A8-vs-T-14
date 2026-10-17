@@ -11,23 +11,23 @@ e `@remotion/lottie` (retícula de mira e marcadores do mapa). Trilha e efeitos 
 
 Documentário militar escuro e cinematográfico. Cada lado tem sua cor — **dourado = Alemanha /
 Leopard 2A8**, **vermelho = Rússia / T-14** — e as cenas de comparação usam essa divisão espacial
-(Leopard à esquerda, T-14 à direita). Tipografia: Oswald (títulos), Barlow Condensed (rótulos) e
-JetBrains Mono (anos).
+(Leopard à esquerda, T-14 à direita). Tipografia: **Oswald** em pesos grossos (600/700), carregada do Google Fonts via
+`@remotion/google-fonts`, com tamanho mínimo de 52 px — nada de letras ou números pequenos.
 
 **Regra de texto:** a narração é em inglês e o texto na tela aparece só para identificar nomes,
 lugares, datas, números importantes ou destacar uma informação essencial — nada de frases que
-repetem a narração nem elementos decorativos sem função narrativa.
+repetem a narração, traços/sublinhados junto ao texto ou elementos decorativos sem função narrativa.
 
 ## Roteiro visual (tempos da narração)
 
 | Narração | Cena | Visual |
 |---|---|---|
 | 0:00–0:14 | `S1ColdOpen` | Leopard em campo (letterbox), retícula Lottie trava no alvo + disparo, triângulo FIREPOWER / PROTECTION / MOBILITY, soldado à frente do tanque |
-| 0:14–0:27 | `S2Legacy` | Mapa Berlin ↔ Moscow, linha do tempo dupla 1940→2023 (T-34 … Leopard 2A8), tela dividida |
+| 0:14–0:27 | `S2Legacy` | Mapa com Alemanha e Rússia acendendo (Berlin, Moscow), linha do tempo dupla 1940–2023 (T-34 … Leopard 2A8), tela dividida |
 | 0:27–0:32 | `S3Philosophies` | Silhuetas dos dois tanques avançando "head to head", bandeiras |
 | 0:32–0:44 | `S4Leopard` | Leopard 2A8, 40+ years (1979–2023), ≈70 tons, 120 mm L55A1 / Trophy APS / 1,500 hp |
 | 0:44–0:56 | `S5Armata` | T-14 Armata, unmanned turret (retícula), diagrama → armored crew capsule |
-| 0:56–1:10 | `S6Hype` | Folheto e fórum ilustrativos, balança pendendo para o T-14, Leopard 2 1979 (filme antigo), T-14 "holográfico" 4th generation |
+| 0:56–1:10 | `S6Hype` | Folheto e fórum ilustrativos, desproporção "no papel" (T-14 cresce, Leopard encolhe), Leopard 2 1979 (filme antigo), T-14 "holográfico" 4th generation |
 | 1:10–1:17 | `S7Reality` | Música corta; um projétil perfurante atravessa o folheto → título LEOPARD 2A8 VS T-14 ARMATA |
 | 1:17–1:35 | `S8Method` | MARKETING × PHYSICS, os 6 temas (logística em destaque), desenho técnico com cotas |
 | 1:35–fim | `S9Outro` | Sources in the description, like animado, assinatura final no hit da música |
@@ -71,4 +71,5 @@ Lottie), `npm run transcribe` (Whisper em inglês → `src/data/captions.json`).
 
 ## Créditos
 
-Fotos, fontes e dados de mapa: veja [CREDITS.md](CREDITS.md).
+Fotos, fontes e dados de mapa: veja [CREDITS.md](CREDITS.md). Os recortes dos tanques são limpos com
+`tools/clean-cutout.mjs` (fora deste repositório): remove resíduos do fundo e suaviza a borda.
